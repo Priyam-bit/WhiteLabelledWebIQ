@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Contoso for Patients — Your health, in one place</title>
+<style>
+  :root{
+    --brand:#0057B7; --brand-dark:#003C82; --brand-ink:#0b2545;
+    --ink:#111827; --muted:#4b5563; --line:#e5e7eb; --bg:#f5f7fb;
+    --accent:#00A499; --accent-dark:#007F76;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);
+    font-family:"Frutiger","Helvetica Neue",Arial,sans-serif;line-height:1.5}
+  a{color:var(--brand);text-decoration:none}
+  a:hover{text-decoration:underline}
+
+  /* -------- top strip -------- */
+  .topstrip{background:#111827;color:#e5e7eb;font-size:13px}
+  .topstrip .wrap{max-width:1180px;margin:0 auto;padding:8px 24px;
+    display:flex;gap:20px;justify-content:flex-end}
+  .topstrip a{color:#e5e7eb}
+
+  /* -------- header -------- */
+  header.brand{background:var(--brand);color:#fff}
+  header.brand .wrap{max-width:1180px;margin:0 auto;padding:18px 24px;
+    display:grid;grid-template-columns:auto 1fr auto;gap:24px;align-items:center}
+  .logo{display:flex;align-items:center;gap:12px}
+  .logo-mark{width:56px;height:36px;background:#fff;color:var(--brand);
+    display:grid;place-items:center;font-weight:900;letter-spacing:.5px;
+    border-radius:4px;font-size:16px}
+  .logo-text{font-weight:700;font-size:18px;letter-spacing:.2px;line-height:1.15}
+  .logo-text small{display:block;font-weight:400;opacity:.85;font-size:12px}
+  .search{position:relative}
+  .search input{width:100%;padding:12px 44px 12px 16px;border:0;border-radius:6px;
+    font-size:15px;background:#fff;color:var(--ink)}
+  .search button{position:absolute;right:4px;top:4px;bottom:4px;width:44px;
+    border:0;border-radius:5px;background:var(--brand-dark);color:#fff;
+    font-size:16px;cursor:pointer}
+  .account{border:2px solid #fff;padding:10px 18px;border-radius:6px;
+    color:#fff;font-weight:600;font-size:14px;white-space:nowrap}
+  .account:hover{background:#fff;color:var(--brand);text-decoration:none}
+
+  /* -------- nav -------- */
+  nav.mainnav{background:var(--brand-dark)}
+  nav.mainnav .wrap{max-width:1180px;margin:0 auto;padding:0 24px;
+    display:flex;gap:2px;overflow-x:auto}
+  nav.mainnav a{color:#fff;padding:14px 18px;font-size:14.5px;font-weight:600;
+    white-space:nowrap;border-bottom:3px solid transparent}
+  nav.mainnav a:hover{background:rgba(255,255,255,.08);text-decoration:none}
+  nav.mainnav a.active{border-bottom-color:var(--accent);background:rgba(255,255,255,.06)}
+
+  /* -------- hero -------- */
+  .hero{position:relative;background:
+    linear-gradient(120deg,rgba(0,87,183,.85),rgba(0,60,130,.75)),
+    url("https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1400&q=60") center/cover;
+    color:#fff}
+  .hero .wrap{max-width:1180px;margin:0 auto;padding:64px 24px 72px}
+  .hero .eyebrow{opacity:.9;font-size:14px;letter-spacing:.4px;text-transform:uppercase;margin:0 0 8px}
+  .hero h1{font-size:44px;line-height:1.15;margin:0 0 12px;max-width:720px;font-weight:800}
+  .hero p{font-size:18px;max-width:640px;margin:0 0 22px;opacity:.95}
+  .hero .cta{display:inline-block;background:#fff;color:var(--brand);
+    padding:12px 20px;border-radius:6px;font-weight:700}
+
+  /* -------- cards row -------- */
+  .strip{background:#fff;border-top:4px solid var(--accent)}
+  .strip .wrap{max-width:1180px;margin:0 auto;padding:24px;display:grid;
+    grid-template-columns:repeat(4,1fr);gap:16px}
+  .qcard{border:1px solid var(--line);border-radius:10px;padding:16px 18px;
+    display:flex;gap:12px;align-items:center;background:#fbfbfd}
+  .qcard .ic{width:40px;height:40px;flex:0 0 40px;border-radius:8px;
+    background:#e6f2ec;color:var(--accent-dark);display:grid;place-items:center;font-size:20px}
+  .qcard h3{margin:0 0 2px;font-size:15px}
+  .qcard p{margin:0;font-size:13px;color:var(--muted)}
+
+  /* -------- content sections -------- */
+  main{max-width:1180px;margin:0 auto;padding:40px 24px}
+  section h2{font-size:26px;margin:0 0 6px}
+  section p.lede{margin:0 0 20px;color:var(--muted);max-width:720px}
+
+  .grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin:16px 0 40px}
+  .tile{background:#fff;border:1px solid var(--line);border-radius:12px;overflow:hidden;
+    display:flex;flex-direction:column;transition:transform .15s,box-shadow .15s}
+  .tile:hover{transform:translateY(-2px);box-shadow:0 12px 28px rgba(0,55,120,.09)}
+  .tile .cover{aspect-ratio:16/9;background:#dbe6f5 center/cover no-repeat}
+  .tile .body{padding:16px 18px 20px}
+  .tile .tag{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.6px;
+    text-transform:uppercase;color:var(--brand-dark);background:#e6efff;
+    padding:4px 8px;border-radius:99px;margin-bottom:8px}
+  .tile h3{margin:0 0 6px;font-size:17px}
+  .tile p{margin:0;color:var(--muted);font-size:14px}
+
+  /* -------- A to Z -------- */
+  .az{background:#fff;border:1px solid var(--line);border-radius:12px;padding:20px 22px;margin:16px 0 40px}
+  .az h3{margin:0 0 12px;font-size:18px}
+  .az .letters{display:flex;flex-wrap:wrap;gap:6px}
+  .az .letters a{width:36px;height:36px;display:grid;place-items:center;
+    background:#f0f4fb;color:var(--brand);border-radius:6px;font-weight:700;font-size:14px}
+  .az .letters a:hover{background:var(--brand);color:#fff;text-decoration:none}
+
+  /* -------- manage / bullets -------- */
+  .manage{display:grid;grid-template-columns:2fr 1fr;gap:32px;
+    background:#fff;border:1px solid var(--line);border-radius:12px;padding:24px 26px;margin:16px 0 40px}
+  .manage ul{list-style:none;margin:0;padding:0}
+  .manage li{padding:10px 0;border-top:1px solid var(--line);display:flex;gap:12px;align-items:center}
+  .manage li:first-child{border-top:0}
+  .arrow{width:26px;height:26px;flex:0 0 26px;border-radius:50%;
+    background:var(--accent);color:#fff;display:grid;place-items:center;font-weight:800}
+  .manage aside{background:#e6f2ec;border-radius:10px;padding:18px 20px}
+  .manage aside h4{margin:0 0 6px;color:var(--accent-dark)}
+  .manage aside p{margin:0 0 12px;font-size:14px;color:#294a45}
+  .manage aside a{color:var(--accent-dark);font-weight:700}
+
+  /* -------- footer -------- */
+  footer{background:#0b2545;color:#cfd8e6;margin-top:20px}
+  footer .wrap{max-width:1180px;margin:0 auto;padding:40px 24px;
+    display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:32px}
+  footer h5{color:#fff;margin:0 0 10px;font-size:14px;letter-spacing:.3px;text-transform:uppercase}
+  footer a{color:#cfd8e6;display:block;padding:4px 0;font-size:14px}
+  .footbar{border-top:1px solid #14335c;padding:14px 24px;font-size:13px;text-align:center;color:#8ea3c1}
+
+  @media (max-width:900px){
+    .strip .wrap{grid-template-columns:repeat(2,1fr)}
+    .grid-3{grid-template-columns:1fr 1fr}
+    .manage{grid-template-columns:1fr}
+    footer .wrap{grid-template-columns:1fr 1fr}
+    .hero h1{font-size:32px}
+    header.brand .wrap{grid-template-columns:1fr;gap:12px}
+    .account{justify-self:end}
+  }
+  @media (max-width:600px){
+    .topstrip .wrap{overflow-x:auto;justify-content:flex-start;white-space:nowrap}
+    .strip .wrap,.grid-3,footer .wrap{grid-template-columns:1fr}
+  }
+</style>
+</head>
+<body>
+
+<div class="topstrip"><div class="wrap">
+  <a href="#">Contact us</a><a href="#">Accessibility</a><a href="#">Emergencies: call 999</a>
+</div></div>
+
+<header class="brand"><div class="wrap">
+  <div class="logo">
+    <div class="logo-mark">C</div>
+    <div class="logo-text">Contoso for Patients<small>Your health, in one place</small></div>
+  </div>
+  <div class="search">
+    <input placeholder="Search symptoms, conditions, medicines or services">
+    <button aria-label="Search">🔍</button>
+  </div>
+  <a href="#" class="account">My account</a>
+</div></header>
+
+<nav class="mainnav"><div class="wrap">
+  <a href="#" class="active">Home</a>
+  <a href="#">Health A–Z</a>
+  <a href="#">Symptoms checker</a>
+  <a href="#">Book an appointment</a>
+  <a href="#">Find a GP or clinic</a>
+  <a href="#">Prescriptions</a>
+  <a href="#">Mental wellbeing</a>
+  <a href="#">Live well</a>
+</div></nav>
+
+<section class="hero"><div class="wrap">
+  <p class="eyebrow">Contoso for Patients</p>
+  <h1>Find advice, book care, manage your health.</h1>
+  <p>Trusted information on 900+ conditions, GP appointments, repeat
+     prescriptions and referrals — all in one place, whenever you need it.</p>
+  <a class="cta" href="#">Check your symptoms →</a>
+</div></section>
+
+<section class="strip"><div class="wrap">
+  <div class="qcard"><div class="ic">📅</div><div><h3>Book appointment</h3><p>GP, nurse or clinic</p></div></div>
+  <div class="qcard"><div class="ic">💊</div><div><h3>Order prescription</h3><p>Repeat medicines</p></div></div>
+  <div class="qcard"><div class="ic">🧪</div><div><h3>View test results</h3><p>Blood, imaging, more</p></div></div>
+  <div class="qcard"><div class="ic">📍</div><div><h3>Find services near you</h3><p>Pharmacies, urgent care</p></div></div>
+</div></section>
+
+<main>
+
+  <section>
+    <h2>Popular health topics</h2>
+    <p class="lede">Clear, clinician-reviewed guidance on the conditions people search
+       for most. Updated with the latest clinical guidance.</p>
+    <div class="grid-3">
+      <article class="tile">
+        <div class="cover" style="background-image:url('https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800&q=60')"></div>
+        <div class="body">
+          <span class="tag">Cardiology</span>
+          <h3>Understanding high blood pressure</h3>
+          <p>What the numbers mean, when to worry, and lifestyle steps that make the biggest difference.</p>
+        </div>
+      </article>
+      <article class="tile">
+        <div class="cover" style="background-image:url('https://images.unsplash.com/photo-1554774853-b415df9eeb92?w=800&q=60')"></div>
+        <div class="body">
+          <span class="tag">Diabetes</span>
+          <h3>Type 2 diabetes: everyday care</h3>
+          <p>Diet, activity and monitoring — what actually helps day to day, plus warning signs to watch for.</p>
+        </div>
+      </article>
+      <article class="tile">
+        <div class="cover" style="background-image:url('https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=800&q=60')"></div>
+        <div class="body">
+          <span class="tag">Mental wellbeing</span>
+          <h3>Sleep, stress and low mood</h3>
+          <p>Simple, evidence-based ways to feel better — and how to know when it's time to speak to a professional.</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="az">
+    <h3>Health A to Z</h3>
+    <div class="letters">
+      <a>A</a><a>B</a><a>C</a><a>D</a><a>E</a><a>F</a><a>G</a><a>H</a><a>I</a>
+      <a>J</a><a>K</a><a>L</a><a>M</a><a>N</a><a>O</a><a>P</a><a>Q</a><a>R</a>
+      <a>S</a><a>T</a><a>U</a><a>V</a><a>W</a><a>X</a><a>Y</a><a>Z</a>
+    </div>
+  </section>
+
+  <section class="manage">
+    <div>
+      <h2>Manage your health</h2>
+      <p class="lede">Everything you need from your GP surgery, without picking up the phone.</p>
+      <ul>
+        <li><span class="arrow">→</span>Order a repeat prescription</li>
+        <li><span class="arrow">→</span>View your test results</li>
+        <li><span class="arrow">→</span>Message your GP practice</li>
+        <li><span class="arrow">→</span>Update your contact details</li>
+        <li><span class="arrow">→</span>Request a sick note</li>
+      </ul>
+    </div>
+    <aside>
+      <h4>Not sure where to start?</h4>
+      <p>Describe how you're feeling and we'll point you to the right place — self-care, pharmacy, GP or urgent care.</p>
+      <a href="#">Try the symptom checker →</a>
+    </aside>
+  </section>
+
+</main>
+
+<footer><div class="wrap">
+  <div>
+    <h5>Contoso for Patients</h5>
+    <p style="font-size:14px;line-height:1.5;margin:0;max-width:340px">
+      Contoso for Patients is a public health trust providing primary and community care.
+       All content is reviewed by registered clinicians.
+    </p>
+  </div>
+  <div><h5>Care</h5>
+    <a href="#">Book appointment</a><a href="#">Find a GP</a>
+    <a href="#">Urgent care</a><a href="#">Referrals</a></div>
+  <div><h5>Information</h5>
+    <a href="#">Health A–Z</a><a href="#">Medicines</a>
+    <a href="#">Live well</a><a href="#">Mental health</a></div>
+  <div><h5>About</h5>
+    <a href="#">About us</a><a href="#">Careers</a>
+    <a href="#">Privacy</a><a href="#">Accessibility</a></div>
+</div>
+<div class="footbar">© Contoso for Patients — Demo site. Not a real medical service.</div>
+</footer>
+
+<!-- WebIQ widget will be embedded here later -->
+
+</body>
+</html>

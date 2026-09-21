@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Contoso for Content writers — Editorial CMS</title>
+<style>
+  :root{
+    --crimson:#A41F35; --crimson-dark:#7B152A; --ink:#1a1a1a; --muted:#6b6b6b;
+    --line:#e6e2dc; --bg:#f7f4ee; --panel:#ffffff; --gold:#c8a24b;
+    --ok:#2f8f5a; --warn:#c47a08; --err:#b1352b;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;background:var(--bg);color:var(--ink);
+    font-family:"Georgia","Times New Roman",serif;font-size:15px;line-height:1.55}
+  .sans{font-family:"Inter","Segoe UI",Roboto,Arial,sans-serif}
+  a{color:var(--crimson);text-decoration:none}
+
+  .app{display:grid;grid-template-columns:240px 1fr;min-height:100vh}
+
+  /* -------- sidebar -------- */
+  aside.side{background:#fbf8f2;border-right:1px solid var(--line);padding:18px 12px;
+    display:flex;flex-direction:column}
+  .brand{padding:6px 8px 18px;border-bottom:1px solid var(--line);margin-bottom:12px}
+  .brand .row{display:flex;gap:10px;align-items:center}
+  .shield{width:34px;height:38px;background:var(--crimson);color:#fff;
+    clip-path:polygon(0 0,100% 0,100% 70%,50% 100%,0 70%);
+    display:grid;place-items:center;font-weight:900;font-size:16px;letter-spacing:.5px;
+    font-family:"Georgia",serif}
+  .brand .name{font-family:"Georgia",serif;font-weight:700;line-height:1.05;font-size:16px}
+  .brand .name small{display:block;font-size:10.5px;letter-spacing:.4px;
+    color:var(--muted);text-transform:uppercase;font-family:"Inter",sans-serif;margin-top:2px}
+
+  .nav-h{font-family:"Inter",sans-serif;font-size:10.5px;letter-spacing:.9px;
+    color:var(--muted);text-transform:uppercase;margin:16px 8px 6px}
+  nav.side-nav a{display:flex;align-items:center;gap:10px;padding:9px 10px;border-radius:6px;
+    color:var(--ink);font-family:"Inter",sans-serif;font-size:13.5px}
+  nav.side-nav a:hover{background:#f0eae0}
+  nav.side-nav a.active{background:#f4e3d9;color:var(--crimson-dark);font-weight:600}
+  nav.side-nav .ic{width:18px;text-align:center;color:var(--crimson)}
+  nav.side-nav .count{margin-left:auto;font-size:11px;color:var(--muted);
+    background:#efe8dc;padding:1px 8px;border-radius:99px}
+
+  .side-foot{margin-top:auto;padding:10px 8px;border-top:1px solid var(--line);
+    display:flex;align-items:center;gap:10px;font-family:"Inter",sans-serif}
+  .avatar{width:32px;height:32px;border-radius:50%;background:#c0d4c0;
+    display:grid;place-items:center;color:#2f4a2f;font-weight:700;font-size:12.5px}
+  .who b{display:block;font-size:13px}.who span{color:var(--muted);font-size:11.5px}
+
+  /* -------- top bar -------- */
+  main.workarea{display:flex;flex-direction:column;min-height:100vh}
+  header.topbar{background:var(--panel);border-bottom:1px solid var(--line);
+    padding:10px 22px;display:flex;align-items:center;gap:16px}
+  .crumbs{font-family:"Inter",sans-serif;font-size:13px;color:var(--muted);flex:1}
+  .crumbs b{color:var(--ink)}
+  .status-chip{font-family:"Inter",sans-serif;font-size:12px;padding:4px 10px;
+    border-radius:99px;background:#fff2d6;color:#8a5a00;border:1px solid #eddcaa;font-weight:600}
+  .saved{font-family:"Inter",sans-serif;font-size:12px;color:var(--muted)}
+  .btn{font-family:"Inter",sans-serif;background:var(--crimson);color:#fff;border:0;
+    padding:8px 14px;border-radius:6px;font-weight:600;font-size:13px;cursor:pointer}
+  .btn.ghost{background:transparent;color:var(--crimson);border:1px solid var(--crimson)}
+
+  /* -------- layout -------- */
+  .work{display:grid;grid-template-columns:1fr 340px;gap:0;flex:1}
+
+  /* editor */
+  .editor{padding:28px 40px 60px;background:var(--panel);border-right:1px solid var(--line)}
+  .kicker{font-family:"Inter",sans-serif;text-transform:uppercase;letter-spacing:1.2px;
+    font-size:11.5px;color:var(--crimson);font-weight:700;margin-bottom:6px}
+  h1.doc{font-size:36px;line-height:1.1;margin:0 0 8px;font-family:"Georgia",serif;font-weight:700}
+  .subtitle{color:var(--muted);font-size:17px;margin:0 0 22px;font-style:italic}
+
+  .toolbar{position:sticky;top:0;z-index:5;background:var(--panel);
+    border-bottom:1px solid var(--line);padding:8px 0;margin:0 0 18px;
+    display:flex;gap:4px;align-items:center;font-family:"Inter",sans-serif;font-size:13px;color:var(--muted)}
+  .toolbar button{background:transparent;border:0;padding:6px 8px;border-radius:5px;
+    color:var(--ink);cursor:pointer;font-size:13px}
+  .toolbar button:hover{background:#f0eae0}
+  .toolbar .sep{width:1px;height:20px;background:var(--line);margin:0 6px}
+
+  .doc-body p{margin:0 0 14px}
+  .doc-body h2{font-family:"Georgia",serif;font-size:23px;margin:26px 0 10px}
+  .doc-body h3{font-family:"Georgia",serif;font-size:18px;margin:20px 0 8px}
+  .doc-body blockquote{margin:16px 0;padding:8px 18px;border-left:4px solid var(--crimson);
+    background:#faf3ef;color:#333;font-style:italic}
+  .doc-body .callout{border:1px solid #eddcaa;background:#fff9e6;padding:12px 14px;
+    border-radius:6px;font-family:"Inter",sans-serif;font-size:13.5px;margin:16px 0}
+  .doc-body .callout b{color:#8a5a00}
+
+  .cite{color:var(--crimson);vertical-align:super;font-size:10px;font-weight:700;
+    padding:0 2px;text-decoration:none}
+
+  .doc-foot{margin-top:28px;padding-top:16px;border-top:1px solid var(--line);
+    font-family:"Inter",sans-serif;font-size:12.5px;color:var(--muted);display:flex;gap:16px}
+
+  /* meta panel */
+  aside.meta{padding:24px 22px 40px;background:#fbf8f2;font-family:"Inter",sans-serif;font-size:13px}
+  aside.meta h4{font-family:"Inter",sans-serif;font-size:11.5px;letter-spacing:.9px;
+    color:var(--muted);text-transform:uppercase;margin:22px 0 8px}
+  aside.meta h4:first-child{margin-top:0}
+  .field{display:flex;justify-content:space-between;align-items:center;
+    padding:8px 0;border-bottom:1px dashed var(--line)}
+  .field:last-child{border-bottom:0}
+  .field b{color:var(--muted);font-weight:500}
+  .tag{display:inline-block;background:#f4e3d9;color:var(--crimson-dark);
+    padding:3px 9px;border-radius:99px;font-size:11.5px;font-weight:600;margin:2px 4px 2px 0}
+
+  .review{background:#fff;border:1px solid var(--line);border-radius:8px;padding:12px 14px;margin-top:6px}
+  .review .r-head{display:flex;justify-content:space-between;font-weight:600;color:var(--ink)}
+  .review .r-body{color:var(--muted);font-size:12.5px;margin-top:4px}
+  .review .r-status{margin-top:8px;font-size:12px}
+  .dot-ok{color:var(--ok);font-weight:700}
+  .dot-warn{color:var(--warn);font-weight:700}
+
+  .src{display:flex;gap:10px;padding:10px 0;border-top:1px solid var(--line);align-items:flex-start}
+  .src:first-of-type{border-top:0}
+  .src .num{width:20px;height:20px;border-radius:50%;background:var(--crimson);color:#fff;
+    display:grid;place-items:center;font-size:11px;font-weight:700;flex:0 0 20px}
+  .src .txt{font-size:12.5px;color:var(--ink);line-height:1.35}
+  .src .txt small{color:var(--muted);display:block}
+
+  @media (max-width:1100px){ .work{grid-template-columns:1fr} aside.meta{border-top:1px solid var(--line)} }
+  @media (max-width:800px){
+    .app{grid-template-columns:1fr}
+    aside.side{display:block;padding:8px 12px;border-right:0;border-bottom:1px solid var(--line)}
+    aside.side > :not(.brand){display:none}
+    aside.side .brand{padding:4px 0;margin:0;border:0}
+    main.workarea,.work,.editor,aside.meta{min-width:0}
+    header.topbar{padding:10px 16px;flex-wrap:wrap}
+    .crumbs{flex-basis:100%}
+    .editor{padding:24px 16px 40px}
+    .toolbar{overflow-x:auto}
+    .doc-foot{flex-wrap:wrap}
+  }
+</style>
+</head>
+<body>
+
+<div class="app">
+
+  <!-- =========== SIDEBAR =========== -->
+  <aside class="side">
+    <div class="brand">
+      <div class="row">
+        <div class="shield">C</div>
+        <div class="name">Contoso for Content writers<small>Editorial CMS</small></div>
+      </div>
+    </div>
+
+    <div class="nav-h">Content</div>
+    <nav class="side-nav">
+      <a><span class="ic">📰</span>Articles<span class="count">312</span></a>
+      <a class="active"><span class="ic">✏️</span>Drafts<span class="count">14</span></a>
+      <a><span class="ic">📅</span>Scheduled<span class="count">6</span></a>
+      <a><span class="ic">🗂️</span>Categories</a>
+      <a><span class="ic">🖼️</span>Media library</a>
+    </nav>
+
+    <div class="nav-h">Editorial</div>
+    <nav class="side-nav">
+      <a><span class="ic">👩‍⚕️</span>Medical review<span class="count">3</span></a>
+      <a><span class="ic">🔗</span>Sources &amp; citations</a>
+      <a><span class="ic">📊</span>Analytics</a>
+      <a><span class="ic">👥</span>Contributors</a>
+    </nav>
+
+    <div class="nav-h">Publishing</div>
+    <nav class="side-nav">
+      <a><span class="ic">🔍</span>SEO checks</a>
+      <a><span class="ic">⚙️</span>Settings</a>
+    </nav>
+
+    <div class="side-foot">
+      <div class="avatar">EM</div>
+      <div class="who"><b>Ellen Marks</b><span>Senior editor · Nutrition</span></div>
+    </div>
+  </aside>
+
+  <!-- =========== MAIN =========== -->
+  <main class="workarea">
+
+    <header class="topbar">
+      <div class="crumbs">Drafts &nbsp;›&nbsp; Nutrition &nbsp;›&nbsp; <b>The DASH Diet: What to Eat</b></div>
+      <span class="status-chip">● In review</span>
+      <span class="saved">Autosaved · 12:41</span>
+      <button class="btn ghost">Preview</button>
+      <button class="btn">Publish</button>
+    </header>
+
+    <div class="work">
+
+      <!-- ============== EDITOR ============== -->
+      <section class="editor">
+        <div class="kicker">Nutrition · Feature</div>
+        <h1 class="doc" contenteditable="true">The DASH Diet: What to Eat</h1>
+        <p class="subtitle" contenteditable="true">
+          A practical guide to Dietary Approaches to Stop Hypertension — what
+          the evidence actually says, and how to build it into ordinary meals.
+        </p>
+
+        <div class="toolbar">
+          <button><b>B</b></button>
+          <button><i>I</i></button>
+          <button><u>U</u></button>
+          <span class="sep"></span>
+          <button>H2</button>
+          <button>H3</button>
+          <button>“ Quote</button>
+          <span class="sep"></span>
+          <button>• List</button>
+          <button>1. List</button>
+          <span class="sep"></span>
+          <button>🔗 Link</button>
+          <button>🖼️ Image</button>
+          <button>[ ¹ ] Cite</button>
+          <div style="margin-left:auto">1,284 words · 6 min read</div>
+        </div>
+
+        <div class="doc-body" contenteditable="true">
+          <p>
+            The DASH eating plan — Dietary Approaches to Stop Hypertension — has
+            been recommended by the NIH for more than two decades. It is not a
+            weight-loss diet, though modest weight loss is common; its purpose is
+            to lower blood pressure through the everyday food on the plate.
+            <a class="cite" href="#">[1]</a>
+          </p>
+
+          <h2>What the evidence shows</h2>
+          <p>
+            In the original DASH trial, participants who ate the plan for eight
+            weeks lowered systolic blood pressure by an average of 5.5 mmHg — and
+            those with stage 1 hypertension by more than 11 mmHg. Effects were
+            visible within two weeks. <a class="cite" href="#">[2]</a>
+          </p>
+
+          <div class="callout">
+            <b>Editor's note:</b> The claim about blood-pressure change in the
+            first two weeks needs a fresher secondary source. Ellen has flagged
+            this for the medical reviewer.
+          </div>
+
+          <h2>How to build a DASH plate</h2>
+          <p>
+            The plan asks for more of what most Western diets already lack —
+            vegetables, fruit, whole grains, low-fat dairy — and less of what
+            they usually have too much of: salt, red meat, added sugar.
+          </p>
+
+          <h3>Every day</h3>
+          <blockquote>
+            Aim for 4–5 servings of vegetables, 4–5 servings of fruit, and
+            6–8 servings of whole grains — not as targets to hit, but as the
+            frame that pushes the sodium and saturated fat down naturally.
+          </blockquote>
+
+          <h3>A worked example</h3>
+          <p>
+            <b>Breakfast:</b> oat porridge with berries and a spoon of almond butter.<br>
+            <b>Lunch:</b> chickpea and roasted vegetable bowl with brown rice.<br>
+            <b>Dinner:</b> grilled salmon, quinoa, and greens dressed with lemon.
+          </p>
+
+          <h2>Who it isn't for</h2>
+          <p>
+            Anyone on a potassium-restricted diet (typically due to chronic kidney
+            disease) should not start DASH without medical advice — the plan is
+            deliberately potassium-rich. <a class="cite" href="#">[3]</a>
+          </p>
+        </div>
+
+        <div class="doc-foot">
+          <span>Draft #14 · v0.7</span>
+          <span>Last edit: Ellen Marks</span>
+          <span>Reviewer assigned: Dr. Priya Nair</span>
+        </div>
+      </section>
+
+      <!-- ============== META PANEL ============== -->
+      <aside class="meta">
+
+        <h4>Article</h4>
+        <div class="field"><b>Status</b><span>In medical review</span></div>
+        <div class="field"><b>Category</b><span>Nutrition</span></div>
+        <div class="field"><b>Author</b><span>Ellen Marks</span></div>
+        <div class="field"><b>Reviewer</b><span>Dr. Priya Nair, RD</span></div>
+        <div class="field"><b>Scheduled</b><span>Fri 12 Sep · 08:00</span></div>
+
+        <h4>Tags</h4>
+        <div>
+          <span class="tag">DASH</span>
+          <span class="tag">Hypertension</span>
+          <span class="tag">Heart health</span>
+          <span class="tag">Nutrition</span>
+          <span class="tag">NIH</span>
+        </div>
+
+        <h4>Medical review</h4>
+        <div class="review">
+          <div class="r-head"><span>Fact-check</span><span class="dot-warn">● Needs source</span></div>
+          <div class="r-body">The "11 mmHg" figure for stage-1 hypertension — please confirm which DASH subgroup analysis this refers to.</div>
+          <div class="r-status">Comment by <b>Dr. Nair</b> · today, 11:07</div>
+        </div>
+        <div class="review" style="margin-top:8px">
+          <div class="r-head"><span>Safety flag</span><span class="dot-ok">● Cleared</span></div>
+          <div class="r-body">Warning about CKD + potassium is appropriate; suggest linking to renal-diet piece for context.</div>
+        </div>
+
+        <h4>Sources cited</h4>
+        <div class="src"><div class="num">1</div>
+          <div class="txt">NIH — Description of the DASH Eating Plan.
+            <small>nhlbi.nih.gov · reviewed 2024</small></div></div>
+        <div class="src"><div class="num">2</div>
+          <div class="txt">Appel LJ et al. <i>A clinical trial of the effects of dietary patterns on blood pressure.</i>
+            <small>N Engl J Med, 1997 · seminal trial</small></div></div>
+        <div class="src"><div class="num">3</div>
+          <div class="txt">KDIGO — Nutrition guideline for CKD.
+            <small>Kidney International Supplements, 2020</small></div></div>
+
+        <h4>SEO</h4>
+        <div class="field"><b>Slug</b><span>/dash-diet-what-to-eat</span></div>
+        <div class="field"><b>Meta length</b><span>142 / 160</span></div>
+        <div class="field"><b>Readability</b><span>Grade 9</span></div>
+
+      </aside>
+
+    </div>
+  </main>
+</div>
+
+<!-- WebIQ widget will be embedded here later — writers use it to look up
+     current research and pull cited facts into the article -->
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+# Local secrets and environment overrides
+.env
+.env.*
+!.env.example
+*.env
+*.key
+*.pem
+*.p12
+*.pfx
+*.cer
+*.crt
+secrets.*
+credentials.*
+
+# Generated demo media and presentations
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+*.ppt
+*.pptx
+*.heic
+*.HEIC
+
+# Local tooling and editor artifacts
+node_modules/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+*.tmp

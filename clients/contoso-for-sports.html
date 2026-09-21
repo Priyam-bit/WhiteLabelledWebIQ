@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Contoso for Sports — Football, live</title>
+<style>
+  :root{
+    --purple:#2A0845; --purple-2:#3D0C64; --purple-3:#1a052d;
+    --magenta:#E11A67; --gold:#F5C518;
+    --ink:#0f0b14; --muted:#6b6478; --line:#e6e2ee; --bg:#f5f2f9;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;background:var(--bg);color:var(--ink);
+    font-family:"Inter","Segoe UI",Roboto,Arial,sans-serif;line-height:1.5}
+  a{color:inherit;text-decoration:none}
+
+  /* -------- top utility bar -------- */
+  .util{background:var(--purple-3);color:#d9c9ef;font-size:12.5px}
+  .util .wrap{max-width:1240px;margin:0 auto;padding:8px 24px;
+    display:flex;gap:22px;align-items:center}
+  .util a{color:#d9c9ef}
+  .util .right{margin-left:auto;display:flex;gap:18px}
+
+  /* -------- main header -------- */
+  header.mast{background:var(--purple);color:#fff}
+  header.mast .wrap{max-width:1240px;margin:0 auto;padding:14px 24px;
+    display:flex;align-items:center;gap:22px}
+  .logo{display:flex;gap:12px;align-items:center;font-weight:800;letter-spacing:.3px}
+  .logo .mark{width:40px;height:40px;border-radius:50%;
+    background:radial-gradient(circle at 30% 30%,var(--magenta),var(--purple-2) 70%);
+    display:grid;place-items:center;font-weight:900;font-family:"Georgia",serif;
+    color:#fff;font-size:19px;box-shadow:0 6px 20px rgba(225,26,103,.4)}
+  .logo .name{line-height:1.05;font-size:18px}
+  .logo .name small{display:block;font-size:11px;letter-spacing:1.4px;
+    color:#d9c9ef;font-weight:600;text-transform:uppercase;margin-top:2px}
+
+  nav.mainnav{display:flex;gap:2px;margin-left:8px;overflow-x:auto}
+  nav.mainnav a{padding:10px 14px;font-size:14px;font-weight:600;color:#fff;
+    border-radius:6px;white-space:nowrap}
+  nav.mainnav a:hover{background:rgba(255,255,255,.08)}
+  nav.mainnav a.active{background:var(--magenta)}
+  .actions{margin-left:auto;display:flex;gap:10px;align-items:center}
+  .search-btn{width:36px;height:36px;border-radius:50%;
+    background:rgba(255,255,255,.1);color:#fff;display:grid;place-items:center;
+    border:0;cursor:pointer}
+  .join{background:linear-gradient(90deg,var(--magenta),#ff5aa1);color:#fff;
+    padding:8px 16px;border-radius:99px;font-weight:700;font-size:13px}
+  .signin{color:#fff;font-size:14px;font-weight:600}
+
+  /* -------- ticker -------- */
+  .ticker{background:#fff;border-bottom:1px solid var(--line)}
+  .ticker .wrap{max-width:1240px;margin:0 auto;padding:10px 24px;
+    display:flex;gap:10px;overflow-x:auto;align-items:center}
+  .tpill{display:flex;align-items:center;gap:8px;padding:8px 14px;
+    background:#faf8ff;border:1px solid var(--line);border-radius:99px;
+    font-size:13px;white-space:nowrap;flex:0 0 auto}
+  .tpill .club{width:20px;height:20px;border-radius:50%;background:#e5deee;
+    display:grid;place-items:center;font-size:11px;font-weight:800;color:var(--purple-2)}
+  .tpill .lead{color:var(--muted);font-size:11.5px;text-transform:uppercase;letter-spacing:.4px;font-weight:700}
+  .live-dot{width:8px;height:8px;border-radius:50%;background:var(--magenta);
+    box-shadow:0 0 0 0 rgba(225,26,103,.5);animation:pulse 1.6s infinite}
+  @keyframes pulse{0%{box-shadow:0 0 0 0 rgba(225,26,103,.6)}70%{box-shadow:0 0 0 8px rgba(225,26,103,0)}100%{box-shadow:0 0 0 0 rgba(225,26,103,0)}}
+
+  /* -------- main layout -------- */
+  main{max-width:1240px;margin:20px auto 40px;padding:0 24px}
+  .grid{display:grid;grid-template-columns:2fr 1.2fr;gap:20px}
+
+  /* HERO */
+  .hero{position:relative;border-radius:16px;overflow:hidden;color:#fff;min-height:440px;
+    background:
+      linear-gradient(to top,rgba(0,0,0,.75) 20%,rgba(0,0,0,0) 60%),
+      linear-gradient(120deg,rgba(42,8,69,.55),rgba(61,12,100,.35)),
+      url("https://images.unsplash.com/photo-1517649763962-0c623066013b?w=1400&q=60") center/cover;
+    display:flex;flex-direction:column;justify-content:flex-end;padding:26px 28px}
+  .hero .badge{position:absolute;top:20px;left:20px;background:var(--magenta);
+    color:#fff;padding:6px 12px;border-radius:6px;font-weight:800;font-size:12px;
+    letter-spacing:1.2px;text-transform:uppercase;display:flex;gap:8px;align-items:center}
+  .hero .day{position:absolute;top:20px;right:20px;background:var(--gold);color:#3a2a00;
+    padding:5px 12px;border-radius:6px;font-weight:800;font-size:12px;letter-spacing:1px}
+  .hero h1{font-size:34px;margin:0 0 10px;line-height:1.1;font-weight:800;max-width:640px}
+  .hero p{margin:0;opacity:.92;max-width:640px;font-size:15px}
+  .hero .tag{display:inline-block;margin-top:16px;font-size:12px;
+    background:rgba(255,255,255,.15);padding:5px 10px;border-radius:99px;font-weight:600}
+
+  /* card list under hero */
+  .subgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:16px}
+  .subgrid .card{background:#fff;border:1px solid var(--line);border-radius:12px;overflow:hidden;
+    transition:transform .15s,box-shadow .15s;display:flex;flex-direction:column}
+  .subgrid .card:hover{transform:translateY(-2px);box-shadow:0 12px 26px rgba(42,8,69,.1)}
+  .subgrid .cover{aspect-ratio:16/9;background:#c9bfe0 center/cover no-repeat}
+  .subgrid .body{padding:12px 14px 16px}
+  .subgrid .kick{font-size:10.5px;color:var(--magenta);font-weight:800;
+    text-transform:uppercase;letter-spacing:.8px;margin-bottom:4px}
+  .subgrid h4{margin:0 0 4px;font-size:14.5px;line-height:1.25}
+  .subgrid time{color:var(--muted);font-size:12px}
+
+  /* right column */
+  .side-block{background:#fff;border:1px solid var(--line);border-radius:12px;
+    padding:16px 18px;margin-bottom:16px}
+  .block-h{display:flex;align-items:center;margin-bottom:10px}
+  .block-h h3{margin:0;font-size:15px;letter-spacing:.2px}
+  .block-h a{margin-left:auto;font-size:12.5px;color:var(--magenta);font-weight:700}
+  .match{padding:10px 0;border-top:1px solid var(--line);display:grid;
+    grid-template-columns:1fr auto 1fr;gap:8px;align-items:center;font-size:14px}
+  .match:first-of-type{border-top:0}
+  .match .home,.match .away{display:flex;gap:8px;align-items:center}
+  .match .away{justify-content:flex-end;text-align:right}
+  .match .crest{width:22px;height:22px;border-radius:50%;background:#efeaf6;
+    display:grid;place-items:center;font-size:11px;font-weight:800;color:var(--purple-2);flex:0 0 22px}
+  .match .score{font-weight:800;font-family:"JetBrains Mono",Consolas,monospace;font-size:15px;color:var(--purple-2)}
+  .match .status{font-size:10.5px;color:var(--muted);letter-spacing:.5px;text-transform:uppercase;font-weight:700}
+  .match .status.live{color:var(--magenta)}
+  .day-label{font-size:10.5px;color:var(--muted);letter-spacing:.7px;
+    text-transform:uppercase;font-weight:800;margin:12px 0 4px}
+
+  /* table snapshot */
+  table.tbl{width:100%;border-collapse:collapse;font-size:13px}
+  table.tbl th,table.tbl td{padding:8px 6px;text-align:center;border-top:1px solid var(--line)}
+  table.tbl th{color:var(--muted);font-weight:600;font-size:11px;letter-spacing:.5px;text-transform:uppercase;border:0}
+  table.tbl td.club{text-align:left;font-weight:600;display:flex;gap:8px;align-items:center;padding-left:0}
+  table.tbl .pos{color:var(--muted);width:24px;text-align:right;font-family:monospace}
+  table.tbl .form span{display:inline-block;width:14px;height:14px;border-radius:3px;
+    margin-right:2px;font-size:9px;line-height:14px;color:#fff;font-weight:800}
+  .fw{background:#22a06b}.fd{background:#9aa0a6}.fl{background:#e11a67}
+
+  /* players / scorers */
+  .scorer{display:flex;gap:10px;padding:9px 0;border-top:1px solid var(--line);align-items:center}
+  .scorer:first-of-type{border-top:0}
+  .scorer .num{width:22px;color:var(--muted);font-family:monospace;font-size:12px;text-align:right}
+  .scorer .p{flex:1;font-size:13.5px}
+  .scorer .p small{color:var(--muted);display:block;font-size:11.5px}
+  .scorer .g{font-weight:800;color:var(--purple-2);font-family:monospace}
+
+  /* footer */
+  footer{background:var(--purple-3);color:#c8bcda;margin-top:30px}
+  footer .wrap{max-width:1240px;margin:0 auto;padding:32px 24px;
+    display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:26px}
+  footer h5{color:#fff;font-size:12px;letter-spacing:.8px;text-transform:uppercase;margin:0 0 10px}
+  footer a{color:#c8bcda;display:block;padding:3px 0;font-size:13.5px}
+  .footbar{text-align:center;font-size:12px;padding:14px;color:#7c6d95;border-top:1px solid #2f0f4a}
+
+  @media (max-width:1000px){
+    .grid{grid-template-columns:1fr}
+    .subgrid{grid-template-columns:1fr 1fr}
+    .hero h1{font-size:28px}
+    footer .wrap{grid-template-columns:1fr 1fr}
+    nav.mainnav{display:none}
+  }
+  @media (max-width:600px){
+    .util .wrap{overflow-x:auto;white-space:nowrap}
+    .util .right{flex:0 0 auto}
+    header.mast .wrap{gap:12px;padding:12px}
+    .actions .join,.actions .signin{display:none}
+    main{padding:0 12px}
+    .subgrid,footer .wrap{grid-template-columns:1fr}
+  }
+</style>
+</head>
+<body>
+
+<div class="util"><div class="wrap">
+  <a>Contoso for Sports</a><a>Shop</a><a>About</a><a>Community</a><a>Media</a><a>The Archive</a>
+  <div class="right">
+    <a>Get the app</a>
+    <a>Language: English</a>
+  </div>
+</div></div>
+
+<header class="mast"><div class="wrap">
+  <div class="logo">
+    <div class="mark">C</div>
+    <div class="name">Contoso for Sports<small>Football, unfiltered</small></div>
+  </div>
+  <nav class="mainnav">
+    <a class="active">Home</a>
+    <a>Matches</a>
+    <a>Table</a>
+    <a>Fixtures</a>
+    <a>Statistics</a>
+    <a>Fantasy ▾</a>
+    <a>News</a>
+    <a>Clubs</a>
+    <a>Video</a>
+  </nav>
+  <div class="actions">
+    <button class="search-btn" aria-label="Search">🔍</button>
+    <a class="join">Join League</a>
+    <a class="signin">Sign in</a>
+  </div>
+</div></header>
+
+<!-- ticker -->
+<div class="ticker"><div class="wrap">
+  <span class="tpill" style="background:#fff2f7;border-color:#ffcedd">
+    <span class="live-dot"></span><span class="lead" style="color:var(--magenta)">Live</span>
+    <span class="club">A</span><b>Arsenal 2</b><span style="color:var(--muted)">vs</span>
+    <span class="club">C</span><b>Chelsea 1</b><span style="color:var(--muted)">· 78'</span>
+  </span>
+  <span class="tpill"><span class="club">MU</span>Carrick on why he had to substitute Rashford</span>
+  <span class="tpill"><span class="club">C</span>Maresca gives update on O'Reilly injury</span>
+  <span class="tpill"><span class="club">C</span>Alonso: "Colwill change was tactical"</span>
+  <span class="tpill"><span class="club">L</span>Slot: "Ipswich win is what we needed"</span>
+</div></div>
+
+<main>
+  <div class="grid">
+
+    <!-- LEFT / HERO -->
+    <section>
+      <div class="hero">
+        <div class="badge">Sunday · The Wrap</div>
+        <div class="day">Matchday 3</div>
+        <h1>Arsenal pass big early test after late drama at Everton</h1>
+        <p>A review of Sunday's action as the Gunners edge Chelsea, Toffees
+           twice fight back against Man Utd, and Liverpool cruise past Ipswich.</p>
+        <span class="tag">Features · 4 min read</span>
+      </div>
+
+      <div class="subgrid">
+        <article class="card">
+          <div class="cover" style="background-image:url('https://images.unsplash.com/photo-1522778119026-d647f0596c20?w=800&q=60')"></div>
+          <div class="body">
+            <div class="kick">Video · 2:41</div>
+            <h4>All the LATE GOALS in Everton 2-2 Man Utd</h4>
+            <time>1h ago</time>
+          </div>
+        </article>
+        <article class="card">
+          <div class="cover" style="background-image:url('https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=800&q=60')"></div>
+          <div class="body">
+            <div class="kick">Club News</div>
+            <h4>Arteta on Konsa's impact and the latest on Mosquera's injury</h4>
+            <time>2h ago</time>
+          </div>
+        </article>
+        <article class="card">
+          <div class="cover" style="background-image:url('https://images.unsplash.com/photo-1602674806014-1c3fbb87e0e2?w=800&q=60')"></div>
+          <div class="body">
+            <div class="kick">Awards</div>
+            <h4>VOTE for August's Player of the Month</h4>
+            <time>4h ago</time>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- RIGHT / SIDEBAR -->
+    <aside>
+
+      <div class="side-block">
+        <div class="block-h">
+          <h3>Latest scores</h3>
+          <a>View all matches →</a>
+        </div>
+
+        <div class="day-label">Live</div>
+        <div class="match">
+          <div class="home"><div class="crest">A</div>Arsenal</div>
+          <div style="text-align:center">
+            <div class="score">2 – 1</div>
+            <div class="status live">78'</div>
+          </div>
+          <div class="away">Chelsea<div class="crest">C</div></div>
+        </div>
+
+        <div class="day-label">Yesterday</div>
+        <div class="match">
+          <div class="home"><div class="crest">E</div>Everton</div>
+          <div style="text-align:center">
+            <div class="score">2 – 2</div>
+            <div class="status">FT</div>
+          </div>
+          <div class="away">Man Utd<div class="crest">MU</div></div>
+        </div>
+
+        <div class="day-label">Saturday</div>
+        <div class="match">
+          <div class="home"><div class="crest">I</div>Ipswich</div>
+          <div style="text-align:center">
+            <div class="score">0 – 2</div>
+            <div class="status">FT</div>
+          </div>
+          <div class="away">Liverpool<div class="crest">L</div></div>
+        </div>
+        <div class="match">
+          <div class="home"><div class="crest">N</div>Newcastle</div>
+          <div style="text-align:center">
+            <div class="score">2 – 2</div>
+            <div class="status">FT</div>
+          </div>
+          <div class="away">Bournemouth<div class="crest">B</div></div>
+        </div>
+        <div class="match">
+          <div class="home"><div class="crest">B</div>Brentford</div>
+          <div style="text-align:center">
+            <div class="score">1 – 0</div>
+            <div class="status">FT</div>
+          </div>
+          <div class="away">Wolves<div class="crest">W</div></div>
+        </div>
+      </div>
+
+      <div class="side-block">
+        <div class="block-h">
+          <h3>Table snapshot</h3>
+          <a>Full table →</a>
+        </div>
+        <table class="tbl">
+          <thead><tr><th></th><th style="text-align:left">Club</th><th>P</th><th>GD</th><th>Pts</th><th style="text-align:left">Form</th></tr></thead>
+          <tbody>
+            <tr><td class="pos">1</td><td class="club"><div class="crest" style="width:18px;height:18px;font-size:9px">L</div>Liverpool</td><td>3</td><td>+6</td><td><b>9</b></td><td class="form"><span class="fw">W</span><span class="fw">W</span><span class="fw">W</span></td></tr>
+            <tr><td class="pos">2</td><td class="club"><div class="crest" style="width:18px;height:18px;font-size:9px">A</div>Arsenal</td><td>3</td><td>+4</td><td><b>7</b></td><td class="form"><span class="fw">W</span><span class="fd">D</span><span class="fw">W</span></td></tr>
+            <tr><td class="pos">3</td><td class="club"><div class="crest" style="width:18px;height:18px;font-size:9px">MC</div>Man City</td><td>3</td><td>+5</td><td><b>7</b></td><td class="form"><span class="fw">W</span><span class="fw">W</span><span class="fd">D</span></td></tr>
+            <tr><td class="pos">4</td><td class="club"><div class="crest" style="width:18px;height:18px;font-size:9px">T</div>Tottenham</td><td>3</td><td>+3</td><td><b>6</b></td><td class="form"><span class="fw">W</span><span class="fl">L</span><span class="fw">W</span></td></tr>
+            <tr><td class="pos">5</td><td class="club"><div class="crest" style="width:18px;height:18px;font-size:9px">C</div>Chelsea</td><td>3</td><td>+1</td><td><b>4</b></td><td class="form"><span class="fw">W</span><span class="fd">D</span><span class="fl">L</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="side-block">
+        <div class="block-h">
+          <h3>Top scorers</h3>
+          <a>All stats →</a>
+        </div>
+        <div class="scorer"><div class="num">1</div>
+          <div class="p">Erling Haaland<small>Manchester City</small></div><div class="g">5</div></div>
+        <div class="scorer"><div class="num">2</div>
+          <div class="p">Bukayo Saka<small>Arsenal</small></div><div class="g">4</div></div>
+        <div class="scorer"><div class="num">3</div>
+          <div class="p">Mohamed Salah<small>Liverpool</small></div><div class="g">4</div></div>
+        <div class="scorer"><div class="num">4</div>
+          <div class="p">Cole Palmer<small>Chelsea</small></div><div class="g">3</div></div>
+        <div class="scorer"><div class="num">5</div>
+          <div class="p">Alexander Isak<small>Newcastle</small></div><div class="g">3</div></div>
+      </div>
+
+    </aside>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div>
+      <h5>Contoso for Sports</h5>
+      <p style="font-size:13.5px;margin:0;max-width:340px">
+        Contoso for Sports is a football media brand covering fixtures, results,
+        analysis and fantasy for supporters everywhere.
+      </p>
+    </div>
+    <div><h5>League</h5><a>Matches</a><a>Table</a><a>Statistics</a><a>Awards</a></div>
+    <div><h5>Media</h5><a>News</a><a>Video</a><a>Podcasts</a><a>The Archive</a></div>
+    <div><h5>Fans</h5><a>Fantasy</a><a>Newsletter</a><a>App</a><a>Community</a></div>
+  </div>
+  <div class="footbar">© Contoso for Sports — Demo site. Fixtures and quotes are illustrative.</div>
+</footer>
+
+<!-- WebIQ widget will be embedded here later — fans use it for quick
+     stats, injury updates, or history questions -->
+
+</body>
+</html>

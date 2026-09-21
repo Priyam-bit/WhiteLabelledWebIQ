@@ -1,0 +1,3185 @@
+geiselmed.dartmouth.edu	Academic Institution
+wa-provider.kaiserpermanente.org	Health Plans
+ajcn.nutrition.org	Academic Journal
+petersonhealth.com	Healthcare Organization
+psychiatryonline.org	Professional Society
+fnhk.cz	Healthcare Organization
+cnwl.nhs.uk	Healthcare Organization
+northernlincolnshireapc.nhs.uk	Local Health Agency
+mcir.org	Local Health Agency
+tgh.org	Healthcare Organization
+dch.georgia.gov	Local Health Agency
+mhsystem.org	Healthcare Organization
+oplc.nh.gov	Government
+rcn.org.uk	Professional Society
+uhsussex.nhs.uk	Healthcare Organization
+stmaryshealthcaresystem.org	Healthcare Organization
+111.wales.nhs.uk	Local Health Agency
+media.healthdirect.org.au	Public Health Authority
+alberta.ca	Local Health Agency
+secure.library.leicestershospitals.nhs.uk	Healthcare Organization
+radiology.msu.edu	Academic Institution
+food.gov.uk	Government
+stjoes.ca	Healthcare Organization
+cmha.ca	Nonprofit
+qfinder2.health.qld.gov.au	Local Health Agency
+pregnancybirthbaby.org.au	Government
+neurosurgery.weillcornell.org	Academic Institution
+wellstar.org	Healthcare Organization
+reverehealth.com	Healthcare Organization
+sath.nhs.uk	Healthcare Organization
+caresource.com	Health Plans
+paediatricsandchildhealthjournal.co.uk	Academic Journal
+medicine.uams.edu	Academic Institution
+urologyspecialistsnc.com	Healthcare Organization
+asco.org	Professional Society
+mn.gov	Government
+albertahipandknee.ca	Healthcare Organization
+pharmacy.mahidol.ac.th	Academic Institution
+columbiapsychiatry.org	Healthcare Organization
+mhc-tn.org	Healthcare Organization
+sfmu.org	Academic Institution
+nh.org.au	Healthcare Organization
+pediatrics.northwell.edu	Academic Institution
+brownhealth.org	Healthcare Organization
+doctors.hackensackmeridianhealth.org	Healthcare Organization
+loyolamedicine.org	Healthcare Organization
+specialists.healthscope.com.au	Healthcare Organization
+onlinelibrary.wiley.com	Academic Journal
+sdcep.org.uk	Independent Organization
+wrha.mb.ca	Public Health Authority
+mgmc.org	Healthcare Organization
+fingertips.phe.org.uk	Public Health Authority
+stjohns.ufhealth.org	Healthcare Organization
+nycancer.com	Healthcare Organization
+valleyhealthlink.com	Healthcare Organization
+baptisthealth.com	Healthcare Organization
+library.sheffieldchildrens.nhs.uk	Healthcare Organization
+salemgastro.com	Healthcare Organization
+myvaccinerecord.cdph.ca.gov	Government
+med.umn.edu	Academic Institution
+vamedicaid.dmas.virginia.gov	Government
+charlestongi.com	Healthcare Organization
+jpsmjournal.com	Academic Journal
+sandiegocounty.gov	Government
+novartis.com	Health Industry
+rogersbh.org	Healthcare Organization
+universityhealth.com	Healthcare Organization
+osfhealthcare.org	Healthcare Organization
+amjmed.com	Academic Journal
+aacrjournals.org	Academic Journal
+mychart.presencehealth.org	Healthcare Organization
+fpm.ac.uk	Professional Society
+dpo.colorado.gov	Local Health Agency
+ottawahospital.on.ca	Healthcare Organization
+memorialhermann.org	Healthcare Organization
+leaflets.ekhuft.nhs.uk	Healthcare Organization
+care.aurorahealthcare.org	Healthcare Organization
+medconnection.ucsfbenioffchildrens.org	Healthcare Organization
+healthtexas.org	Healthcare Organization
+ndss.org	Professional Society
+auajournals.org	Academic Journal
+medicinesforchildren.org.uk	Nonprofit
+simonmed.com	Healthcare Organization
+ukkidney.org	Professional Society
+journals.physiology.org	Academic Journal
+mychart.uihealthcare.org	Healthcare Organization
+aci.health.nsw.gov.au	Local Health Agency
+bpac.org.nz	Evidence and Research
+aae.org	Professional Society
+concentra.com	Healthcare Organization
+directory.monument.health	Healthcare Organization
+medicalcostsfinder.health.gov.au	Government
+ecommunity.com	Healthcare Organization
+radiologyinfo.org	Nonprofit
+commerce.gov	Government
+hms.harvard.edu	Academic Institution
+camc.org	Healthcare Organization
+cdsco.gov.in	Government
+ahajournals.org	Academic Journal
+repository.dinus.ac.id	Academic Institution
+eternalhospital.com	Healthcare Organization
+bpspubs.onlinelibrary.wiley.com	Academic Journal
+fhcsd.org	Healthcare Organization
+insightsimaging.springeropen.com	Academic Journal
+axiawh.com	Healthcare Organization
+maine.gov	Government
+nhmrc.gov.au	Independent Organization
+nzip.cz	Public Health Authority
+ucsfhealth.org	Healthcare Organization
+quincymedgroup.com	Healthcare Organization
+marfan.org	Nonprofit
+nj.gov	Government
+nationalacademies.org	Independent Organization
+afro.who.int	Intergovernmental Body
+oregonmedicalgroup.com	Healthcare Organization
+kclj.si	Healthcare Organization
+ctmuhb.nhs.wales	Local Health Agency
+digital.nhs.uk	Public Health Authority
+dmc.org	Healthcare Organization
+fractureclinic.royalcornwallhospitals.nhs.uk	Healthcare Organization
+northmemorial.com	Healthcare Organization
+fairfaxradiology.com	Healthcare Organization
+iowaortho.com	Healthcare Organization
+melbournearmclinic.com.au	Healthcare Organization
+aok.de	Health Plans
+cochrane.org	Evidence and Research
+ramsayhealth.co.uk	Healthcare Organization
+southtees.nhs.uk	Healthcare Organization
+bestpractice.bmj.com	Independent Organization
+winchesterhospital.org	Healthcare Organization
+tommys.org	Nonprofit
+fortishealthcare.com	Healthcare Organization
+tidelandshealth.org	Healthcare Organization
+bmcpulmmed.biomedcentral.com	Academic Journal
+baystatehealth.org	Healthcare Organization
+mainlinehealth.org	Healthcare Organization
+centracare.adventhealth.com	Healthcare Organization
+vitas.com	Healthcare Organization
+cortho.org	Healthcare Organization
+holycrosshealth.org	Healthcare Organization
+alderhey.nhs.uk	Healthcare Organization
+nchmd.org	Healthcare Organization
+unfpa.org	Intergovernmental Body
+clinicaltrials.ucsf.edu	Academic Institution
+ilmeridian.com	Health Plans
+dorsethealthcare.nhs.uk	Healthcare Organization
+ftp.cdc.gov	Public Health Authority
+achqc.org	Independent Organization
+houstonmethodist.org	Healthcare Organization
+gastroassociates.com	Healthcare Organization
+mcmg.mountcarmelhealth.com	Healthcare Organization
+icd10cmtool.cdc.gov	Government
+nhanow.com	Professional Society
+southshorehealth.org	Healthcare Organization
+medicine.osu.edu	Academic Institution
+vmfh.org	Healthcare Organization
+ada.org	Professional Society
+medicine.uky.edu	Academic Institution
+onlinedoctor.lloydspharmacy.com	Health Industry
+mybeaumontchart.com	Healthcare Organization
+niagarahealth.on.ca	Healthcare Organization
+aacr.org	Professional Society
+care.bellin.org	Healthcare Organization
+bhec.texas.gov	Local Health Agency
+medcenterhealth.org	Healthcare Organization
+coltonmill-thegrange.nhs.uk	Healthcare Organization
+nsw.gov.au	Government
+brainandlife.org	News Organization
+venturaortho.com	Healthcare Organization
+myjointhealthhub.bnssg.nhs.uk	Healthcare Organization
+nhlbi.nih.gov	Evidence and Research
+urologyclinics.com	Academic Journal
+physicians.northwell.edu	Healthcare Organization
+acrjournals.onlinelibrary.wiley.com	Academic Journal
+pals.pa.gov	Government
+wmchealth.org	Healthcare Organization
+montclair-hospital.org	Healthcare Organization
+prod.essentiahealth.org	Healthcare Organization
+garranmedicalimaging.com.au	Healthcare Organization
+svph.org.au	Healthcare Organization
+downloads.cms.gov	Government
+mayfieldclinic.com	Healthcare Organization
+cookcountyhealth.org	Healthcare Organization
+macmillan.org.uk	Nonprofit
+mychart.metrohealth.org	Healthcare Organization
+monashfodmap.com	Academic Institution
+nia.nih.gov	Government
+policyonline.nhslothian.scot	Local Health Agency
+dmh.mo.gov	Local Health Agency
+alzint.org	Nonprofit
+mhvidp-prod.myhealth.va.gov	Healthcare Organization
+mychart.fmolhs.org	Healthcare Organization
+testguide.labmed.uw.edu	Academic Institution
+bjanaesthesia.org	Academic Journal
+wapsychiatry.com.au	Professional Society
+phppd.providence.org	Healthcare Organization
+data.who.int	Intergovernmental Body
+aasm.org	Professional Society
+aaojournal.org	Academic Journal
+nof.org	Nonprofit
+siloamhospitals.com	Healthcare Organization
+doctors.beaumont.org	Healthcare Organization
+rapidcitymedicalcenter.com	Healthcare Organization
+crh.org	Healthcare Organization
+cancercenter.com	Healthcare Organization
+cancerresearch.org	Nonprofit
+spectrumhealth.org	Healthcare Organization
+pinehurstmedical.com	Healthcare Organization
+healthwaymedicalnetwork.com.ph	Healthcare Organization
+childrens.dartmouth-health.org	Healthcare Organization
+dietaryguidelines.gov	Government
+gradyhealth.org	Healthcare Organization
+freseniuskidneycare.com	Healthcare Organization
+bma.org.uk	Professional Society
+endeavorhealth.org	Healthcare Organization
+childrensnebraska.org	Healthcare Organization
+ohiohealth.com	Healthcare Organization
+remedy.bnssg.icb.nhs.uk	Local Health Agency
+royalsurrey.nhs.uk	Local Health Agency
+watsonclinic.com	Healthcare Organization
+deaconess.com	Healthcare Organization
+heartandstroke.ca	Nonprofit
+accesstocare.va.gov	Government
+arizonapremiersurgery.com	Healthcare Organization
+med.nyu.edu	Academic Institution
+together.stjude.org	Nonprofit
+akronchildrens.org	Healthcare Organization
+coxhealth.com	Healthcare Organization
+libertyhospital.org	Healthcare Organization
+uchealth.org	Healthcare Organization
+dentalhealth.org	Nonprofit
+dhhs.ne.gov	Local Health Agency
+mymarinhealth.org	Healthcare Organization
+southeasthealthline.ca	Nonprofit
+aafa.org	Nonprofit
+sbuhb.nhs.wales	Local Health Agency
+hdft.nhs.uk	Healthcare Organization
+stlukes.com.ph	Healthcare Organization
+infirmaryhealth.org	Healthcare Organization
+practiceplusgroup.com	Healthcare Organization
+nationalmssociety.org	Nonprofit
+mbsonline.gov.au	Health Plans
+care.advocatehealth.com	Healthcare Organization
+nshealth.ca	Local Health Agency
+utphysicians.com	Healthcare Organization
+stjosephbangor.org	Healthcare Organization
+accpjournals.onlinelibrary.wiley.com	Academic Journal
+med.unc.edu	Academic Institution
+jdrf.org	Philanthropy Foundation
+goshenhealth.com	Healthcare Organization
+sunnybrook.ca	Healthcare Organization
+abpn.org	Professional Society
+thiswayup.org.au	Academic Institution
+hca.wa.gov	Local Health Agency
+myhealth.alberta.ca	Government
+texastechphysicians.com	Academic Institution
+myuthealthhouston.org	Healthcare Organization
+jvascsurg.org	Academic Journal
+health.gov	Public Health Authority
+kelsey-seybold.com	Healthcare Organization
+bucksformulary.nhs.uk	Local Health Agency
+pressroom.cancer.org	Nonprofit
+bannerhealth.com	Healthcare Organization
+doctors.rush.edu	Healthcare Organization
+diabetesjournals.org	Academic Journal
+orthovirginia.com	Healthcare Organization
+epiphanydermatology.com	Healthcare Organization
+torrancememorial.org	Healthcare Organization
+nuhs.edu.sg	Academic Institution
+nhshighland.scot.nhs.uk	Local Health Agency
+chemocare.com	Healthcare Organization
+nps.org.au	Nonprofit
+epilepsysociety.org.uk	Nonprofit
+shop.elsevier.com	Health Industry
+orthopedicandfracturespecialists.com	Healthcare Organization
+mymichigan.org	Healthcare Organization
+kcl.ac.uk	Academic Institution
+ssa.gov	Government
+iowaclinic.com	Healthcare Organization
+nutritionsource.hsph.harvard.edu	Academic Institution
+med.virginia.edu	Academic Institution
+barrowneuro.org	Healthcare Organization
+bmus.org	Professional Society
+psnet.ahrq.gov	Independent Organization
+wellcarenc.com	Healthcare Organization
+me.health.gov.il	Public Health Authority
+beaconhealthsystem.org	Healthcare Organization
+health.uconn.edu	Academic Institution
+bgapc.com	Healthcare Organization
+cit.nih.gov	Government
+st.emg.ub.gov.mn	Local Health Agency
+stanfordchildrens.org	Healthcare Organization
+asra.com	Professional Society
+memorial.health	Healthcare Organization
+dvha.vermont.gov	Local Health Agency
+stelizabeth.com	Healthcare Organization
+gialliance.com	Healthcare Organization
+cks.nice.org.uk	Independent Organization
+documents.cap.org	Professional Society
+sante.gouv.fr	Public Health Authority
+oregon.gov	Government
+lancsteachinghospitals.nhs.uk	Healthcare Organization
+hematology.org	Professional Society
+england.nhs.uk	Public Health Authority
+yorkhospitals.nhs.uk	Healthcare Organization
+unaids.org	Intergovernmental Body
+thebms.org.uk	Professional Society
+mse.nhs.uk	Government
+cityofhope.org	Healthcare Organization
+pdsa.org.uk	Nonprofit
+cooleydickinson.org	Healthcare Organization
+childrens.uvahealth.com	Healthcare Organization
+stjosephshealth.org	Healthcare Organization
+nhsprofessionals.nhs.uk	Government
+prohealthmd.com	Healthcare Organization
+doctors.catholichealthli.org	Healthcare Organization
+member.aanlcp.org	Professional Society
+rveeh.ie	Healthcare Organization
+vet.cornell.edu	Academic Institution
+thyroid.org	Professional Society
+international.heart.org	Nonprofit
+aabb.org	Independent Organization
+missionhealth.org	Healthcare Organization
+resmedjournal.com	Academic Journal
+swgeneral.com	Healthcare Organization
+therapeuticassociates.com	Healthcare Organization
+gemhospitals.com	Healthcare Organization
+samhealth.org	Healthcare Organization
+philhealth.gov.ph	Public Health Authority
+mymlc.com	Health Industry
+moh.gov.sa	Government
+oklahoma.gov	Government
+hpra.ie	Government
+doctors.mylrh.org	Healthcare Organization
+umms.org	Healthcare Organization
+ihacares.com	Healthcare Organization
+promedica.org	Healthcare Organization
+sutterhealth.org	Healthcare Organization
+nccdp.org	Nonprofit
+portal.indianamedicaid.com	Health Plans
+riversideonline.com	Healthcare Organization
+aao.org	Professional Society
+slhn.org	Healthcare Organization
+bvhealthsystem.org	Healthcare Organization
+toutpourmasante.fr	Health Industry
+dailymed-beta.nlm.nih.gov	Government
+bmjopen.bmj.com	Academic Journal
+arthritisaustralia.com.au	Nonprofit
+enticare.com	Healthcare Organization
+chpw.org	Health Plans
+ninr.nih.gov	Government
+mychart.kansashealthsystem.com	Healthcare Organization
+healthtalk.unchealthcare.org	Healthcare Organization
+ottawaheart.ca	Healthcare Organization
+valleywisehealth.org	Healthcare Organization
+chestnet.org	Professional Society
+pubmed.ncbi.nlm.nih.gov	Evidence and Research
+wellnow.com	Healthcare Organization
+slhd.health.nsw.gov.au	Local Health Agency
+diabetesresearchclinicalpractice.com	Academic Journal
+cps.ca	Professional Society
+frederickhealth.org	Healthcare Organization
+mychart.mwhc.com	Healthcare Organization
+bmcpublichealth.biomedcentral.com	Academic Journal
+muhealth.org	Healthcare Organization
+carle.org	Healthcare Organization
+mychart.centracare.com	Healthcare Organization
+genesishealth.com	Healthcare Organization
+mercyone.org	Healthcare Organization
+healthpartners.com	Health Plans
+hamiltonhealthsciences.ca	Healthcare Organization
+eyeandear.org.au	Healthcare Organization
+lcmchealth.org	Healthcare Organization
+eatright.org	Professional Society
+generalsurgery.ucsf.edu	Academic Institution
+rxfiles.ca	Evidence and Research
+antibioticresearch.org.uk	Nonprofit
+ncsr.gov.au	Independent Organization
+exercises.physio-pedia.com	Nonprofit
+bccdc.ca	Local Health Agency
+medicinesresources.nhs.uk	Healthcare Organization
+ncirs.org.au	Evidence and Research
+sportsmedtexas.com	Healthcare Organization
+nhstaysideadtc.scot.nhs.uk	Local Health Agency
+bohnice.cz	Healthcare Organization
+health.gov.za	Public Health Authority
+sansumclinic.org	Healthcare Organization
+frontiersin.org	Academic Journal
+peraturan.go.id	Government
+chihealth.com	Healthcare Organization
+bhamcommunity.nhs.uk	Healthcare Organization
+bronsonhealth.com	Healthcare Organization
+annalsofvascularsurgery.com	Academic Journal
+hssh.health	Healthcare Organization
+princetonradiology.com	Healthcare Organization
+narayanahealth.org	Healthcare Organization
+texaschildrenshealthplan.org	Health Plans
+medicines.ie	Independent Organization
+vacancer.com	Healthcare Organization
+jacr.org	Academic Journal
+cdphe.colorado.gov	Local Health Agency
+bcrenal.ca	Government
+uabmedicine.org	Academic Institution
+dulyhealthandcare.com	Healthcare Organization
+bucksoxonberksw.icb.nhs.uk	Local Health Agency
+okheart.com	Healthcare Organization
+augs.org	Professional Society
+royaldevon.nhs.uk	Local Health Agency
+mcforms.mayo.edu	Academic Institution
+stelizabethphysicians.com	Healthcare Organization
+bmcmedicine.biomedcentral.com	Academic Journal
+radsource.us	Health Industry
+sjogrens.org	Nonprofit
+doctors.unitypoint.org	Healthcare Organization
+gloshospitals.nhs.uk	Healthcare Organization
+siumed.org	Academic Institution
+vaccinesafety.edu	Evidence and Research
+acep.org	Professional Society
+jcvaonline.com	Academic Journal
+camh.ca	Healthcare Organization
+hollandhospital.org	Healthcare Organization
+locations.muschealth.org	Healthcare Organization
+medicine.uiowa.edu	Academic Institution
+p2ptm.kemkes.go.id	Public Health Authority
+hduhb.nhs.wales	Local Health Agency
+southbendclinic.com	Healthcare Organization
+bakersfieldbehavioral.com	Healthcare Organization
+natchaug.org	Healthcare Organization
+myhealthcentre.ca	Healthcare Organization
+dpbh.nv.gov	Local Health Agency
+tfpclinic.com	Healthcare Organization
+aaos.org	Professional Society
+forwardhealth.wi.gov	Local Health Agency
+myamericannurse.com	News Organization
+umchealthsystem.com	Healthcare Organization
+cvph.org	Healthcare Organization
+dbth.nhs.uk	Healthcare Organization
+corvallisclinic.com	Healthcare Organization
+brownderm.org	Healthcare Organization
+ccjm.org	Academic Journal
+fmchealth.org	Healthcare Organization
+brevardhealth.org	Healthcare Organization
+hra.nhs.uk	Government
+cfp.ca	Academic Journal
+cda-adc.ca	Professional Society
+suckhoedoisong.vn	News Organization
+kemh.health.wa.gov.au	Healthcare Organization
+uchealth.com	Healthcare Organization
+mychart.ohiohealth.com	Healthcare Organization
+providers.corewellhealth.org	Healthcare Organization
+seslhd.health.nsw.gov.au	Healthcare Organization
+jacksonclinic.com	Healthcare Organization
+psychiatry.org	Professional Society
+princetonhcs.org	Healthcare Organization
+encompasshealth.com	Healthcare Organization
+conehealth.com	Healthcare Organization
+hsph.harvard.edu	Academic Institution
+ncit.nci.nih.gov	Evidence and Research
+elft.nhs.uk	Healthcare Organization
+cfaortho.com	Healthcare Organization
+research.aota.org	Academic Journal
+augustahealth.com	Healthcare Organization
+getcare.ssmhealth.com	Healthcare Organization
+clevedonmc.nhs.uk	Healthcare Organization
+uroweb.org	Professional Society
+dent.cz	Professional Society
+wahealthplanfinder.org	Health Plans
+christieclinic.com	Healthcare Organization
+alzheimers.org.uk	Nonprofit
+monash.edu	Academic Institution
+medscape.com	News Organization
+pch.health.wa.gov.au	Healthcare Organization
+stanfordmedicine25.stanford.edu	Academic Institution
+azkrmc.com	Healthcare Organization
+luminishealth.org	Healthcare Organization
+aacap.org	Professional Society
+health.ucdavis.edu	Healthcare Organization
+carolinaurology.com	Healthcare Organization
+riversidemedicalclinic.com	Healthcare Organization
+sti.guidelines.org.au	Evidence and Research
+berkshirehealthcare.nhs.uk	Healthcare Organization
+radmd.com	Health Industry
+eh.anamai.moph.go.th	Public Health Authority
+uhbristol.nhs.uk	Healthcare Organization
+pecos.cms.hhs.gov	Public Health Authority
+vcuhealth.org	Healthcare Organization
+qualitashealth.com.au	Health Industry
+southcountyhealth.org	Healthcare Organization
+benefits.ohio.gov	Local Health Agency
+pediatricassociates.com	Healthcare Organization
+thelondonclinic.co.uk	Healthcare Organization
+nhsggc.scot	Local Health Agency
+mychart.denverhealth.org	Healthcare Organization
+pancreapedia.org	Evidence and Research
+psychiatry-uk.com	Healthcare Organization
+poliklinika.agel.cz	Healthcare Organization
+bmccardiovascdisord.biomedcentral.com	Academic Journal
+physicians.lahey.org	Healthcare Organization
+phcc.gov.qa	Public Health Authority
+department.va.gov	Government
+providers.uthscsa.edu	Academic Institution
+consumer.ftc.gov	Government
+whidbeyhealth.org	Healthcare Organization
+ama.com.au	Professional Society
+telehealth.hhs.gov	Government
+bmcinfectdis.biomedcentral.com	Academic Journal
+eatingrecoverycenter.com	Healthcare Organization
+neuropt.org	Professional Society
+health.mil	Government
+rwjbh.org	Healthcare Organization
+overlakehospital.org	Healthcare Organization
+healthy.kaiserpermanente.org	Healthcare Organization
+urologyhealth.org	Nonprofit
+idfpr.illinois.gov	Government
+thejns.org	Academic Journal
+allergy.org.au	Professional Society
+childrenshospitalvanderbilt.org	Healthcare Organization
+usda.gov	Government
+nutrition.gov	Public Health Authority
+spice.unc.edu	Academic Institution
+newcastle-hospitals.nhs.uk	Healthcare Organization
+emra.org	Professional Society
+dental.nv.gov	Local Health Agency
+garnethealth.org	Healthcare Organization
+blog.dana-farber.org	Healthcare Organization
+hep.org.au	Nonprofit
+familydoctor.com.cn	News Organization
+macularsociety.org	Nonprofit
+gwdocs.com	Healthcare Organization
+my.atriumhealth.org	Healthcare Organization
+stbernards.info	Healthcare Organization
+keck.usc.edu	Academic Institution
+mhs.net	Healthcare Organization
+centrichealth.ie	Healthcare Organization
+mayocliniclabs.com	Health Industry
+doctors.massgeneralbrigham.org	Healthcare Organization
+mywvuchart.com	Healthcare Organization
+americanmigrainefoundation.org	Nonprofit
+nhsborders.scot.nhs.uk	Local Health Agency
+uncmedicalcenter.org	Healthcare Organization
+azblue.com	Health Plans
+esht.nhs.uk	Healthcare Organization
+sentara.com	Healthcare Organization
+sthk.merseywestlancs.nhs.uk	Healthcare Organization
+valleyhealth.org	Healthcare Organization
+williamsonhealth.org	Healthcare Organization
+theportlandclinic.com	Healthcare Organization
+goldjournal.net	Academic Journal
+consultqd.clevelandclinic.org	Healthcare Organization
+mychart.universityhealthsystem.com	Healthcare Organization
+hopkinsguides.com	Academic Institution
+commonwealthhealth.net	Healthcare Organization
+wellsense.org	Health Plans
+mja.com.au	Academic Journal
+lhsc.on.ca	Healthcare Organization
+raisingchildren.net.au	Public Health Authority
+jmir.org	Academic Journal
+buckeyehealthplan.com	Health Plans
+provider.indianamedicaid.com	Health Plans
+ptsmc.com	Healthcare Organization
+batonrougeclinic.com	Healthcare Organization
+aicr.org	Nonprofit
+ctdssmap.com	Government
+derryimaging.com	Healthcare Organization
+michigan.gov	Government
+quickbillpay.mayoclinic.org	Healthcare Organization
+communityhealth.mayoclinic.org	Healthcare Organization
+ozempic.com	Health Industry
+bcbst.com	Health Plans
+cff.org	Nonprofit
+ucfhealth.com	Healthcare Organization
+pikevillehospital.org	Healthcare Organization
+centerforvein.com	Healthcare Organization
+orthoatlanta.com	Healthcare Organization
+vaccineknowledge.ox.ac.uk	Academic Institution
+cumedicine.us	Healthcare Organization
+thedoctorsclinic.com	Healthcare Organization
+cancervic.org.au	Nonprofit
+pennstatehealth.org	Healthcare Organization
+myhealthchart.com	Health Industry
+kingedwardvii.co.uk	Healthcare Organization
+medicaid.gov	Public Health Authority
+mclaren.org	Healthcare Organization
+seizure-journal.com	Academic Journal
+rbht.nhs.uk	Local Health Agency
+wakehealth.edu	Academic Institution
+asianheartinstitute.org	Healthcare Organization
+farmalkes.kemkes.go.id	Government
+raleighpediatrics.com	Healthcare Organization
+canceraustralia.gov.au	Public Health Authority
+piedmontmedicalcenter.com	Healthcare Organization
+mayo.edu	Academic Institution
+bmcgeriatr.biomedcentral.com	Academic Journal
+benefis.org	Healthcare Organization
+physiciansimmediatecare.com	Healthcare Organization
+celiac.org	Nonprofit
+capitalhealth.org	Healthcare Organization
+conwaymedicalcenter.com	Healthcare Organization
+challiance.org	Healthcare Organization
+discmdgroup.com	Healthcare Organization
+mentalhealthonline.org.au	Nonprofit
+poliklinika-otrokovice.cz	Healthcare Organization
+bjaed.org	Academic Journal
+kh.org	Healthcare Organization
+ckbhospital.com	Healthcare Organization
+spineina.com	Healthcare Organization
+jnm.snmjournals.org	Academic Journal
+adventisthealth.org	Healthcare Organization
+orthoillinois.com	Healthcare Organization
+respiratory-research.biomedcentral.com	Academic Journal
+trinityhealthofne.org	Healthcare Organization
+bonsecours.com	Healthcare Organization
+hyperparathyroidmd.com	Healthcare Organization
+houstonent.com	Healthcare Organization
+ssmhealth.com	Healthcare Organization
+continentalhospitals.com	Healthcare Organization
+catawbavalleyhealth.org	Healthcare Organization
+ahmchealth.com	Healthcare Organization
+kentcht.nhs.uk	Healthcare Organization
+aanp.org	Professional Society
+premierwomenshealthmn.com	Healthcare Organization
+public.csr.nih.gov	Government
+uofmhealth.org	Healthcare Organization
+dphhs.mt.gov	Local Health Agency
+essentiahealth.org	Healthcare Organization
+patient.uwhealth.org	Healthcare Organization
+pib.gov.in	Government
+floridasnursing.gov	Local Health Agency
+usaid.gov	Government
+immunizationdata.who.int	Intergovernmental Body
+asha.org	Professional Society
+sickkids.ca	Healthcare Organization
+ukhsa.blog.gov.uk	Public Health Authority
+journalofethics.ama-assn.org	Academic Journal
+broadinstitute.org	Evidence and Research
+logan.org	Healthcare Organization
+mychart.uwmedicine.org	Healthcare Organization
+jamanetwork.com	Academic Journal
+bcmj.org	Academic Journal
+chs.net	Healthcare Organization
+medicaid.utah.gov	Local Health Agency
+icd.who.int	Intergovernmental Body
+genesisobgyn.net	Healthcare Organization
+my.uchealth.com	Healthcare Organization
+lifehealthcare.co.za	Healthcare Organization
+gov.scot	Local Health Agency
+blog.providence.org	Healthcare Organization
+ulh.nhs.uk	Healthcare Organization
+clinicalmicrobiologyandinfection.com	Academic Journal
+bumrungrad.com	Healthcare Organization
+hospitals.clalit.co.il	Healthcare Organization
+dmd-browser.nhsbsa.nhs.uk	Government
+cdn-links.lww.com	Academic Journal
+thorax.bmj.com	Academic Journal
+theindependentpharmacy.co.uk	Health Industry
+aboutkidshealth.ca	Healthcare Organization
+cheshireformulary.nhs.uk	Local Health Agency
+health.osu.edu	Academic Institution
+georgia.gov	Public Health Authority
+texashealth.org	Healthcare Organization
+axionspine.com	Healthcare Organization
+uthealtheasttexas.com	Healthcare Organization
+myhealthone.com	Health Industry
+guidelines.diabetes.ca	Independent Organization
+med.ro	News Organization
+kernmedical.com	Healthcare Organization
+ema.europa.eu	Intergovernmental Body
+mtw.nhs.uk	Healthcare Organization
+legacyhealth.org	Healthcare Organization
+premierhealth.com	Healthcare Organization
+wa-search.kaiserpermanente.org	Healthcare Organization
+kaunopoliklinika.lt	Healthcare Organization
+endocrinology.testcatalog.org	Health Industry
+stormontvail.org	Healthcare Organization
+abe.illinois.gov	Local Health Agency
+wcrf.org	Philanthropy Foundation
+ouhealth.com	Healthcare Organization
+nhc.gov.cn	Government
+diabetes.org	Nonprofit
+renaissance.stonybrookmedicine.edu	Healthcare Organization
+ucl.ac.uk	Academic Institution
+nursing.ohio.gov	Government
+umc.edu	Academic Institution
+brit-thoracic.org.uk	Professional Society
+vas-lekar.cz	Health Industry
+espanol.kaiserpermanente.org	Health Plans
+youngminds.org.uk	Nonprofit
+crohnscolitisfoundation.org	Nonprofit
+memorialmedicalcenter.org	Healthcare Organization
+miorthosurgeons.com	Healthcare Organization
+nice.org.uk	Government
+open.maricopa.edu	Academic Institution
+uthsc.edu	Academic Institution
+mychartweb.ohsu.edu	Healthcare Organization
+columbiasurgery.org	Healthcare Organization
+patientinfolibrary.royalmarsden.nhs.uk	Healthcare Organization
+tn.gov	Government
+mychart.honorhealth.com	Healthcare Organization
+sps.nhs.uk	Government
+sphp.com	Healthcare Organization
+uhnm.nhs.uk	Healthcare Organization
+southshoreorthopedics.com	Healthcare Organization
+usa.edu	Academic Institution
+lamedicaid.com	Government
+bangkokhospital.com	Healthcare Organization
+salemclinic.org	Healthcare Organization
+healthcareassociates.com	Healthcare Organization
+arthroscopytechniques.org	Academic Journal
+unitedhealthcenters.org	Healthcare Organization
+oxfordhealthformulary.nhs.uk	Healthcare Organization
+islandhealth.ca	Local Health Agency
+tamanhhospital.vn	Healthcare Organization
+salisburymedicalpractice.co.uk	Healthcare Organization
+ccwa.doh.wa.gov	Local Health Agency
+clinicalcorrelations.org	Evidence and Research
+act.gov.au	Local Health Agency
+uthscsa.edu	Academic Institution
+aasem.org	Professional Society
+humanservices.arkansas.gov	Local Health Agency
+sparshhospital.com	Healthcare Organization
+mpcp.com	Healthcare Organization
+uhliverpool.nhs.uk	Healthcare Organization
+gaurology.com	Healthcare Organization
+mygrandstrandhealth.com	Healthcare Organization
+aorn.org	Professional Society
+hartfordhospital.org	Healthcare Organization
+dshs.texas.gov	Local Health Agency
+news.sanfordhealth.org	News Organization
+endocrine.org	Professional Society
+kidneyfund.org	Nonprofit
+dhs.maryland.gov	Local Health Agency
+scdhec.gov	Public Health Authority
+waldeneatingdisorders.com	Healthcare Organization
+polyclinic.com	Healthcare Organization
+nutritionletter.tufts.edu	Academic Institution
+occhd.org	Local Health Agency
+doh.wa.gov	Local Health Agency
+bacp.co.uk	Professional Society
+wisdom.nhs.wales	Local Health Agency
+obgyn.onlinelibrary.wiley.com	Academic Journal
+lyme.health.harvard.edu	Academic Institution
+patienteduc.fraserhealth.ca	Local Health Agency
+world-heart-federation.org	Professional Society
+trinityhealthma.org	Healthcare Organization
+orpha.net	Independent Organization
+jto.org	Academic Journal
+kingsfund.org.uk	Think Tank
+fic.nih.gov	Government
+coverva.dmas.virginia.gov	Local Health Agency
+wellspan.org	Healthcare Organization
+kaweahhealth.org	Healthcare Organization
+gov.il	Government
+plasticsurgery.org	Professional Society
+stlukes-stl.com	Healthcare Organization
+cavuhb.nhs.wales	Local Health Agency
+library.samhsa.gov	Government
+cd.baptisthealth.com	Healthcare Organization
+physicians.wustl.edu	Academic Institution
+communitycare.com	Healthcare Organization
+dol.gov	Government
+iris.who.int	Intergovernmental Body
+dental.washington.edu	Academic Institution
+gp-portal.westhampshireccg.nhs.uk	Local Health Agency
+ukhealthcare.uky.edu	Healthcare Organization
+middletownmedical.com	Healthcare Organization
+providers.cmhc.org	Healthcare Organization
+lutheranhealth.net	Healthcare Organization
+bgs.org.uk	Professional Society
+urology.uci.edu	Academic Institution
+gov.uk	Government
+rcr.ac.uk	Professional Society
+uhn.ca	Healthcare Organization
+makatimed.net.ph	Healthcare Organization
+dtc.ucsf.edu	Academic Institution
+annemergmed.com	Academic Journal
+bumc.bu.edu	Academic Institution
+publichealthontario.ca	Public Health Authority
+newsroom.tricare.mil	News Organization
+app.patientaccess.com	Health Industry
+onlinedoctor.boots.com	Health Industry
+sralab.org	Healthcare Organization
+endocrine-abstracts.org	Academic Journal
+lovelace.com	Healthcare Organization
+heartfoundation.org.nz	Nonprofit
+atipt.com	Healthcare Organization
+ombc.ca.gov	Government
+trinityhealth.com	Health Industry
+neurology.testcatalog.org	Healthcare Organization
+publichealth.jhu.edu	Academic Institution
+premierortho.com	Healthcare Organization
+easternhealth.org.au	Healthcare Organization
+healthmatters.nyp.org	Healthcare Organization
+baptistfirst.org	Healthcare Organization
+prohealthcare.org	Healthcare Organization
+childrensdayton.org	Healthcare Organization
+scripps.org	Healthcare Organization
+meridian.allenpress.com	Academic Journal
+providers.overlakehospital.org	Healthcare Organization
+rcoa.ac.uk	Professional Society
+rcot.co.uk	Professional Society
+jucm.com	Academic Journal
+valleymed.org	Healthcare Organization
+manipalhospitals.com	Healthcare Organization
+hse.gov.uk	Government
+uhs.berkeley.edu	Academic Institution
+hey.nhs.uk	Local Health Agency
+ubmd.com	Healthcare Organization
+facmed-univ-oran.dz	Academic Institution
+fnol.cz	Healthcare Organization
+centrahealth.com	Healthcare Organization
+campaignresources.dhsc.gov.uk	Public Health Authority
+yourhealth.leicestershospitals.nhs.uk	Healthcare Organization
+mqhealth.org.au	Healthcare Organization
+ohsu.edu	Academic Institution
+mda.org	Nonprofit
+rchsd.org	Healthcare Organization
+memorialcare.org	Healthcare Organization
+medicaid.ohio.gov	Local Health Agency
+webeye.ophth.uiowa.edu	Academic Institution
+hendricks.org	Healthcare Organization
+sundhed.dk	Public Health Authority
+e-cancer.fr	Public Health Authority
+setrust.hscni.net	Healthcare Organization
+nyc.gov	Government
+leedsth.nhs.uk	Healthcare Organization
+agence-prd.ansm.sante.fr	Government
+fno.cz	Healthcare Organization
+csp.org.uk	Professional Society
+guttmacher.org	Think Tank
+hgs.uhb.nhs.uk	Healthcare Organization
+mua.edu	Academic Institution
+medicinesmanagement.doncasterccg.nhs.uk	Local Health Agency
+himc.com.au	Healthcare Organization
+panmerseyapc.nhs.uk	Local Health Agency
+rasmussen.edu	Academic Institution
+grhosp.on.ca	Healthcare Organization
+acgme.org	Independent Organization
+atlanticare.org	Healthcare Organization
+covwarkformulary.nhs.uk	Local Health Agency
+montefioreeinstein.org	Healthcare Organization
+abp.org	Independent Organization
+westchestermedicalcenter.org	Healthcare Organization
+osteopathy.org.uk	Professional Society
+uhhospitals.org	Healthcare Organization
+health.stonybrookmedicine.edu	Healthcare Organization
+mychart.hmhn.org	Healthcare Organization
+medicinesinpregnancy.org	Nonprofit
+llr.sc.gov	Government
+dailymed.nlm.nih.gov	Government
+nida.nih.gov	Government
+pediatric.testcatalog.org	Healthcare Organization
+memory.ucsf.edu	Academic Institution
+lancsmmg.nhs.uk	Local Health Agency
+midandsouthessex.ics.nhs.uk	Government
+womenshealthct.com	Healthcare Organization
+iasp-pain.org	Professional Society
+elsan.care	Healthcare Organization
+usgs.gov	Government
+lakemedicalimaging.com	Healthcare Organization
+clevelandclinic.org	Healthcare Organization
+mauryregional.com	Healthcare Organization
+cooperhealth.org	Healthcare Organization
+cumming.ucalgary.ca	Academic Institution
+providers.beaconhealthsystem.org	Healthcare Organization
+servicesaustralia.gov.au	Government
+upstate.edu	Academic Institution
+marylandhealthconnection.gov	Health Plans
+wwl.nhs.uk	Healthcare Organization
+pancreaticcancer.org.uk	Nonprofit
+medicoverkorhaz.hu	Healthcare Organization
+appledoremedicalgroup.com	Healthcare Organization
+jeanhailes.org.au	Nonprofit
+northshore.org	Healthcare Organization
+mychart.hopkinsmedicine.org	Healthcare Organization
+radiologic.theclinics.com	Health Industry
+journal-of-hepatology.eu	Academic Journal
+pbs.gov.au	Public Health Authority
+veterinarypartner.vin.com	Independent Organization
+mychart.sclhealth.org	Healthcare Organization
+newsroom.ohiohealth.com	News Organization
+findadoctor.kansashealthsystem.com	Healthcare Organization
+guilfordradiology.com	Healthcare Organization
+murrieta.lluh.org	Healthcare Organization
+advocatehealth.com	Healthcare Organization
+repository.unissula.ac.id	Academic Institution
+hse.ie	Public Health Authority
+med.upenn.edu	Academic Institution
+britishpainsociety.org	Professional Society
+nkch.org	Healthcare Organization
+virtua.org	Healthcare Organization
+sunwaymedical.com	Healthcare Organization
+toledoclinic.com	Healthcare Organization
+epilepsy.com	Nonprofit
+mychart.promedica.org	Healthcare Organization
+ucsfbenioffchildrens.org	Healthcare Organization
+wdhospital.org	Healthcare Organization
+coventryrugbygpgateway.nhs.uk	Healthcare Organization
+resources.wfsahq.org	Professional Society
+walterreed.tricare.mil	Healthcare Organization
+summitmedical.com	Healthcare Organization
+epilepsydiagnosis.org	Professional Society
+southlakeobgyn.net	Healthcare Organization
+kaunoklinikos.lt	Healthcare Organization
+medsask.usask.ca	Academic Institution
+hawaiipacifichealth.org	Healthcare Organization
+guysandstthomasspecialistcare.co.uk	Healthcare Organization
+clinicalguidelines.scot.nhs.uk	Local Health Agency
+ntp.niehs.nih.gov	Government
+theneuromedicalcenter.com	Healthcare Organization
+mychartwa.providence.org	Healthcare Organization
+bccancer.bc.ca	Healthcare Organization
+cima.aemps.es	Government
+connect.mayoclinic.org	Healthcare Organization
+wkhs.com	Healthcare Organization
+ourfuturehealth.org.uk	Healthcare Organization
+sportsmedicine.mayoclinic.org	Healthcare Organization
+mychart.ketteringhealth.org	Healthcare Organization
+now.aapmr.org	Professional Society
+stclair.org	Healthcare Organization
+sikarin.com	Healthcare Organization
+publichealth.va.gov	Public Health Authority
+healthhub.sg	Public Health Authority
+fredhutch.org	Evidence and Research
+opencontent.ccbcmd.edu	Academic Institution
+asge.org	Professional Society
+mychart.leememorial.org	Healthcare Organization
+fraserhealth.ca	Local Health Agency
+va.gov	Government
+arthritis.ca	Nonprofit
+radgroup.net	Healthcare Organization
+1177.se	Public Health Authority
+northyorkshireccg.nhs.uk	Local Health Agency
+goldcoast.health.qld.gov.au	Local Health Agency
+mercyhealthsystem.org	Healthcare Organization
+jrheum.org	Academic Journal
+northernlighthealth.org	Healthcare Organization
+chuv.ch	Healthcare Organization
+mariettaeye.com	Healthcare Organization
+stroke.org	Professional Society
+medicare.highmark.com	Health Plans
+pubchem.ncbi.nlm.nih.gov	Government
+wellcareky.com	Health Plans
+globalizationandhealth.biomedcentral.com	Academic Journal
+open.alberta.ca	Government
+inovanewsroom.org	Healthcare Organization
+sahyadrihospital.com	Healthcare Organization
+elsevier.health	Health Industry
+kch.nhs.uk	Healthcare Organization
+bcm.edu	Academic Institution
+masseyeandear.org	Healthcare Organization
+uofmhealthwest.org	Healthcare Organization
+endocrinology.org	Professional Society
+bchp.childrenshospital.org	Healthcare Organization
+mentalhealthcommission.gov.au	Government
+doctors.intermountainhealth.org	Healthcare Organization
+nghs.com	Healthcare Organization
+clinicalinfo.hiv.gov	Public Health Authority
+resources.schn.health.nsw.gov.au	Local Health Agency
+mdpi.com	Academic Journal
+rayusradiology.com	Healthcare Organization
+statcan.gc.ca	Government
+physicians.dukehealth.org	Healthcare Organization
+dukehealth.org	Healthcare Organization
+gastrocenternj.com	Healthcare Organization
+healthcheck.nhs.uk	Public Health Authority
+mdanderson.org	Healthcare Organization
+childrensal.org	Healthcare Organization
+sages.org	Professional Society
+sphealth.org	Healthcare Organization
+bmcpsychiatry.biomedcentral.com	Academic Journal
+michiganmedicine.org	Healthcare Organization
+niaid.nih.gov	Government
+everettclinic.com	Healthcare Organization
+dph.georgia.gov	Local Health Agency
+ahn.org	Healthcare Organization
+texasoncology.com	Healthcare Organization
+faculty.washington.edu	Academic Institution
+amjtransplant.org	Academic Journal
+choosept.com	Professional Society
+methodistphysicianpractices.com	Healthcare Organization
+myuofmhealth.org	Healthcare Organization
+qld.gov.au	Government
+womenspreventivehealth.org	Public Health Authority
+surgery.ucsf.edu	Academic Institution
+ama-assn.org	Professional Society
+regionalonehealth.org	Healthcare Organization
+aurorahealthcare.org	Healthcare Organization
+eriestclairhealthline.ca	Local Health Agency
+footankle.com	Healthcare Organization
+alz.org	Nonprofit
+healthandwelfare.idaho.gov	Local Health Agency
+noahcompendium.co.uk	Health Industry
+doctors.stonybrookmedicine.edu	Healthcare Organization
+mychart.dupagemedicalgroup.com	Healthcare Organization
+freida.ama-assn.org	Professional Society
+mcc.ca	Independent Organization
+stjohn.org.au	Nonprofit
+apps.who.int	Intergovernmental Body
+sghs.org	Healthcare Organization
+lifestance.com	Healthcare Organization
+lhch.nhs.uk	Healthcare Organization
+hepatitisc.uw.edu	Academic Institution
+niformulary.hscni.net	Public Health Authority
+vidal.fr	Evidence and Research
+boards.bsd.dli.mt.gov	Government
+bcuhb.nhs.wales	Local Health Agency
+rsfh.com	Healthcare Organization
+summahealth.org	Healthcare Organization
+mass.gov	Government
+hcahealthcare.com	Healthcare Organization
+dhhr.wv.gov	Local Health Agency
+mychart.trinity-health.org	Healthcare Organization
+ggcmedicines.org.uk	Local Health Agency
+beaumont.ie	Healthcare Organization
+my.uclahealth.org	Healthcare Organization
+share.upmc.com	Health Industry
+osteopathy.org.au	Professional Society
+aast.org	Professional Society
+onlineservices.mayoclinic.org	Healthcare Organization
+mhlw.go.jp	Government
+cookchildrens.org	Healthcare Organization
+elcaminohealth.org	Healthcare Organization
+eput.nhs.uk	Healthcare Organization
+phhealthcare.org	Health Industry
+parklandmedicalcenter.com	Healthcare Organization
+rcp.ac.uk	Professional Society
+texasheart.org	Nonprofit
+heart.org	Nonprofit
+womensmentalhealth.org	Academic Institution
+blountmemorial.org	Healthcare Organization
+worcsacute.nhs.uk	Healthcare Organization
+nhslothian.scot	Local Health Agency
+towncenterortho.com	Healthcare Organization
+fairview.org	Healthcare Organization
+st-marys.org	Healthcare Organization
+thoracic.org	Professional Society
+casereports.bmj.com	Academic Journal
+psychiatrist.com	Health Industry
+parathyroid.com	Healthcare Organization
+sih.net	Healthcare Organization
+kidney.org	Nonprofit
+silvercross.org	Healthcare Organization
+longtermplan.nhs.uk	Public Health Authority
+mskdorset.nhs.uk	Local Health Agency
+cam.ac.uk	Academic Institution
+tmb.state.tx.us	Local Health Agency
+hopkinsarthritis.org	Academic Institution
+asante.org	Healthcare Organization
+barnesjewish.org	Healthcare Organization
+providers.dartmouth-health.org	Healthcare Organization
+nationwidechildrens.org	Healthcare Organization
+pharmacy.ca.gov	Government
+dmpdev-everettclinic.optum.com	Healthcare Organization
+wjes.biomedcentral.com	Academic Journal
+jogc.com	Academic Journal
+orientation.mssm.edu	Academic Institution
+odphp.health.gov	Government
+jhltonline.org	Academic Journal
+hhs.iowa.gov	Local Health Agency
+bhf.org.uk	Nonprofit
+physicians.stclair.org	Healthcare Organization
+theros.org.uk	Professional Society
+umcelpaso.org	Healthcare Organization
+uclh.nhs.uk	Healthcare Organization
+npjournal.org	Academic Journal
+accessemergencymedicine.mhmedical.com	Health Industry
+ottawapublichealth.ca	Local Health Agency
+columbiadoctors.org	Healthcare Organization
+jandonline.org	Academic Journal
+mychart.eisenhowerhealth.org	Healthcare Organization
+christushealth.org	Healthcare Organization
+augusta.edu	Academic Institution
+ayosehat.kemkes.go.id	Public Health Authority
+baxterhealth.org	Healthcare Organization
+dmh.go.th	Public Health Authority
+jpeds.com	Academic Journal
+fertstert.org	Academic Journal
+careoregon.org	Health Plans
+kidshealth.org	News Organization
+richmondgastro.com	Healthcare Organization
+asmapp.mssm.edu	Academic Institution
+felixhospital.com	Healthcare Organization
+betterhealth.vic.gov.au	Local Health Agency
+elsevier.com	Academic Journal
+henryford.com	Healthcare Organization
+usdermatologypartners.com	Healthcare Organization
+northbay.org	Healthcare Organization
+campbellclinic.com	Healthcare Organization
+bidmc.org	Healthcare Organization
+bellin.org	Healthcare Organization
+nature.com	Academic Journal
+cuimc.columbia.edu	Academic Institution
+capecodhealth.org	Healthcare Organization
+lekarna.cz	Healthcare Organization
+atsjournals.org	Academic Journal
+elearning.rcgp.org.uk	Professional Society
+best.barnsleyccg.nhs.uk	Local Health Agency
+genomicseducation.hee.nhs.uk	Government
+kingstonhsc.ca	Healthcare Organization
+usz.ch	Healthcare Organization
+bmj.com	Academic Journal
+stonybrookmedicine.edu	Academic Institution
+nortonchildrens.com	Healthcare Organization
+annalsofoncology.org	Academic Journal
+dudleyformulary.nhs.uk	Local Health Agency
+doctors.valleyhealth.com	Healthcare Organization
+parklandhealth.org	Healthcare Organization
+myorthoct.com	Healthcare Organization
+gmc-uk.org	Government
+noaa.gov	Government
+health.choc.org	Healthcare Organization
+southwest.devonformularyguidance.nhs.uk	Local Health Agency
+pci.nic.in	Professional Society
+chfs.ky.gov	Local Health Agency
+journal.chestnet.org	Academic Journal
+swbh.nhs.uk	Healthcare Organization
+uihc.org	Healthcare Organization
+bnfc.nice.org.uk	Independent Organization
+irimc.org	Professional Society
+wexnermedical.osu.edu	Healthcare Organization
+asmbs.org	Professional Society
+archildrens.org	Healthcare Organization
+hopitauxschuman.lu	Healthcare Organization
+stvincents.org	Healthcare Organization
+x.osfhealthcare.org	Healthcare Organization
+stlouischildrens.org	Healthcare Organization
+mymidwestphysician.com	Health Industry
+medanta.org	Healthcare Organization
+my.mainlinehealth.org	Healthcare Organization
+newbornscreening.hrsa.gov	Public Health Authority
+shrine-dev-node02.catalyst.harvard.edu	Academic Institution
+bmccancer.biomedcentral.com	Academic Journal
+skagitregionalhealth.org	Healthcare Organization
+baptist-health.com	Healthcare Organization
+cdc.gov	Public Health Authority
+monument.health	Healthcare Organization
+cms.gov	Government
+providers.munsonhealthcare.org	Healthcare Organization
+nhsapp.service.nhs.uk	Public Health Authority
+paho.org	Intergovernmental Body
+floridaortho.com	Healthcare Organization
+albertahealthservices.ca	Healthcare Organization
+ummhealth.org	Healthcare Organization
+nctsn.org	Evidence and Research
+providence.org	Healthcare Organization
+belfasttrust.hscni.net	Healthcare Organization
+healthsystem.osumc.edu	Healthcare Organization
+ontario.ca	Government
+nowserving.ph	Health Industry
+northlondonmentalhealth.nhs.uk	Healthcare Organization
+nejm.org	Academic Journal
+northfieldhospital.org	Healthcare Organization
+hopewellhealth.org	Healthcare Organization
+lakeridgehealth.on.ca	Healthcare Organization
+mychart.methodisthealthsystem.org	Healthcare Organization
+ons.gov.uk	Government
+ahrq.gov	Government
+headachejournal.onlinelibrary.wiley.com	Academic Journal
+hendrickhealth.org	Healthcare Organization
+sntc.medicine.ufl.edu	Academic Institution
+unckidneycenter.org	Academic Institution
+medicare.fcso.com	Health Plans
+ranzcog.edu.au	Professional Society
+amapreventdiabetes.org	Professional Society
+health.tas.gov.au	Local Health Agency
+nyboneandjoint.com	Healthcare Organization
+cham.org	Healthcare Organization
+nhs.uk	Healthcare Organization
+swedish.org	Healthcare Organization
+towerhealth.org	Healthcare Organization
+lifeblood.com.au	Healthcare Organization
+ldh.la.gov	Local Health Agency
+acog.org	Professional Society
+aapos.org	Professional Society
+tricare.mil	Public Health Authority
+ipn.com.au	Healthcare Organization
+texasmedclinic.com	Healthcare Organization
+health.qld.gov.au	Local Health Agency
+rcpsych.ac.uk	Professional Society
+myaccess.myflfamilies.com	Government
+emdria.org	Professional Society
+valleyhealth.com	Healthcare Organization
+annuairesante.ameli.fr	Public Health Authority
+lmh.org	Healthcare Organization
+shannonhealth.com	Healthcare Organization
+lvhn.org	Healthcare Organization
+urmc.rochester.edu	Healthcare Organization
+isuog.org	Professional Society
+rheumatology.org.uk	Professional Society
+union.health	Healthcare Organization
+nhsbt.nhs.uk	Public Health Authority
+hri.org.au	Evidence and Research
+primarycare.northeastlondon.icb.nhs.uk	Local Health Agency
+dhs.wisconsin.gov	Local Health Agency
+rwhs.org	Healthcare Organization
+myplate.gov	Government
+goredforwomen.org	Nonprofit
+healthdirect.gov.au	Government
+kumc.edu	Academic Institution
+blackatlantic.uga.edu	Academic Institution
+find.healthlinkbc.ca	Local Health Agency
+moffitt.org	Healthcare Organization
+vascular.org	Professional Society
+dbhds.virginia.gov	Local Health Agency
+dbhdd.georgia.gov	Local Health Agency
+caromonthealth.org	Healthcare Organization
+bpjs-kesehatan.go.id	Health Plans
+uab.edu	Academic Institution
+apa.org	Professional Society
+durhamnephrology.com	Healthcare Organization
+health.alaska.gov	Local Health Agency
+medicine.tulane.edu	Academic Institution
+base-donnees-publique.medicaments.gouv.fr	Government
+citizenshospitals.com	Healthcare Organization
+nami.org	Nonprofit
+relainstitute.com	Healthcare Organization
+csn.cancer.org	Nonprofit
+agsjournals.onlinelibrary.wiley.com	Academic Journal
+hillphysicians.com	Healthcare Organization
+sites.uw.edu	Academic Institution
+installations.militaryonesource.mil	Government
+azbbhe.us	Government
+orthop.washington.edu	Academic Institution
+news.vumc.org	News Organization
+jcda.ca	Academic Journal
+centracare.com	Healthcare Organization
+royalpapworth.nhs.uk	Local Health Agency
+princetonorthopaedic.com	Healthcare Organization
+healthmedia.blog.gov.uk	Government
+rrmc.org	Healthcare Organization
+members.flmedicaidmanagedcare.com	Health Plans
+mychartor.providence.org	Healthcare Organization
+bmcpregnancychildbirth.biomedcentral.com	Academic Journal
+jrnjournal.org	Academic Journal
+renown.org	Healthcare Organization
+pulmonaryfibrosis.org	Nonprofit
+pharmacy.texas.gov	Government
+sante.fr	Public Health Authority
+elliothospital.org	Healthcare Organization
+icmr.gov.in	Evidence and Research
+kingcounty.gov	Local Health Agency
+asecho.org	Professional Society
+bayfronthealth.com	Healthcare Organization
+depts.washington.edu	Academic Institution
+seer.cancer.gov	Evidence and Research
+barnsleyhospital.nhs.uk	Healthcare Organization
+theharriscenter.org	Healthcare Organization
+mychart.houstonmethodist.org	Healthcare Organization
+aocd.org	Professional Society
+plymouthhospitals.nhs.uk	Healthcare Organization
+azbn.gov	Local Health Agency
+nmhealth.org	Local Health Agency
+digitalpatientinformationhub.bradfordhospitals.nhs.uk	Healthcare Organization
+psychology.org.au	Professional Society
+med.uc.edu	Academic Institution
+sjog.org.au	Healthcare Organization
+abta.org	Nonprofit
+nemcb.cz	Healthcare Organization
+usa.gov	Government
+wchc.nhs.uk	Healthcare Organization
+emersonhospital.org	Healthcare Organization
+medi-calrx.dhcs.ca.gov	Health Plans
+uticaparkclinic.com	Healthcare Organization
+dementiauk.org	Nonprofit
+childrensnational.org	Healthcare Organization
+mychart.overlakehospital.org	Healthcare Organization
+ismp.org	Independent Organization
+pn.bmj.com	Academic Journal
+newmanfeet.com	Healthcare Organization
+immunize.org	Nonprofit
+locations.geisinger.org	Healthcare Organization
+meds.is	Public Health Authority
+ahima.org	Professional Society
+healthy.arkansas.gov	Local Health Agency
+champlainhealthline.ca	Local Health Agency
+tewhatuora.govt.nz	Public Health Authority
+ochsnerlsuhs.org	Healthcare Organization
+dental.wa.gov.au	Local Health Agency
+cancerchat.cancerresearchuk.org	Nonprofit
+lancastergeneralhealth.org	Healthcare Organization
+arapc.com	Healthcare Organization
+alzheimers.gov	Public Health Authority
+bhs.org.au	Healthcare Organization
+idsociety.org	Professional Society
+kbml.ky.gov	Government
+westernhealth.org.au	Public Health Authority
+phs.org	Healthcare Organization
+orlandohealth.com	Healthcare Organization
+gvh.org	Healthcare Organization
+kdhe.ks.gov	Local Health Agency
+rn.ca.gov	Government
+ilae.org	Professional Society
+beyondblue.org.au	Nonprofit
+shamir.org	Healthcare Organization
+providers.capitalhealth.org	Healthcare Organization
+health.mo.gov	Local Health Agency
+childrensmn.org	Healthcare Organization
+kfsh.med.sa	Healthcare Organization
+open.oregonstate.education	Academic Institution
+wederm.com	Healthcare Organization
+hepatitis.va.gov	Healthcare Organization
+classbrowser.nhs.uk	Public Health Authority
+oxfordhealth.nhs.uk	Healthcare Organization
+medecindirect.fr	Healthcare Organization
+tanner.org	Healthcare Organization
+nfid.org	Independent Organization
+leukaemia.org.au	Nonprofit
+ascopubs.org	Academic Journal
+poliklinikatr.cz	Healthcare Organization
+ecampusontario.pressbooks.pub	Academic Institution
+salem.massgeneralbrigham.org	Healthcare Organization
+bonehealthandosteoporosis.org	Nonprofit
+bilh.org	Healthcare Organization
+hsalist.org	Health Industry
+ajronline.org	Academic Journal
+mngi.com	Healthcare Organization
+uvahealth.com	Healthcare Organization
+bristolhealth.org	Healthcare Organization
+cloudninecare.com	Healthcare Organization
+providerdirectory.uabmedicine.org	Healthcare Organization
+blogs.cdc.gov	Public Health Authority
+dtam.moph.go.th	Public Health Authority
+hcafloridaphysicians.com	Healthcare Organization
+locator.lacounty.gov	Local Health Agency
+harrishealth.org	Healthcare Organization
+strokefoundation.org.au	Nonprofit
+sgu.edu	Academic Institution
+thrombosis.org	Professional Society
+moh.gov.sg	Government
+rad.washington.edu	Academic Institution
+pirulapatika.hu	Health Industry
+bssh.ac.uk	Professional Society
+greatriverhealth.org	Healthcare Organization
+pihhealth.org	Healthcare Organization
+urologyaustin.com	Healthcare Organization
+dss.sd.gov	Local Health Agency
+spinemd.com	Healthcare Organization
+royalwolverhampton.nhs.uk	Local Health Agency
+doctors.christianacare.org	Healthcare Organization
+ikem.cz	Healthcare Organization
+alzres.biomedcentral.com	Academic Journal
+jacionline.org	Academic Journal
+immune.org.nz	Nonprofit
+radiology.ucsf.edu	Academic Institution
+gastroenterologyandhepatology.net	Academic Journal
+mountcarmelhealth.com	Healthcare Organization
+moh.gov.mn	Government
+scanhealthplan.com	Health Plans
+ashpublications.org	Academic Journal
+dchft.nhs.uk	Healthcare Organization
+dsps.wi.gov	Government
+rnoh.nhs.uk	Healthcare Organization
+nhft.nhs.uk	Healthcare Organization
+mshc.org.au	Nonprofit
+aaryaeyecare.com	Healthcare Organization
+austin.org.au	Healthcare Organization
+womenshealthaz.com	Healthcare Organization
+vendorportal.ecms.va.gov	Government
+rch.org.au	Healthcare Organization
+utsouthwestern.edu	Academic Institution
+ghc.nhs.uk	Local Health Agency
+nyconnects.ny.gov	Local Health Agency
+sth.nhs.uk	Healthcare Organization
+mssociety.org.uk	Nonprofit
+hshs.org	Healthcare Organization
+archive.cdc.gov	Public Health Authority
+guysandstthomas.nhs.uk	Healthcare Organization
+nih.gov	Government
+mha.ohio.gov	Local Health Agency
+thyroidcancer.com	Healthcare Organization
+plr.cht.nhs.uk	Healthcare Organization
+breastcancer.org	Nonprofit
+ridgeviewmedical.org	Healthcare Organization
+usahealthsystem.com	Healthcare Organization
+pharmacy.ky.gov	Government
+aoa.org	Professional Society
+gov.br	Government
+chesapeakeregional.com	Healthcare Organization
+aadermatology.com	Healthcare Organization
+nhssurveys.org	Government
+chsbuffalo.org	Healthcare Organization
+mychart.ecommunity.com	Healthcare Organization
+acc.org	Professional Society
+hhs.nd.gov	Local Health Agency
+northeast.devonformularyguidance.nhs.uk	Local Health Agency
+womenshealthofcentralvirginia.com	Healthcare Organization
+ufhealth.org	Healthcare Organization
+thespinejournalonline.com	Academic Journal
+mychart.bmhcc.org	Healthcare Organization
+nwh.org	Healthcare Organization
+lbda.org	Nonprofit
+rheumatology.org	Professional Society
+andrewssportsmedicine.com	Healthcare Organization
+hermanwallace.com	Professional Society
+orthoinfo.aaos.org	Professional Society
+qualityindicators.ahrq.gov	Government
+nimhd.nih.gov	Government
+aapmr.org	Professional Society
+westcancercenter.org	Healthcare Organization
+aad.org	Professional Society
+hpsm.org	Health Plans
+urologyin.com	Healthcare Organization
+applnk.mayoclinic.org	Healthcare Organization
+mytpmg.com	Health Industry
+patients.uroweb.org	Nonprofit
+ucihealth.org	Healthcare Organization
+mentalhealth.org.uk	Nonprofit
+thrombosiscanada.ca	Independent Organization
+pharmacy.la.gov	Local Health Agency
+lscft.nhs.uk	Healthcare Organization
+theglobalfund.org	Philanthropy Foundation
+epa.gov	Government
+memorialohio.com	Healthcare Organization
+anmc.org	Healthcare Organization
+emergencyphysicians.org	Professional Society
+endocrinecenter.com	Healthcare Organization
+safetyandquality.gov.au	Government
+donovanmedical.com	Healthcare Organization
+archbold.org	Healthcare Organization
+alzheimer.ca	Nonprofit
+gwh.nhs.uk	Healthcare Organization
+royalmarsden.nhs.uk	Local Health Agency
+vdh.virginia.gov	Local Health Agency
+gov.cn	Government
+screening.mhanational.org	Nonprofit
+trinityhealth.org	Healthcare Organization
+parkview.com	Healthcare Organization
+mychart.skagitregionalhealth.org	Healthcare Organization
+acponline.org	Professional Society
+bswhealth.com	Healthcare Organization
+rockymountaincancercenters.com	Healthcare Organization
+providers.billingsclinic.com	Healthcare Organization
+ascension.org	Healthcare Organization
+wearememorial.com	Independent Organization
+medicine.iu.edu	Academic Institution
+healthonecares.com	Healthcare Organization
+salempediatricclinic.com	Healthcare Organization
+themedicalcityclinic.com	Healthcare Organization
+michiganurology.com	Healthcare Organization
+archives.uness.fr	Academic Institution
+cghjournal.org	Academic Journal
+womenshealth.gov	Government
+mercy.com	Healthcare Organization
+aacnjournals.org	Academic Journal
+sjmed.com	Healthcare Organization
+nibib.nih.gov	Government
+immunisationhandbook.health.gov.au	Government
+psjhmedgroups.org	Healthcare Organization
+medicover.hu	Healthcare Organization
+queens.org	Healthcare Organization
+pbm.va.gov	Public Health Authority
+cmaj.ca	Academic Journal
+surgeryreference.aofoundation.org	Nonprofit
+my.clevelandclinic.org	Healthcare Organization
+portal.ct.gov	Government
+mychart.austinregionalclinic.com	Healthcare Organization
+meuhedet.co.il	Health Plans
+methodisthospitals.org	Healthcare Organization
+mac.maccabi4u.co.il	Healthcare Organization
+bjcmedicalgroup.org	Healthcare Organization
+nigms.nih.gov	Government
+muschealth.org	Healthcare Organization
+hongngochospital.vn	Healthcare Organization
+aafp.org	Professional Society
+ouh.nhs.uk	Healthcare Organization
+doctors.coxhealth.com	Healthcare Organization
+aapd.org	Professional Society
+blessinghealth.org	Healthcare Organization
+mychart.uchealth.org	Healthcare Organization
+ereferrals.bcbsm.com	Health Plans
+newsroom.uw.edu	News Organization
+nyuhs.org	Healthcare Organization
+mychart.mhs.net	Healthcare Organization
+medrxiv.org	Evidence and Research
+epos.myesr.org	Professional Society
+touchstoneimaging.com	Healthcare Organization
+samitivejhospitals.com	Healthcare Organization
+ons.org	Professional Society
+medicare.gov	Government
+ajconline.org	Academic Journal
+erlanger.org	Healthcare Organization
+kauveryhospital.com	Healthcare Organization
+leehealth.org	Healthcare Organization
+quality.healthfinder.fl.gov	Government
+hss.edu	Healthcare Organization
+benhvienthucuc.vn	Healthcare Organization
+zdravniskazbornica.si	Professional Society
+vivo.colostate.edu	Academic Institution
+rjah.nhs.uk	Healthcare Organization
+swft.nhs.uk	Healthcare Organization
+confluencehealth.org	Healthcare Organization
+pcofiowa.com	Healthcare Organization
+ivyrehab.com	Healthcare Organization
+melanoma.org.au	Nonprofit
+marshallmedical.org	Healthcare Organization
+providers.northside.com	Healthcare Organization
+apply.scdhhs.gov	Local Health Agency
+clevelandclinicmeded.com	Healthcare Organization
+genome.gov	Government
+merseycare.nhs.uk	Healthcare Organization
+reidhealth.org	Healthcare Organization
+egeszsegvonal.gov.hu	Public Health Authority
+medicaid.ms.gov	Local Health Agency
+asahq.org	Professional Society
+detskanemocnica.sk	Healthcare Organization
+emergeortho.com	Healthcare Organization
+rmggastroenterology.com	Healthcare Organization
+cincinnatichildrens.org	Healthcare Organization
+summitortho.com	Healthcare Organization
+hsc.unm.edu	Academic Institution
+palomarhealthmedicalgroup.org	Healthcare Organization
+medstarfamilychoice.com	Health Plans
+care.texashealth.org	Healthcare Organization
+asam.org	Professional Society
+familycarenetwork.com	Healthcare Organization
+aaoms.org	Professional Society
+chop.edu	Healthcare Organization
+universityorthopedics.com	Health Industry
+gastrojournal.org	Academic Journal
+ginasthma.org	Independent Organization
+franciscanmychart.org	Healthcare Organization
+mychart.albanymed.org	Healthcare Organization
+uc.edu	Academic Institution
+publicdocuments.sth.nhs.uk	Local Health Agency
+marshallhealth.org	Healthcare Organization
+mayoclinic.org	Healthcare Organization
+heartfailurematters.org	Nonprofit
+sriramakrishnahospital.com	Healthcare Organization
+osteopathic.org	Professional Society
+bangkokpattayahospital.com	Healthcare Organization
+providers.hshs.org	Healthcare Organization
+americanheadachesociety.org	Professional Society
+es.portal.athenahealth.com	Health Industry
+singhealth.com.sg	Healthcare Organization
+clalit.co.il	Healthcare Organization
+slu.edu	Academic Institution
+flcancer.com	Healthcare Organization
+bmcneurol.biomedcentral.com	Academic Journal
+patientaccess.com	Health Industry
+sciencebasedmedicine.org	Independent Organization
+tischbraintumorcenter.duke.edu	Academic Institution
+bswhp.org	Health Plans
+providers.ucsd.edu	Academic Institution
+stanfordhealthcare.org	Healthcare Organization
+health.govt.nz	Public Health Authority
+toronto.ca	Government
+pedsderm.net	Professional Society
+cambridge.org	Academic Journal
+jhandsurg.org	Academic Journal
+cchealth.org	Local Health Agency
+americanjournalofsurgery.com	Academic Journal
+mkuh.nhs.uk	Healthcare Organization
+nth.nhs.uk	Healthcare Organization
+hepb.org	Nonprofit
+kidney.org.au	Nonprofit
+aapa.org	Professional Society
+southwestyorkshire.nhs.uk	Healthcare Organization
+alz-journals.onlinelibrary.wiley.com	Academic Journal
+kidney-international.org	Academic Journal
+vanderbilthealth.com	Healthcare Organization
+veteranshealthlibrary.va.gov	Government
+esmo.org	Professional Society
+mychart.sentara.com	Healthcare Organization
+indianpediatrics.net	Academic Journal
+fema.gov	Government
+findcare.ahn.org	Healthcare Organization
+medlineplus.gov	Government
+tuftsmedicine.org	Healthcare Organization
+piedmont.org	Healthcare Organization
+nhs24.scot	Local Health Agency
+e-vuc.sk	Local Health Agency
+raleighneurology.com	Healthcare Organization
+doctors.lifebridgehealth.org	Healthcare Organization
+sjhsyr.org	Healthcare Organization
+cntw.nhs.uk	Healthcare Organization
+birmingham.ac.uk	Academic Institution
+tenethealth.com	Health Industry
+ramsayhealth.com.au	Healthcare Organization
+browardhealth.org	Healthcare Organization
+enherts-tr.nhs.uk	Healthcare Organization
+swlimo.southwestlondon.icb.nhs.uk	Government
+parkinsons.org.uk	Nonprofit
+training.seer.cancer.gov	Government
+wphphysicianassociates.org	Healthcare Organization
+dir.iwk.nshealth.ca	Healthcare Organization
+centrastate.com	Healthcare Organization
+davita.com	Healthcare Organization
+prospectmedical.com	Healthcare Organization
+allianceurology.com	Healthcare Organization
+epworth.org.au	Healthcare Organization
+pacificmedicalcenters.org	Healthcare Organization
+health.state.mn.us	Local Health Agency
+dhrhealth.com	Healthcare Organization
+portal.mmis.arkansas.gov	Government
+entandallergy.com	Healthcare Organization
+madigan.tricare.mil	Healthcare Organization
+dhs.lacounty.gov	Local Health Agency
+adultpediatricuro.com	Healthcare Organization
+uchicagomedicineadventhealth.org	Healthcare Organization
+skph.go.th	Local Health Agency
+lsom.uthscsa.edu	Academic Institution
+nhslanarkshire.scot.nhs.uk	Local Health Agency
+spectrumhealthlakeland.org	Healthcare Organization
+jtcvs.org	Academic Journal
+methodisthealthsystem.org	Healthcare Organization
+elsevier.es	Academic Journal
+sussexcommunity.nhs.uk	Healthcare Organization
+dev.cffm.umn.edu	Academic Institution
+wjso.biomedcentral.com	Academic Journal
+riverview.org	Healthcare Organization
+healthonline.washington.edu	Healthcare Organization
+persaudlab.jhmi.edu	Academic Institution
+pedscases.com	Academic Institution
+dhs.state.mn.us	Local Health Agency
+crozerhealth.org	Healthcare Organization
+corephysicians.org	Healthcare Organization
+nutrition.org.uk	Professional Society
+emro.who.int	Intergovernmental Body
+health.clevelandclinic.org	Healthcare Organization
+umiamihealth.org	Healthcare Organization
+cancer.ca	Nonprofit
+bjc.org	Healthcare Organization
+ctspineandortho.com	Healthcare Organization
+texasdiabetes.com	Healthcare Organization
+palmbeachhealthnetwork.com	Healthcare Organization
+myplannedcare.nhs.uk	Government
+thedacare.org	Healthcare Organization
+dmc-modesto.com	Healthcare Organization
+hopkinslupus.org	Academic Institution
+jcsm.aasm.org	Academic Journal
+schweigerderm.com	Healthcare Organization
+cancer.org	Nonprofit
+society.asco.org	Professional Society
+resus.org.uk	Professional Society
+ajnr.org	Academic Journal
+als.org	Nonprofit
+thelancet.com	Academic Journal
+heart.bmj.com	Academic Journal
+hancockhealth.org	Healthcare Organization
+medfordradiology.com	Healthcare Organization
+pr.mo.gov	Government
+my.gov.sa	Government
+hee.nhs.uk	Public Health Authority
+naccho.org	Local Health Agency
+endocrinepractice.org	Academic Journal
+remote.health.vic.gov.au	Government
+gov.wales	Local Health Agency
+uhdb.nhs.uk	Healthcare Organization
+americanmedtech.org	Professional Society
+mountnittany.org	Healthcare Organization
+locations.beaconhealthsystem.org	Healthcare Organization
+mychart.clevelandclinic.org	Healthcare Organization
+wslhd.health.nsw.gov.au	Public Health Authority
+orthopedicone.com	Healthcare Organization
+radiologyassistant.nl	Evidence and Research
+cancercouncil.com.au	Nonprofit
+e-services.clalit.co.il	Healthcare Organization
+news.va.gov	News Organization
+moh.gov.my	Government
+bsg.org.uk	Professional Society
+mychart.carilionclinic.org	Healthcare Organization
+cancer.gov	Government
+mmclinic.com	Healthcare Organization
+mychart.uwhealth.org	Healthcare Organization
+doh.sd.gov	Local Health Agency
+fetalmedicine.org	Professional Society
+firsthealthmychart.org	Healthcare Organization
+health.wa.gov.au	Local Health Agency
+accessdata.fda.gov	Government
+chpepiceweb.health-partners.org	Healthcare Organization
+uphealthsystem.com	Healthcare Organization
+crousemed.com	Healthcare Organization
+u-szeged.hu	Academic Institution
+ipledgeprogram.com	Government
+services.piedmont.org	Healthcare Organization
+nwgastroendo.com	Healthcare Organization
+pharmaceutical-journal.com	News Organization
+ochsner.org	Healthcare Organization
+nccn.org	Independent Organization
+who.int	Intergovernmental Body
+iapindia.org	Professional Society
+uhd.nhs.uk	Healthcare Organization
+stvincenthospital.com	Healthcare Organization
+mind.org.uk	Nonprofit
+victorchang.edu.au	Evidence and Research
+doh.gov.ae	Local Health Agency
+kancare.ks.gov	Local Health Agency
+cahs.health.wa.gov.au	Local Health Agency
+jvir.org	Academic Journal
+tewv.nhs.uk	Government
+encompassmed.com	Healthcare Organization
+winshipcancer.emory.edu	Academic Institution
+josr-online.biomedcentral.com	Academic Journal
+aap.org	Professional Society
+medicine.utah.edu	Academic Institution
+hospitals.health.unm.edu	Healthcare Organization
+cmadocs.org	Professional Society
+mentalhealthcommission.ca	Independent Organization
+jnccn.org	Academic Journal
+floridamedicalclinic.com	Healthcare Organization
+trinity-health.org	Healthcare Organization
+conwayregional.org	Healthcare Organization
+gov.za	Government
+northerncarealliance.nhs.uk	Healthcare Organization
+sightmd.com	Healthcare Organization
+wvumedicine.org	Healthcare Organization
+doctors.virtua.org	Healthcare Organization
+dss.virginia.gov	Local Health Agency
+lawrencegeneral.org	Healthcare Organization
+mainehealth.org	Healthcare Organization
+ajph.org	Academic Journal
+facs.org	Professional Society
+professionalpt.com	Healthcare Organization
+intermountainhealthcare.org	Healthcare Organization
+mychart.piedmont.org	Healthcare Organization
+epass.nc.gov	Government
+trinitymedicalcentrehove.co.uk	Healthcare Organization
+diabetes.org.uk	Nonprofit
+perio.org	Professional Society
+jupitermed.com	Healthcare Organization
+nctracks.nc.gov	Health Plans
+aacijournal.biomedcentral.com	Academic Journal
+bartshealth.nhs.uk	Healthcare Organization
+unityhealth.to	Healthcare Organization
+lenoxhill.northwell.edu	Healthcare Organization
+utmb.edu	Academic Institution
+ualberta.ca	Academic Institution
+bendigohealth.org.au	Healthcare Organization
+firsthealth.org	Healthcare Organization
+cmhc.org	Healthcare Organization
+ogdenclinic.com	Healthcare Organization
+anmed.org	Healthcare Organization
+mychart.southshorehealth.org	Healthcare Organization
+jabfm.org	Academic Journal
+mlabs.umich.edu	Health Industry
+tidalhealth.org	Healthcare Organization
+woosterhospital.org	Healthcare Organization
+wa.kaiserpermanente.org	Healthcare Organization
+mcw.edu	Academic Institution
+uvmhealth.org	Healthcare Organization
+physicians.umassmemorial.org	Healthcare Organization
+mychart.lexmed.com	Healthcare Organization
+transform.england.nhs.uk	Public Health Authority
+snhhealth.org	Healthcare Organization
+atsdr.cdc.gov	Government
+marylandoncology.com	Healthcare Organization
+professional.diabetes.org	Professional Society
+jobs.pediatricassociates.com	Healthcare Organization
+sarcoma.org.uk	Nonprofit
+jefferson.edu	Academic Institution
+tuality.org	Healthcare Organization
+cdcfoundation.org	Philanthropy Foundation
+rambam.org.il	Healthcare Organization
+aans.org	Professional Society
+blackpoolteachinghospitals.nhs.uk	Healthcare Organization
+myhealthonline.sutterhealth.org	Healthcare Organization
+catholichealthli.org	Healthcare Organization
+ahc.aurorahealthcare.org	Healthcare Organization
+raleighortho.com	Healthcare Organization
+virginiacancerspecialists.com	Healthcare Organization
+australian.physio	Professional Society
+royalfree.nhs.uk	Local Health Agency
+healthonephysiciangroup.com	Healthcare Organization
+nhsaaa.net	Local Health Agency
+myhealthlondon.nhs.uk	Healthcare Organization
+patientfirst.com	Healthcare Organization
+hunterdonhealth.org	Healthcare Organization
+tmhp.com	Health Plans
+benendenhospital.org.uk	Healthcare Organization
+upmc.com	Healthcare Organization
+healthcare.ascension.org	Healthcare Organization
+dartmouth-hitchcock.org	Healthcare Organization
+leumit.co.il	Health Plans
+cihi.ca	Independent Organization
+jem-journal.com	Academic Journal
+rnib.org.uk	Nonprofit
+sign.ac.uk	Independent Organization
+pathways.chop.edu	Evidence and Research
+quest3plus.bpfk.gov.my	Government
+pantai.com.my	Healthcare Organization
+sncs-prod-external.mayo.edu	Academic Institution
+pcds.org.uk	Professional Society
+swhcoronaregional.com	Healthcare Organization
+bswhealth.med	Healthcare Organization
+wacofamilymedicine.org	Healthcare Organization
+aota.org	Professional Society
+medlatec.vn	Healthcare Organization
+jddonline.com	Academic Journal
+navicenthealth.org	Healthcare Organization
+stlukeshealth.org	Healthcare Organization
+mychart.gundersenhealth.org	Healthcare Organization
+derbyshiremedicinesmanagement.nhs.uk	Local Health Agency
+cht.nhs.uk	Healthcare Organization
+findcare.nuvancehealth.org	Healthcare Organization
+sgo.org	Professional Society
+cell.com	Academic Journal
+komen.org	Nonprofit
+medicine.musc.edu	Academic Institution
+it.houstonmethodist.org	Healthcare Organization
+mychart.baptisthealth.com	Healthcare Organization
+westlakedermatology.com	Healthcare Organization
+evolve.elsevier.com	Health Industry
+doctors.silvercross.org	Healthcare Organization
+ruh.nhs.uk	Local Health Agency
+ecuhealth.org	Healthcare Organization
+waterburyhospital.org	Healthcare Organization
+nimh.nih.gov	Government
+phelpshealth.org	Healthcare Organization
+uamshealth.com	Healthcare Organization
+alabamapublichealth.gov	Local Health Agency
+redcross.org	Nonprofit
+astro.org	Professional Society
+auanet.org	Professional Society
+iuhealth.org	Healthcare Organization
+portal.ncmedboard.org	Independent Organization
+stepintothenhs.nhs.uk	Public Health Authority
+essentiamychart.org	Healthcare Organization
+honorhealth.com	Healthcare Organization
+bcrisktool.cancer.gov	Government
+prismahealthchildrens.org	Healthcare Organization
+magazine.medlineplus.gov	News Organization
+medsafe.govt.nz	Government
+uwhealth.org	Healthcare Organization
+northoaks.org	Healthcare Organization
+gob.mx	Public Health Authority
+newsroom.clevelandclinic.org	News Organization
+bunda.co.id	Healthcare Organization
+pathology.health.nsw.gov.au	Local Health Agency
+osha.gov	Government
+roh.nhs.uk	Local Health Agency
+openstax.org	Nonprofit
+bch.org	Healthcare Organization
+publichealth.hscni.net	Public Health Authority
+lutheranhealthphysicians.com	Healthcare Organization
+mhc.wa.gov.au	Government
+apta.org	Professional Society
+alfredhealth.org.au	Healthcare Organization
+arrowheadregional.org	Healthcare Organization
+bozemanhealth.org	Healthcare Organization
+childrensmercy.org	Healthcare Organization
+communitypharmacy.scot.nhs.uk	Local Health Agency
+jeffersonhealth.org	Healthcare Organization
+nursingmidwiferyboard.gov.au	Government
+onemedical.com	Healthcare Organization
+artemishospitals.com	Healthcare Organization
+vpfw.com	Healthcare Organization
+grandviewmedicalgroup.com	Healthcare Organization
+blog.uvahealth.com	Healthcare Organization
+reginamaria.ro	Healthcare Organization
+eprints.poltekkesjogja.ac.id	Academic Institution
+froedtert.com	Healthcare Organization
+uchicagomedicine.org	Healthcare Organization
+epilepsybehavior.com	Academic Journal
+journals.asm.org	Academic Journal
+stage.labcorp.com	Health Industry
+citymd.com	Healthcare Organization
+wikiskripta.eu	Academic Institution
+baptistonline.org	Healthcare Organization
+medicine.umich.edu	Academic Institution
+mychart.mercycare.org	Health Plans
+naspghan.org	Professional Society
+clinicalradiologyonline.net	Academic Journal
+bot.ca.gov	Government
+obesitymedicine.org	Professional Society
+aptapelvichealth.org	Professional Society
+billingsclinic.com	Healthcare Organization
+englewoodhealth.org	Healthcare Organization
+hcahealthcare.co.uk	Healthcare Organization
+thompsonhealth.com	Healthcare Organization
+southeasthealth.org	Healthcare Organization
+policies.ncdhhs.gov	Government
+louisville.edu	Academic Institution
+atriushealth.org	Healthcare Organization
+health.maryland.gov	Local Health Agency
+somersetft.nhs.uk	Healthcare Organization
+doctors.umiamihealth.org	Healthcare Organization
+rogelcancercenter.org	Academic Institution
+ihs.gov	Government
+zdravstvenidom.si	Healthcare Organization
+acsjournals.onlinelibrary.wiley.com	Academic Journal
+medprofvideos.mayoclinic.org	News Organization
+cuh.nhs.uk	Healthcare Organization
+centreforgastrointestinalhealth.com.au	Healthcare Organization
+leader.pubs.asha.org	Academic Journal
+aaha.org	Professional Society
+asthmaandlung.org.uk	Nonprofit
+i-med.com.au	Healthcare Organization
+cdek.pharmacy.purdue.edu	Academic Institution
+medicoverhospitals.in	Healthcare Organization
+health.usf.edu	Academic Institution
+neonatalsepsiscalculator.kaiserpermanente.org	Evidence and Research
+hcamidwest.com	Healthcare Organization
+stroke.org.uk	Nonprofit
+endocrinenews.endocrine.org	Academic Journal
+newyorkpaincare.com	Healthcare Organization
+siphhospital.com	Healthcare Organization
+athletico.com	Healthcare Organization
+bmcgastroenterol.biomedcentral.com	Academic Journal
+americanhealthimaging.com	Healthcare Organization
+tridenthealthsystem.com	Healthcare Organization
+abms.org	Independent Organization
+hhs.gov	Government
+register.cpso.on.ca	Independent Organization
+urologyku.com	Academic Institution
+alexanderorthopaedics.com	Healthcare Organization
+unitedurology.com	Health Industry
+hampshirehospitals.nhs.uk	Healthcare Organization
+college-optometrists.org	Professional Society
+mychart.eehealth.org	Healthcare Organization
+redcross.org.uk	Nonprofit
+dental.dhcs.ca.gov	Local Health Agency
+journals.rcni.com	Academic Journal
+medicines.bedfordshirelutonandmiltonkeynes.icb.nhs.uk	Local Health Agency
+clik.dva.gov.au	Government
+mskcc.org	Healthcare Organization
+methodisthealth.org	Healthcare Organization
+boone.health	Healthcare Organization
+orthocarolina.com	Healthcare Organization
+lispine.com	Healthcare Organization
+oregonimaging.com	Healthcare Organization
+holy-cross.com	Healthcare Organization
+medicine.yale.edu	Academic Institution
+arthritis.org.au	Nonprofit
+aarc.org	Professional Society
+e-journal.unair.ac.id	Academic Institution
+huntingtonhealth.org	Healthcare Organization
+hcavirginia.com	Healthcare Organization
+cuf.pt	Healthcare Organization
+tuftsmedicarepreferred.org	Health Plans
+childrenshospital.org	Healthcare Organization
+charlotteradiology.com	Healthcare Organization
+cedars-sinai.org	Healthcare Organization
+ekhuft.nhs.uk	Healthcare Organization
+whittington.nhs.uk	Healthcare Organization
+saskhealthauthority.ca	Healthcare Organization
+cayugahealth.org	Healthcare Organization
+urologygroupvirginia.com	Healthcare Organization
+eastalabamahealth.org	Healthcare Organization
+account.texashealth.org	Healthcare Organization
+bcrf.org	Philanthropy Foundation
+weillcornell.org	Healthcare Organization
+saintlukeskc.org	Healthcare Organization
+sportsrehab.ucsf.edu	Academic Institution
+iarc.who.int	Intergovernmental Body
+nationalasthma.org.au	Nonprofit
+prismahealth.org	Healthcare Organization
+unitypoint.org	Healthcare Organization
+covenanthealth.com	Healthcare Organization
+madeforthismoment.asahq.org	Professional Society
+samhsa.gov	Public Health Authority
+mercer-health.com	Healthcare Organization
+mri.theclinics.com	News Organization
+gastrohealthpartners.com	Healthcare Organization
+mychart.premierhealthpartners.org	Healthcare Organization
+milogintp.michigan.gov	Government
+mayoclinicproceedings.org	Academic Journal
+flmedicaidmanagedcare.com	Health Plans
+espen.org	Professional Society
+cpr.heart.org	Professional Society
+ameli.fr	Public Health Authority
+smgoregon.com	Healthcare Organization
+houstonmri.com	Healthcare Organization
+mbc.ca.gov	Government
+markhamfertility.com	Healthcare Organization
+azmd.gov	Local Health Agency
+nursingcecentral.com	Health Industry
+adventisthealthcare.com	Healthcare Organization
+mychart.salemhealth.org	Healthcare Organization
+jwatch.org	Evidence and Research
+acgcdn.gi.org	Professional Society
+resurgens.com	Healthcare Organization
+awp.nhs.uk	Healthcare Organization
+hartfordhealthcare.org	Healthcare Organization
+ihi.org	Nonprofit
+unthsc.edu	Academic Institution
+mstrust.org.uk	Nonprofit
+providers.emoryhealthcare.org	Healthcare Organization
+virginiamason.org	Healthcare Organization
+lifebridgehealth.org	Healthcare Organization
+mychart.uthealtheasttexas.com	Healthcare Organization
+myheart.net	Health Industry
+ajog.org	Academic Journal
+healthcare.gov	Public Health Authority
+medicareinteractive.org	Nonprofit
+bhc.hu	Healthcare Organization
+orthoindy.com	Healthcare Organization
+cqc.org.uk	Government
+mychart.org	Health Industry
+healthcare.uiowa.edu	Healthcare Organization
+journals.sagepub.com	Academic Journal
+derbyshirehealthcareft.nhs.uk	Healthcare Organization
+jmedicalcasereports.biomedcentral.com	Academic Journal
+gov.bc.ca	Local Health Agency
+mychart.mainehealth.org	Healthcare Organization
+repository.umy.ac.id	Academic Institution
+jaci-inpractice.org	Academic Journal
+college.mayo.edu	Academic Institution
+benefits.va.gov	Government
+b-s-h.org.uk	Professional Society
+arheart.com	Healthcare Organization
+nabp.pharmacy	Professional Society
+aspires.vch.ca	Local Health Agency
+health.ucsd.edu	Healthcare Organization
+immunize.ca	Public Health Authority
+ripcpc.com	Healthcare Organization
+locations.dignityhealth.org	Healthcare Organization
+copcp.com	Healthcare Organization
+pathology.jhu.edu	Healthcare Organization
+uhs.com	Health Industry
+annalsthoracicsurgery.org	Academic Journal
+news.mayocliniclabs.com	Health Industry
+rochesterregional.org	Healthcare Organization
+foxchase.org	Healthcare Organization
+carolinaeasthealth.com	Healthcare Organization
+pain.ucsf.edu	Academic Institution
+academic.oup.com	Academic Journal
+baycare.org	Healthcare Organization
+eisenhowerhealth.org	Healthcare Organization
+ynhh.org	Healthcare Organization
+rcpch.ac.uk	Professional Society
+vhchealth.org	Healthcare Organization
+michaeljfox.org	Nonprofit
+footcaremd.org	Professional Society
+fmcgastro.org	Professional Society
+bmc.org	Healthcare Organization
+crouse.org	Healthcare Organization
+rcemlearning.co.uk	Professional Society
+sjhc.london.on.ca	Healthcare Organization
+mibluecrosscomplete.com	Health Plans
+ncoa.org	Nonprofit
+cancerblog.mayoclinic.org	Healthcare Organization
+blood.co.uk	Public Health Authority
+gnb.ca	Local Health Agency
+acpjournals.org	Academic Journal
+data.cms.gov	Government
+yourhormones.info	Evidence and Research
+utswmed.org	Healthcare Organization
+crossroadshospice.com	Healthcare Organization
+physiciansregional.com	Healthcare Organization
+gravesgilbert.com	Healthcare Organization
+annallergy.org	Academic Journal
+alzdiscovery.org	Philanthropy Foundation
+certification.osteopathic.org	Professional Society
+esneft.nhs.uk	Healthcare Organization
+virginiaheart.com	Healthcare Organization
+hivinfo.nih.gov	Government
+nhssomerset.nhs.uk	Local Health Agency
+neurology.org	Academic Journal
+thermh.org.au	Healthcare Organization
+my.baptistchart.com	Healthcare Organization
+medicover.ro	Healthcare Organization
+panoramaortho.com	Healthcare Organization
+thejournalofheadacheandpain.biomedcentral.com	Academic Journal
+northwesternmedicalcenter.org	Healthcare Organization
+diabetesvic.org.au	Nonprofit
+olympicmedical.org	Healthcare Organization
+arthroplastyjournal.org	Academic Journal
+hcahoustonhealthcare.com	Healthcare Organization
+pages.clevelandclinic.org	Healthcare Organization
+arnoldpalmerhospital.com	Healthcare Organization
+britishjournalofnursing.com	Academic Journal
+milfordregional.org	Healthcare Organization
+vinmec.com	Healthcare Organization
+doctors-hospital.net	Healthcare Organization
+horizonnb.ca	Healthcare Organization
+blog.ochsner.org	Healthcare Organization
+psoriasis-association.org.uk	Nonprofit
+tristarhealth.com	Healthcare Organization
+jpain.org	Academic Journal
+genesishcs.org	Healthcare Organization
+westernmedicalclinic.ca	Healthcare Organization
+findado.osteopathic.org	Professional Society
+nm.org	Healthcare Organization
+samaritanhealth.com	Healthcare Organization
+ngsmedicare.com	Health Plans
+yashodahospitals.com	Healthcare Organization
+stamfordhealth.org	Healthcare Organization
+jackson.org	Healthcare Organization
+fda.gov	Government
+hiowhealthcare.nhs.uk	Healthcare Organization
+watertownregional.com	Healthcare Organization
+clinicbarcelona.org	Healthcare Organization
+interiorhealth.ca	Local Health Agency
+rexhealth.com	Healthcare Organization
+pediatricimaging.org	Professional Society
+stsft.nhs.uk	Healthcare Organization
+hukor.kemkes.go.id	Public Health Authority
+baycareclinic.com	Healthcare Organization
+acsearch.acr.org	Independent Organization
+medinfogalway.ie	Public Health Authority
+swkidney.com	Healthcare Organization
+boneandjoint.org	Healthcare Organization
+bchsfoutreach.ucsf.edu	Healthcare Organization
+dhpp.hpfb-dgpsa.ca	Government
+physicianseast.com	Healthcare Organization
+ksvdl.org	Academic Institution
+cancer.ie	Nonprofit
+nyulangone.org	Healthcare Organization
+anamai.moph.go.th	Public Health Authority
+leicspart.nhs.uk	Healthcare Organization
+adventhealth.com	Healthcare Organization
+gh.bmj.com	Academic Journal
+roswellpark.org	Healthcare Organization
+int.sussex.ics.nhs.uk	Local Health Agency
+hcpc-uk.org	Independent Organization
+asccp.org	Professional Society
+nuvancehealth.org	Healthcare Organization
+pinnacleskin.com	Healthcare Organization
+ods.od.nih.gov	Government
+commonwealthfund.org	Philanthropy Foundation
+niams.nih.gov	Government
+eprints.undip.ac.id	Academic Institution
+seattlechildrens.org	Healthcare Organization
+mentalhealth.org.nz	Nonprofit
+rwjf.org	Philanthropy Foundation
+aaacn.org	Professional Society
+healthstream.com	Health Industry
+med.wanfangdata.com.cn	Academic Journal
+westcoastmedicalimaging.com	Healthcare Organization
+has-sante.fr	Public Health Authority
+massgeneralbrigham.org	Healthcare Organization
+ncats.nih.gov	Government
+111.nhs.uk	Public Health Authority
+mhhcc.org	Healthcare Organization
+healthvermont.gov	Local Health Agency
+giassoc.org	Healthcare Organization
+ibshospitals.com	Healthcare Organization
+smfm.org	Professional Society
+asrs.org	Professional Society
+nhpco.org	Professional Society
+denverhealth.org	Healthcare Organization
+parkinson.org	Nonprofit
+nch.org	Healthcare Organization
+intercoastalmedical.com	Healthcare Organization
+mychart.mercyhealthsystem.org	Healthcare Organization
+yorkmedicalgroup.co.uk	Healthcare Organization
+mainegeneral.org	Healthcare Organization
+diet.mayoclinic.org	Healthcare Organization
+bedfordshirehospitals.nhs.uk	Healthcare Organization
+ahca.myflorida.com	Local Health Agency
+royalprogress.com	Health Industry
+mychart.powershealth.org	Healthcare Organization
+my.mercy.com	Healthcare Organization
+rumcsi.org	Healthcare Organization
+bradfordhospitals.nhs.uk	Healthcare Organization
+gi.org	Professional Society
+aamc.org	Professional Society
+oregonclinic.com	Healthcare Organization
+federalregister.gov	Government
+mychart.baptist-health.org	Healthcare Organization
+aultmandocs.com	Healthcare Organization
+healthwarehouse.com	Health Industry
+raleighrad.com	Healthcare Organization
+carelearning.org.uk	Independent Organization
+akamai.mayoclinic.org	Healthcare Organization
+clevelandclinicabudhabi.ae	Healthcare Organization
+atlantichealth.org	Healthcare Organization
+health.harvard.edu	Academic Institution
+olmmed.org	Healthcare Organization
+unsw.edu.au	Academic Institution
+concordhospital.org	Healthcare Organization
+mmis.georgia.gov	Health Plans
+webpath.med.utah.edu	Academic Institution
+crystalrunhealthcare.com	Healthcare Organization
+stw-healthiertogether.nhs.uk	Public Health Authority
+childrenswi.org	Healthcare Organization
+rspondokindah.co.id	Healthcare Organization
+choa.org	Healthcare Organization
+evidence.nihr.ac.uk	Evidence and Research
+middlesexhealth.org	Healthcare Organization
+kingstonandrichmond.nhs.uk	Healthcare Organization
+urology.ucsf.edu	Academic Institution
+mychart.fairview.org	Healthcare Organization
+docsdermgroup.com	Healthcare Organization
+gundersenhealth.org	Healthcare Organization
+southwesthealthline.ca	Nonprofit
+westlondon.nhs.uk	Healthcare Organization
+okmedicalboard.org	Government
+mariecurie.org.uk	Nonprofit
+hopkinsvasculitis.org	Academic Institution
+bestcare.org	Healthcare Organization
+npin.cdc.gov	Public Health Authority
+ccs.ca	Professional Society
+apps.nhslothian.scot	Local Health Agency
+flipbooks.leedsth.nhs.uk	Healthcare Organization
+nmhs.net	Healthcare Organization
+hopkinssjogrens.org	Academic Institution
+millenniumphysician.com	Healthcare Organization
+ndc.services.cdc.gov	Government
+owensborohealth.org	Healthcare Organization
+nhsgrampian.org	Local Health Agency
+jada.ada.org	Academic Journal
+elht.nhs.uk	Healthcare Organization
+findadoctorbc.ca	Local Health Agency
+stcharleshealthcare.org	Healthcare Organization
+clevelandcliniclabs.com	Healthcare Organization
+thewomens.org.au	Healthcare Organization
+auncurology.com	Healthcare Organization
+bjgp.org	Academic Journal
+auamed.org	Academic Institution
+trinitymedicalwny.org	Healthcare Organization
+extranet.who.int	Intergovernmental Body
+mercy.net	Healthcare Organization
+hcup-us.ahrq.gov	Government
+operational.servicesaustralia.gov.au	Government
+gov.mb.ca	Local Health Agency
+kidney.ca	Nonprofit
+mountainstar.com	Healthcare Organization
+milwaukeenephrologists.net	Healthcare Organization
+platform.who.int	Intergovernmental Body
+infectioncontrol.ucsfmedicalcenter.org	Healthcare Organization
+apha.org	Professional Society
+skinhealthinfo.org.uk	Professional Society
+mychart.valleymed.org	Healthcare Organization
+myflfamilies.com	Government
+pediatrix.com	Healthcare Organization
+tga.gov.au	Government
+ajkd.org	Academic Journal
+sfh-tr.nhs.uk	Healthcare Organization
+urologyspecialist.com.au	Healthcare Organization
+providers.geisinger.org	Healthcare Organization
+sanador.ro	Healthcare Organization
+bmchealthsystem.org	Healthcare Organization
+ichd-3.org	Professional Society
+melanomafocus.org	Nonprofit
+mysanitas.com	Health Plans
+austingastro.com	Healthcare Organization
+nss.nhs.scot	Local Health Agency
+crystalclinic.com	Healthcare Organization
+chistvincent.com	Healthcare Organization
+eatforhealth.gov.au	Public Health Authority
+mychart.shands.org	Healthcare Organization
+eviq.org.au	Evidence and Research
+gastrohealth.com	Healthcare Organization
+sanfordhealth.org	Healthcare Organization
+allinahealth.org	Healthcare Organization
+slhd.nsw.gov.au	Local Health Agency
+vfn.cz	Healthcare Organization
+medschool.cuanschutz.edu	Academic Institution
+chcfl.org	Healthcare Organization
+doctors.bannerhealth.com	Healthcare Organization
+aspe.hhs.gov	Government
+unchealthappalachian.org	Healthcare Organization
+integrishealth.org	Healthcare Organization
+meritushealth.com	Healthcare Organization
+news.cancerresearchuk.org	News Organization
+aop.org.uk	Professional Society
+science.org	Academic Journal
+medschool.umaryland.edu	Academic Institution
+my.mdanderson.org	Healthcare Organization
+jointcommission.org	Independent Organization
+dmu.edu	Academic Institution
+bsmhft.nhs.uk	Healthcare Organization
+locations.ecuhealth.org	Healthcare Organization
+cec.health.nsw.gov.au	Local Health Agency
+audiologists.org	Professional Society
+osteoporosis.ca	Community Organization
+providers.chihealth.com	Healthcare Organization
+hrsa.gov	Government
+paulhopkinsmedical.com.au	Healthcare Organization
+adscresources.advocatehealth.com	Healthcare Organization
+revmed.ch	Academic Journal
+pennmedicine.org	Healthcare Organization
+rarediseases.info.nih.gov	Government
+bvnguyentriphuong.com.vn	Healthcare Organization
+aao-hnsfjournals.onlinelibrary.wiley.com	Academic Journal
+providers.inspirahealthnetwork.org	Healthcare Organization
+radiologica.org	Healthcare Organization
+gavi.org	Intergovernmental Body
+azahcccs.gov	Local Health Agency
+atriumhealth.org	Healthcare Organization
+skincancer.org	Nonprofit
+piedmonthealthcare.com	Healthcare Organization
+versusarthritis.org	Nonprofit
+sharp.com	Health Industry
+nychealthandhospitals.org	Healthcare Organization
+med.ohio.gov	Local Health Agency
+nutritioncare.org	Professional Society
+noh.vn	Healthcare Organization
+selfregional.org	Healthcare Organization
+commonspirit.org	Healthcare Organization
+cardiosmart.org	Nonprofit
+valleyhealthsystemlv.com	Healthcare Organization
+healthit.gov	Government
+inspirahealthnetwork.org	Healthcare Organization
+doctors.premierhealth.com	Healthcare Organization
+bmjopenrespres.bmj.com	Academic Journal
+fnbrno.cz	Healthcare Organization
+handsurgeryresource.org	Professional Society
+niems.go.th	Public Health Authority
+holstonmedicalgroup.com	Healthcare Organization
+christianacare.org	Healthcare Organization
+capefearvalley.com	Healthcare Organization
+msdh.ms.gov	Local Health Agency
+ramsaymentalhealth.com.au	Healthcare Organization
+unchealthblueridge.org	Healthcare Organization
+health.aetna.com	Health Plans
+ox.ac.uk	Academic Institution
+health.hawaii.gov	Local Health Agency
+kemkes.go.id	Public Health Authority
+slhduluth.com	Healthcare Organization
+umassmed.edu	Academic Institution
+childrens.wvumedicine.org	Healthcare Organization
+mychart.wellstar.org	Healthcare Organization
+flboardofmedicine.gov	Local Health Agency
+racgp.org.au	Professional Society
+carygastro.com	Healthcare Organization
+ncmh.gov.ph	Government
+yalehealth.yale.edu	Academic Institution
+saintjohnscancer.org	Health Industry
+mohfw.gov.in	Government
+bouldermedicalcenter.com	Healthcare Organization
+metrohealth.org	Healthcare Organization
+breastcancernow.org	Nonprofit
+pentahospitals.cz	Healthcare Organization
+ahpra.gov.au	Government
+mychart.bmc.org	Healthcare Organization
+connecticutchildrens.org	Healthcare Organization
+mytype1diabetes.nhs.uk	Healthcare Organization
+hrh.ca	Healthcare Organization
+ynhhs.org	Healthcare Organization
+hcafloridahealthcare.com	Healthcare Organization
+brainfacts.org	Independent Organization
+gdc-uk.org	Government
+bu.edu	Academic Institution
+smchealth.org	Local Health Agency
+heritagehospitals.com	Healthcare Organization
+pa.gov	Government
+bvsms.saude.gov.br	Public Health Authority
+dignityhealth.org	Healthcare Organization
+aapc.com	Professional Society
+hospitalhandbook.ucsf.edu	Academic Institution
+emedny.org	Government
+bmchealthservres.biomedcentral.com	Academic Journal
+massgeneral.org	Healthcare Organization
+footankleaz.com	Healthcare Organization
+mankatoclinic.com	Healthcare Organization
+aidsmap.com	Nonprofit
+adsp.nm.org	Healthcare Organization
+gco.iarc.who.int	Intergovernmental Body
+mh.alabama.gov	Local Health Agency
+marshfieldclinic.org	Healthcare Organization
+med.umich.edu	Academic Institution
+nichd.nih.gov	Government
+apna.org	Professional Society
+moh.gov.vn	Government
+kucancercenter.org	Healthcare Organization
+thcc.or.th	Government
+mychart.osu.edu	Healthcare Organization
+secure.mypennmedicine.org	Healthcare Organization
+lexingtonclinic.com	Healthcare Organization
+sheffieldchildrens.nhs.uk	Healthcare Organization
+olathehealth.org	Healthcare Organization
+hcpf.colorado.gov	Local Health Agency
+sydney.edu.au	Academic Institution
+minneapolisclinic.com	Healthcare Organization
+physicians.northernhealth.ca	Healthcare Organization
+newsinhealth.nih.gov	News Organization
+maxhealthcare.in	Healthcare Organization
+prd-cm.mhealthfairview.org	Healthcare Organization
+palomarhealth.org	Healthcare Organization
+southdenver.com	Healthcare Organization
+wakerad.com	Healthcare Organization
+doctors.wellmedhealthcare.com	Healthcare Organization
+eufic.org	Nonprofit
+advancedderm.com	Healthcare Organization
+physiciandirectory.brighamandwomens.org	Healthcare Organization
+salud.bswhealth.com	Healthcare Organization
+secure.ssa.gov	Government
+wakeinternalmedicine.com	Healthcare Organization
+nidcr.nih.gov	Government
+mychart.emoryhealthcare.org	Healthcare Organization
+mottchildren.org	Healthcare Organization
+signature-healthcare.org	Healthcare Organization
+nhsemployers.org	Government
+brgeneral.org	Healthcare Organization
+main.diabetes.org	Nonprofit
+sahealth.sa.gov.au	Government
+pentahospitals.sk	Healthcare Organization
+ecfr.gov	Government
+amerihealthcaritasoh.com	Health Plans
+stjosephhospital.com	Healthcare Organization
+stlukesonline.org	Healthcare Organization
+abim.org	Independent Organization
+stacks.cdc.gov	Public Health Authority
+mychart.marshallmedical.org	Healthcare Organization
+carehospitals.com	Healthcare Organization
+facmed.univ-constantine3.dz	Academic Institution
+sanjuanregional.com	Healthcare Organization
+centreforsight.net	Healthcare Organization
+thinkkidneys.nhs.uk	Public Health Authority
+womenscareobgyn.com	Healthcare Organization
+publichealthscotland.scot	Public Health Authority
+nhsdorset.nhs.uk	Government
+pedialliance.com	Healthcare Organization
+nmc.org.uk	Public Health Authority
+beaumont.org	Healthcare Organization
+medicine.missouri.edu	Academic Institution
+profiles.mountsinai.org	Healthcare Organization
+digitalhealth.gov.au	Public Health Authority
+baptistmedicalnetwork.com	Healthcare Organization
+gohealthuc.com	Healthcare Organization
+carenewengland.org	Healthcare Organization
+healthscopehospitals.com.au	Healthcare Organization
+floridahealth.gov	Local Health Agency
+kgh.nhs.uk	Healthcare Organization
+autism.org.uk	Nonprofit
+mychart.texashealth.org	Healthcare Organization
+kidneymedicinejournal.org	Academic Journal
+southcoast.org	Healthcare Organization
+movementdisorders.org	Professional Society
+dss.mo.gov	Local Health Agency
+gesund.bund.de	Public Health Authority
+centraleasthealthline.ca	Local Health Agency
+hpft.nhs.uk	Healthcare Organization
+blog.fauquierent.net	Healthcare Organization
+my.vanderbilthealth.com	Healthcare Organization
+mcpress.mayoclinic.org	News Organization
+mylrh.org	Healthcare Organization
+abs.gov.au	Government
+northside.com	Healthcare Organization
+bridgewater.nhs.uk	Healthcare Organization
+normanregional.com	Healthcare Organization
+keckmedicine.org	Healthcare Organization
+salemhealth.org	Healthcare Organization
+getmaple.ca	Health Industry
+dhhs.nh.gov	Local Health Agency
+eclinpath.com	Academic Institution
+baptisthealth.net	Healthcare Organization
+dhs.saccounty.gov	Local Health Agency
+health.pa.gov	Local Health Agency
+med.stanford.edu	Academic Institution
+lifemark.ca	Healthcare Organization
+directory.thedacare.org	Healthcare Organization
+afcurgentcare.com	Healthcare Organization
+dmas.virginia.gov	Local Health Agency
+my.gov.au	Government
+bayviewphysicians.com	Healthcare Organization
+dietitiansaustralia.org.au	Professional Society
+nei.nih.gov	Evidence and Research
+alzheimersresearchuk.org	Nonprofit
+yorkhospital.com	Healthcare Organization
+clinical.stjohnwa.com.au	Healthcare Organization
+mayoclinic.elsevierpure.com	Academic Institution
+dhp.virginia.gov	Local Health Agency
+neurosurgeryone.com	Healthcare Organization
+shasta.health	Local Health Agency
+reliantmedicalgroup.org	Healthcare Organization
+mydoctor.kaiserpermanente.org	Health Plans
+stdavids.com	Healthcare Organization
+tsaog.com	Healthcare Organization
+anklefootmd.com	Healthcare Organization
+mdmercy.com	Healthcare Organization
+doylestownhealth.org	Healthcare Organization
+profiles.hopkinsmedicine.org	Healthcare Organization
+hoacny.com	Healthcare Organization
+palmettogba.com	Health Industry
+mhanational.org	Nonprofit
+oeps.wv.gov	Local Health Agency
+royalberkshire.nhs.uk	Local Health Agency
+ncci.canceraustralia.gov.au	Government
+bda.uk.com	Professional Society
+med.emory.edu	Academic Institution
+childrenscolorado.org	Healthcare Organization
+canberrahealthservices.act.gov.au	Local Health Agency
+andersonclinic.com	Healthcare Organization
+chimercyhealth.com	Healthcare Organization
+nlg.nhs.uk	Local Health Agency
+hcai.ca.gov	Government
+themedicalcity.com	Healthcare Organization
+trinityhealthmichigan.org	Healthcare Organization
+entnet.org	Professional Society
+patienteducation.nationwidechildrens.org	Healthcare Organization
+account.allinahealth.org	Healthcare Organization
+factcheck.org	News Organization
+quebec.ca	Government
+nbt.nhs.uk	Healthcare Organization
+fmolhs.org	Healthcare Organization
+knowledgehub.health.gov.za	Public Health Authority
+healthywa.wa.gov.au	Local Health Agency
+ascopost.com	News Organization
+apd.myflorida.com	Local Health Agency
+uthealthaustin.org	Healthcare Organization
+abuhb.nhs.wales	Local Health Agency
+med.miami.edu	Academic Institution
+oncolink.org	Academic Institution
+whitehouse.gov	Government
+cancer.org.au	Nonprofit
+findus.servicesaustralia.gov.au	Government
+wellmedhealthcare.com	Health Plans
+floridaspharmacy.gov	Government
+mcfarlandclinic.com	Healthcare Organization
+healthychildren.org	Professional Society
+jstage.jst.go.jp	Academic Journal
+bayhealth.org	Healthcare Organization
+goldcopd.org	Independent Organization
+unb.sk	Healthcare Organization
+orthopedicnj.com	Healthcare Organization
+headspace.org.au	Nonprofit
+njconsumeraffairs.gov	Government
+healthxchange.sg	Public Health Authority
+ncqa.org	Independent Organization
+pathlabs.rlbuht.nhs.uk	Healthcare Organization
+uhb.nhs.uk	Healthcare Organization
+medicine.duke.edu	Academic Institution
+ct-ortho.com	Healthcare Organization
+nyp.org	Healthcare Organization
+idmp.ucsf.edu	Academic Institution
+mysouthwell.com	Healthcare Organization
+rms.cornwall.nhs.uk	Local Health Agency
+munsonhealthcare.org	Healthcare Organization
+mpft.nhs.uk	Healthcare Organization
+vvh.org	Healthcare Organization
+mychart.corewellhealth.org	Healthcare Organization
+hug.ch	Healthcare Organization
+hattiesburgclinic.com	Healthcare Organization
+chestercountyhospital.org	Healthcare Organization
+beta.cdc.gov	Public Health Authority
+freemanhealth.com	Healthcare Organization
+internationaljournalofcardiology.com	Academic Journal
+dhhs.utah.gov	Local Health Agency
+mountelizabeth.com.sg	Healthcare Organization
+advancedurologyinstitute.com	Healthcare Organization
+oakstreethealth.com	Healthcare Organization
+pubs.rsna.org	Academic Journal
+scai.org	Professional Society
+ncptboard.org	Professional Society
+northwell.edu	Healthcare Organization
+world.physio	Professional Society
+norfolkandwaveneycommunityhealth.nhs.uk	Healthcare Organization
+ncdhhs.gov	Local Health Agency
+fascrs.org	Professional Society
+ufhealthjax.org	Healthcare Organization
+rightasrain.uwmedicine.org	Health Industry
+apderm.com	Healthcare Organization
+austinregionalclinic.com	Healthcare Organization
+medcare.ae	Healthcare Organization
+omh.ny.gov	Local Health Agency
+medicine.hsc.wvu.edu	Academic Institution
+nidcd.nih.gov	Government
+mothertobaby.org	Evidence and Research
+tims.nhs.uk	Government
+wth.org	Healthcare Organization
+chemistclick.co.uk	Health Industry
+wuth.nhs.uk	Healthcare Organization
+the-rheumatologist.org	Professional Society
+singingriverhealthsystem.com	Healthcare Organization
+handbook.ggcmedicines.org.uk	Local Health Agency
+mountain.commonspirit.org	Healthcare Organization
+tribecapediatrics.com	Healthcare Organization
+periop-handbook.ukclinicalpharmacy.org	Evidence and Research
+scrmc.com	Healthcare Organization
+bcbsks.com	Health Plans
+cancer.osu.edu	Academic Institution
+mediclinic.co.za	Healthcare Organization
+ortho.wustl.edu	Academic Institution
+mentalhealthfirstaid.org	Nonprofit
+carilionclinic.org	Healthcare Organization
+zdravlje.gov.rs	Government
+ninds.nih.gov	Government
+hackensackmeridianhealth.org	Healthcare Organization
+med.noridianmedicare.com	Health Plans
+aama-ntl.org	Professional Society
+bcchildrens.ca	Healthcare Organization
+hweclinicalguidance.nhs.uk	Local Health Agency
+assh.org	Professional Society
+uncchildrens.org	Healthcare Organization
+corewellhealth.org	Healthcare Organization
+cheshiremed.org	Healthcare Organization
+dhss.delaware.gov	Local Health Agency
+doctors.ololrmc.com	Healthcare Organization
+mychart.orthovirginia.com	Healthcare Organization
+ttuhsc.edu	Academic Institution
+myeloma.org.uk	Nonprofit
+johnmuirhealth.com	Healthcare Organization
+ckbirlahospitals.com	Healthcare Organization
+bmcnurs.biomedcentral.com	Academic Journal
+mychart.orlandohealth.com	Healthcare Organization
+karger.com	Academic Journal
+heritagevalley.org	Healthcare Organization
+berkshirehealthsystems.org	Healthcare Organization
+blackrockhealth.com	Healthcare Organization
+communitymedical.org	Healthcare Organization
+publichealthwales.nhs.wales	Public Health Authority
+bowelcanceruk.org.uk	Nonprofit
+swslhd.health.nsw.gov.au	Government
+nemlib.cz	Healthcare Organization
+wregional.com	Healthcare Organization
+hiv.gov	Public Health Authority
+sehatnegeriku.kemkes.go.id	Government
+euc.cz	Healthcare Organization
+ecdc.europa.eu	Intergovernmental Body
+uclahealth.org	Healthcare Organization
+radiology.ca	Healthcare Organization
+belvoirhospital.tricare.mil	Healthcare Organization
+premiermed.com	Healthcare Organization
+progressreport.cancer.gov	Public Health Authority
+lexmed.com	Healthcare Organization
+yalemedicine.org	Healthcare Organization
+apaservices.org	Professional Society
+satusehat.kemkes.go.id	Public Health Authority
+dragarwal.com	Healthcare Organization
+monhealth.com	Healthcare Organization
+acepnow.com	News Organization
+myhealth.va.gov	Healthcare Organization
+urology.co.za	Professional Society
+hcavirginiaphysicians.com	Healthcare Organization
+nhsfife.org	Local Health Agency
+diabetesaustralia.com.au	Nonprofit
+hzjz.hr	Public Health Authority
+fepblue.org	Health Plans
+care.aurorabaycare.com	Healthcare Organization
+stillwater-medical.org	Healthcare Organization
+visualsonline.cancer.gov	Government
+thieme-connect.com	Academic Journal
+ashp.org	Professional Society
+wchh.onlinelibrary.wiley.com	Academic Journal
+clinicalexcellence.qld.gov.au	Local Health Agency
+d.wanfangdata.com.cn	Academic Journal
+allieddigestivehealth.com	Healthcare Organization
+womack.tricare.mil	Healthcare Organization
+providers.muschealth.org	Healthcare Organization
+yrmc.org	Healthcare Organization
+oecd.org	Intergovernmental Body
+lluch.org	Healthcare Organization
+fammed.wisc.edu	Academic Institution
+blogs.bcm.edu	Academic Institution
+cclhd.health.nsw.gov.au	Local Health Agency
+huntsvillehospital.org	Healthcare Organization
+texasneurology.com	Healthcare Organization
+bnf.nice.org.uk	Independent Organization
+ebaptisthealthcare.org	Healthcare Organization
+cysticfibrosis.org.uk	Nonprofit
+hopkinslyme.org	Academic Institution
+springfieldclinic.com	Healthcare Organization
+childrens.com	Healthcare Organization
+ccohs.ca	Government
+playsafe.health.nsw.gov.au	Local Health Agency
+vzp.cz	Health Plans
+rcog.org.uk	Professional Society
+starlingphysicians.com	Healthcare Organization
+beckerentandallergy.com	Healthcare Organization
+saintfrancis.com	Healthcare Organization
+liverfoundation.org	Nonprofit
+penndentalmedicine.org	Academic Institution
+marywashingtonhealthcare.com	Healthcare Organization
+medicalboard.gov.au	Government
+microbiology.testcatalog.org	Healthcare Organization
+aasld.org	Professional Society
+wilmingtonhealth.com	Healthcare Organization
+aihw.gov.au	Government
+saintalphonsus.org	Healthcare Organization
+grandviewhealth.com	Healthcare Organization
+health.vic.gov.au	Local Health Agency
+stjoseph.stlukeshealth.org	Healthcare Organization
+familydoctor.org	Professional Society
+nemours.org	Nonprofit
+newsroom.heart.org	News Organization
+childrensguide.sesandspccg.nhs.uk	Local Health Agency
+novanthealth.org	Healthcare Organization
+nebraskamed.com	Healthcare Organization
+jaad.org	Academic Journal
+ncmedboard.org	Independent Organization
+worldgastroenterology.org	Professional Society
+rwt.nhs.uk	Local Health Agency
+marylandendocrine.com	Healthcare Organization
+dea.gov	Government
+chelwest.nhs.uk	Healthcare Organization
+frontierdermatology.com	Healthcare Organization
+northeastmedicalgroup.org	Healthcare Organization
+dgft.nhs.uk	Healthcare Organization
+the-hospitalist.org	News Organization
+unitedregional.org	Healthcare Organization
+sfmc.net	Healthcare Organization
+healthdata.org	Think Tank
+marketplace.va.gov	Health Plans
+psoriasis.org	Nonprofit
+therotherhamft.nhs.uk	Healthcare Organization
+familydoctor.com.au	Healthcare Organization
+medschool.umich.edu	Academic Institution
+limamemorial.org	Healthcare Organization
+niehs.nih.gov	Government
+wsh.nhs.uk	Public Health Authority
+lifepointhealth.net	Healthcare Organization
+members.physio-pedia.com	Evidence and Research
+childrens.health.qld.gov.au	Local Health Agency
+umcvc.org	Health Industry
+kansashealthsystem.com	Healthcare Organization
+chkd.org	Healthcare Organization
+mydss.mo.gov	Government
+rcem.ac.uk	Professional Society
+repository.unimus.ac.id	Academic Institution
+idf.org	Nonprofit
+nottinghamshirehealthcare.nhs.uk	Healthcare Organization
+cun.es	Healthcare Organization
+hfs.illinois.gov	Local Health Agency
+covenanthealthcare.com	Healthcare Organization
+ahs.atlantichealth.org	Healthcare Organization
+dig.pharmacy.uic.edu	Academic Institution
+vaphysicians.com	Healthcare Organization
+hiv.va.gov	Government
+stmarkshospital.nhs.uk	Healthcare Organization
+nationaljewish.org	Healthcare Organization
+carsonmedicalgroup.com	Healthcare Organization
+healthinaging.org	Nonprofit
+shn.ca	Healthcare Organization
+torontocentralhealthline.ca	Local Health Agency
+chla.org	Healthcare Organization
+bioportal.bioontology.org	Evidence and Research
+agedcarequality.gov.au	Government
+bcna.org.au	Nonprofit
+redcrossblood.org	Nonprofit
+providers.nortonhealthcare.com	Healthcare Organization
+nextcare.com	Healthcare Organization
+imperial.nhs.uk	Healthcare Organization
+ruhealth.org	Local Health Agency
+rcpa.edu.au	Professional Society
+assets.nhs.uk	Public Health Authority
+floridasmentalhealthprofessions.gov	Local Health Agency
+auburnhospital.org	Healthcare Organization
+rafflesmedicalgroup.com	Healthcare Organization
+tmh.org	Healthcare Organization
+mcleodhealth.org	Healthcare Organization
+nysora.com	Health Industry
+mychart.mdmercy.com	Healthcare Organization
+schn.health.nsw.gov.au	Healthcare Organization
+mychartplus.hhchealth.org	Healthcare Organization
+orthoarizona.org	Healthcare Organization
+health.umms.org	Healthcare Organization
+aha.org	Professional Society
+eyeworld.org	Professional Society
+sccm.org	Professional Society
+mychart.prohealthcare.org	Healthcare Organization
+dam.assets.ohio.gov	Local Health Agency
+universityhealthkc.org	Healthcare Organization
+deukspine.com	Healthcare Organization
+pediatricnursing.org	Professional Society
+cc.nih.gov	Healthcare Organization
+rileychildrens.org	Healthcare Organization
+odh.ohio.gov	Local Health Agency
+health.nsw.gov.au	Local Health Agency
+uhs.nhs.uk	Healthcare Organization
+rheumatology.org.au	Professional Society
+hdc.gov.mn	Public Health Authority
+publichealth.lacounty.gov	Local Health Agency
+childmind.org	Nonprofit
+olyortho.com	Healthcare Organization
+lipid.org	Professional Society
+pedsendo.org	Professional Society
+wakemed.org	Healthcare Organization
+synevo.ro	Health Industry
+christie.nhs.uk	Healthcare Organization
+pro.aace.com	Professional Society
+immunology.org	Professional Society
+peacehealth.org	Healthcare Organization
+heidenortho.com	Healthcare Organization
+gosh.nhs.uk	Healthcare Organization
+eehealth.org	Healthcare Organization
+codes.ohio.gov	Government
+eurorad.org	Professional Society
+news.yale.edu	News Organization
+texaschildrens.org	Healthcare Organization
+rarediseases.org	Nonprofit
+chcrr.org	Healthcare Organization
+transfusionguidelines.org	Evidence and Research
+heartfoundation.org.au	Nonprofit
+care.piedmont.org	Healthcare Organization
+nortonhealthcare.com	Healthcare Organization
+baptistjax.com	Healthcare Organization
+lung.org	Nonprofit
+tennovagreaterknoxvilledocs.com	Health Industry
+vumc.org	Healthcare Organization
+commonhelp.virginia.gov	Government
+monashhealth.org	Healthcare Organization
+gleneagles.com.sg	Healthcare Organization
+perthradclinic.com.au	Healthcare Organization
+acaai.org	Professional Society
+media.gosh.nhs.uk	News Organization
+scdhhs.gov	Government
+nicklauschildrens.org	Healthcare Organization
+ddc.moph.go.th	Public Health Authority
+harbinclinic.com	Healthcare Organization
+ibji.com	Healthcare Organization
+beebehealthcare.org	Healthcare Organization
+medicaid.nv.gov	Local Health Agency
+cloud.aapc.com	Professional Society
+dshs.wa.gov	Local Health Agency
+entuk.org	Professional Society
+universityradiology.com	Health Industry
+hhs.texas.gov	Local Health Agency
+lgphysicians.com	Healthcare Organization
+cdn.bad.org.uk	Professional Society
+crmchealth.org	Healthcare Organization
+healthlinkbc.ca	Local Health Agency
+lupus.org	Nonprofit
+ketteringhealth.org	Healthcare Organization
+nelft.nhs.uk	Healthcare Organization
+medstarhealth.org	Healthcare Organization
+gmmh.nhs.uk	Healthcare Organization
+mir.wustl.edu	Academic Institution
+mountsinai.org	Healthcare Organization
+medicoresponde.com.br	Health Industry
+parkinsonfoundation.org	Nonprofit
+carenow.com	Healthcare Organization
+mentalhealth.va.gov	Healthcare Organization
+unmc.edu	Academic Institution
+coeliac.org.uk	Nonprofit
+beaconortho.com	Healthcare Organization
+chiro.ca.gov	Local Health Agency
+dementiastatistics.org	Independent Organization
+cidrap.umn.edu	Academic Institution
+mychart.healthsystem.virginia.edu	Healthcare Organization
+arthritis-research.biomedcentral.com	Academic Journal
+cnyfertility.com	Healthcare Organization
+pathologytestsexplained.org.au	Nonprofit
+health.ny.gov	Local Health Agency
+novantmychart.org	Healthcare Organization
+orlandoortho.com	Healthcare Organization
+psycnet.apa.org	Academic Journal
+thechristhospital.com	Healthcare Organization
+pdf.hres.ca	Public Health Authority
+physicians.ucdavis.edu	Academic Institution
+plannedparenthood.org	Nonprofit
+canada.ca	Public Health Authority
+sja.org.uk	Nonprofit
+journals.plos.org	Academic Journal
+spartanburgregional.com	Healthcare Organization
+alzscot.org	Nonprofit
+gillettechildrens.org	Healthcare Organization
+nnuh.nhs.uk	Healthcare Organization
+fcneurology.net	Healthcare Organization
+bryanhealth.com	Healthcare Organization
+rama.mahidol.ac.th	Academic Institution
+caloptima.org	Health Plans
+shine365.marshfieldclinic.org	Health Industry
+applications.emro.who.int	Intergovernmental Body
+gleneagles.com.my	Healthcare Organization
+northeastlondon.icb.nhs.uk	Local Health Agency
+insideoutinstitute.org.au	Nonprofit
+pmc.ncbi.nlm.nih.gov	Evidence and Research
+lakewoodmedical.ca	Healthcare Organization
+uniteddigestive.com	Health Industry
+westhertshospitals.nhs.uk	Healthcare Organization
+medicaid.ncdhhs.gov	Local Health Agency
+doctors.nyp.org	Healthcare Organization
+peninsulahealth.org.au	Healthcare Organization
+balladhealth.org	Healthcare Organization
+link.springer.com	Academic Journal
+epi.dph.ncdhhs.gov	Local Health Agency
+aace.com	Professional Society
+cda-amc.ca	Evidence and Research
+serguide.maccabi4u.co.il	Health Plans
+ndss.com.au	Health Plans
+medicalcityhealthcare.com	Healthcare Organization
+mhealthfairview.org	Healthcare Organization
+mychart.trihealth.com	Healthcare Organization
+cullmanregional.com	Healthcare Organization
+aaamedicines.org.uk	Local Health Agency
+urologysanantonio.com	Healthcare Organization
+leicestershospitals.nhs.uk	Healthcare Organization
+britishlivertrust.org.uk	Nonprofit
+doctors.saintlukeskc.org	Healthcare Organization
+chp.edu	Healthcare Organization
+medicaid.georgia.gov	Local Health Agency
+myhealthyconnection.riversidemedicalclinic.com	Healthcare Organization
+providers.mhealthfairview.org	Healthcare Organization
+gatesheadhealth.nhs.uk	Healthcare Organization
+ch.aetnabetterhealth.com	Health Plans
+jognn.org	Academic Journal
+coeliac.org.au	Nonprofit
+summithealth.com	Healthcare Organization
+nhsinform.scot	Public Health Authority
+semmelweis.hu	Academic Institution
+getcare.elcaminohealth.org	Healthcare Organization
+lahey.org	Healthcare Organization
+wmmc.com	Healthcare Organization
+ngpg.org	Healthcare Organization
+nlm.nih.gov	Government
+menopause.org.au	Independent Organization
+salinasvalleyhealth.com	Healthcare Organization
+halifaxhealth.org	Healthcare Organization
+shmg.org	Healthcare Organization
+nhstayside.scot.nhs.uk	Local Health Agency
+unchealth.org	Healthcare Organization
+uktis.org	Independent Organization
+ehealthsask.ca	Local Health Agency
+brighamandwomens.org	Healthcare Organization
+jacksonhealth.org	Healthcare Organization
+yankes.kemkes.go.id	Public Health Authority
+firstphysiciansgroup.com	Healthcare Organization
+aacom.org	Professional Society
+dmh.lacounty.gov	Local Health Agency
+valleywomenshealth.com	Healthcare Organization
+enthealth.org	Professional Society
+michiganneurologyassociates.com	Healthcare Organization
+doclibrary-rcht.cornwall.nhs.uk	Healthcare Organization
+encephalitis.info	Nonprofit
+niaaa.nih.gov	Government
+milfordregionalphysicians.org	Healthcare Organization
+health.ri.gov	Local Health Agency
+doctors.northernlighthealth.org	Healthcare Organization
+immunizebc.ca	Local Health Agency
+multicare.org	Healthcare Organization
+hoag.org	Healthcare Organization
+aok.pte.hu	Academic Institution
+nccih.nih.gov	Government
+hormones-australia.org.au	Nonprofit
+riversidehealthcare.org	Healthcare Organization
+ucsf.edu	Academic Institution
+nwknowledgenow.nhs.uk	Local Health Agency
+usdigestivehealth.com	Healthcare Organization
+evidence.nejm.org	Academic Journal
+dmsjournal.biomedcentral.com	Academic Journal
+maccabi4u.co.il	Healthcare Organization
+ccforum.biomedcentral.com	Academic Journal
+nottsapc.nhs.uk	Local Health Agency
+dental-referrals.nhs.wales	Local Health Agency
+jacc.org	Academic Journal
+buckshealthcare.nhs.uk	Healthcare Organization
+estimator.mayoclinic.org	Healthcare Organization
+lung.ca	Nonprofit
+health.mountsinai.org	Healthcare Organization
+i-base.info	Nonprofit
+mayoclinichealthsystem.org	Healthcare Organization
+pacificneuroscienceinstitute.org	Healthcare Organization
+resultspt.com	Healthcare Organization
+bad.org.uk	Professional Society
+trihealth.com	Healthcare Organization
+diagnostichistopathology.co.uk	Academic Journal
+floyd.org	Healthcare Organization
+health.wyo.gov	Local Health Agency
+mi-hms.org	Professional Society
+specialtytesting.labcorp.com	Health Industry
+hopkinsmedicine.org	Healthcare Organization
+thewell.northwell.edu	Academic Institution
+albanygi.com	Healthcare Organization
+u.osu.edu	Academic Institution
+health-policy-systems.biomedcentral.com	Academic Journal
+neurosurgery.columbia.edu	Academic Institution
+nhm.gov.in	Government
+health.utoledo.edu	Academic Institution
+wilsonhealth.org	Healthcare Organization
+franciscanhealth.org	Healthcare Organization
+geisinger.org	Healthcare Organization
+bupadental.com.au	Healthcare Organization
+vaistai.lt	Health Industry
+nhstaysidecdn.scot.nhs.uk	Local Health Agency
+pressbooks.uwf.edu	Academic Institution
+gynecologiconcology-online.net	Academic Journal
+dph.illinois.gov	Local Health Agency
+dial.iowa.gov	Local Health Agency
+thomsonmedical.com	Healthcare Organization
+azdhs.gov	Local Health Agency
+orthoneuro.com	Healthcare Organization
+concordortho.com	Healthcare Organization
+adc.bmj.com	Academic Journal
+stgeorges.nhs.uk	Healthcare Organization
+sofha.net	Healthcare Organization
+aacn.org	Professional Society
+mymedicaid.la.gov	Health Plans
+healthpointchc.org	Healthcare Organization
+locations.amedisys.com	Healthcare Organization
+accesssurgery.mhmedical.com	Health Industry
+mychart.ouhealth.com	Healthcare Organization
+lnwh.nhs.uk	Healthcare Organization
+bmhsc.org	Healthcare Organization
+oklahomaheart.com	Healthcare Organization
+data.unicef.org	Intergovernmental Body
+aaaai.org	Professional Society
+hennepinhealthcare.org	Healthcare Organization
+urofrance.org	Professional Society
+pharmacy.ohio.gov	Government
+pancan.org	Nonprofit
+autoimmune.org	Nonprofit
+cardiab.biomedcentral.com	Academic Journal
+patholines.org	Healthcare Organization
+acibademhealthpoint.com	Healthcare Organization
+anxietycanada.com	Nonprofit
+uofmhealthsparrow.org	Healthcare Organization
+clinicaltrials.gov	Government
+elicense.ohio.gov	Government
+nhc.org	Nonprofit
+gatesfoundation.org	Philanthropy Foundation
+medicaidprovider.mt.gov	Local Health Agency
+mychart.memorialhealth.com	Healthcare Organization
+nuh.nhs.uk	Healthcare Organization
+eugenegi.com	Healthcare Organization
+doctors.prismahealth.org	Healthcare Organization
+shropshiretelfordandwrekinccg.nhs.uk	Local Health Agency
+forefrontdermatology.com	Healthcare Organization
+pod.mohp.gov.eg	Public Health Authority
+asrm.org	Professional Society
+medparkhospital.com	Healthcare Organization
+uhcw.nhs.uk	Healthcare Organization
+radiology.wisc.edu	Academic Institution
+guthrie.org	Healthcare Organization
+healthquality.va.gov	Government
+saintcroixhealth.org	Healthcare Organization
+hospital.uillinois.edu	Healthcare Organization
+patientgateway.massgeneralbrigham.org	Healthcare Organization
+publications.ashp.org	Academic Journal
+sts.org	Professional Society
+audiology.org	Professional Society
+escardio.org	Professional Society
+nidirect.gov.uk	Government
+mcgill.ca	Academic Institution
+nationalregister.org	Professional Society
+what0-18.nhs.uk	Public Health Authority
+bmcnephrol.biomedcentral.com	Academic Journal
+membersearch.irimc.org	Government
+baus.org.uk	Professional Society
+therapeuticseducation.org	Evidence and Research
+albanymed.org	Healthcare Organization
+ptsd.va.gov	Government
+ukmeds.co.uk	Health Industry
+statpearls.com	Health Industry
+arizonaoncology.com	Healthcare Organization
+diabetes.ca	Nonprofit
+niddk.nih.gov	Government
+acforum-excellence.org	Professional Society
+luriechildrens.org	Healthcare Organization
+services.nhslothian.scot	Local Health Agency
+priorygroup.com	Healthcare Organization
+rush.edu	Academic Institution
+breastfeedingnetwork.org.uk	Nonprofit
+gut.bmj.com	Academic Journal
+dpt.nhs.uk	Healthcare Organization
+wphospital.org	Healthcare Organization
+bmcmusculoskeletdisord.biomedcentral.com	Academic Journal
+medwave.io	Academic Institution
+gbp.georgia.gov	Local Health Agency
+ruralhealthinfo.org	Evidence and Research
+vasculitisfoundation.org	Nonprofit
+doctors.adventisthealth.org	Healthcare Organization
+pardubice.nempk.cz	Healthcare Organization
+dhs.state.il.us	Local Health Agency
+healthaffairs.org	News Organization
+lakenormanmedicalgroup.com	Healthcare Organization
+cancer.org.nz	Nonprofit
+publications.aap.org	Academic Journal
+buffalomedicalgroup.com	Healthcare Organization
+gbmc.org	Healthcare Organization
+ptsolutions.com	Healthcare Organization
+bassett.org	Healthcare Organization
+healthymale.org.au	Nonprofit
+vch.ca	Local Health Agency
+hopkinsdiabetesinfo.org	Academic Institution
+ima.org.il	Professional Society
+sarahcannon.com	Health Industry
+cdho.org	Professional Society
+info.ncdhhs.gov	Local Health Agency
+baptistdoctors.org	Healthcare Organization
+poison.org	Public Health Authority
+lluh.org	Healthcare Organization
+neurology.columbia.edu	Academic Institution
+cancercareontario.ca	Public Health Authority
+gps.northcentrallondon.icb.nhs.uk	Local Health Agency
+evergreenhealth.com	Healthcare Organization
+jospt.org	Academic Journal
+nahealth.com	Healthcare Organization
+mypcnow.org	Professional Society
+lungfoundation.com.au	Nonprofit
+kff.org	Think Tank
+memorialhealth.com	Healthcare Organization
+nhsforthvalley.com	Local Health Agency
+safercare.vic.gov.au	Government
+ce.mayo.edu	Healthcare Organization
+inova.org	Healthcare Organization
+sinaihealth.ca	Healthcare Organization
+apps.worcsacute.nhs.uk	Healthcare Organization
+unmhealth.org	Healthcare Organization
+hipkneeinfo.org	Nonprofit
+providers.upmc.com	Healthcare Organization
+templehealth.org	Healthcare Organization
+svhm.org.au	Healthcare Organization
+healthcare.utah.edu	Healthcare Organization
+medicaid.alabama.gov	Local Health Agency
+kennedykrieger.org	Healthcare Organization
+mercycare.org	Health Plans
+avera.org	Healthcare Organization
+giejournal.org	Academic Journal
+repository.poltekkes-denpasar.ac.id	Academic Institution
+grangermedical.com	Healthcare Organization
+paolohospital.com	Healthcare Organization
+rothmanortho.com	Healthcare Organization
+phw.nhs.wales	Public Health Authority
+moorfields.nhs.uk	Healthcare Organization
+pasteur.fr	Evidence and Research
+dhcs.ca.gov	Local Health Agency
+alamedahealthsystem.org	Healthcare Organization
+pressbooks.bccampus.ca	Academic Institution
+metronorth.health.qld.gov.au	Local Health Agency
+professional.heart.org	Professional Society
+associationofanaesthetists-publications.onlinelibrary.wiley.com	Academic Journal
+premiersurgical.com	Healthcare Organization
+eyewiki.org	Professional Society
+chisaintjosephhealth.org	Healthcare Organization
+utmedicalcenter.org	Healthcare Organization
+now.tufts.edu	Academic Institution
+ota.org	Professional Society
+stjude.org	Nonprofit
+bvquan5.medinet.gov.vn	Local Health Agency
+med.uth.edu	Academic Institution
+emergencycarebc.ca	Public Health Authority
+fhft.nhs.uk	Healthcare Organization
+ncbi.nlm.nih.gov	Evidence and Research
+urologygroup.com	Healthcare Organization
+gastro.org	Professional Society
+arlingtonortho.com	Healthcare Organization
+nursingworld.org	Professional Society
+cdph.ca.gov	Local Health Agency
+mou.cz	Healthcare Organization
+medschool.ucla.edu	Academic Institution
+diabetesteachingcenter.ucsf.edu	Academic Institution
+scimagojr.com	Evidence and Research
+columbusobgyn.com	Healthcare Organization
+mft.nhs.uk	Healthcare Organization
+bluecrossma.com	Health Plans
+dailymed.awsprod.nlm.nih.gov	Government
+dana-farber.org	Healthcare Organization
+health.gov.au	Public Health Authority
+perpustakaan.poltekkes-malang.ac.id	Academic Institution
+colorectalsurgery.com.sg	Healthcare Organization
+accessphysiotherapy.mhmedical.com	Health Industry
+sleepfoundation.org	Nonprofit
+gme.medicine.uiowa.edu	Academic Institution
+tasmc.org.il	Healthcare Organization
+profile.mayoclinic.org	Healthcare Organization
+openanesthesia.org	Independent Organization
+willseye.org	Healthcare Organization
+tcomn.com	Health Industry
+rcseng.ac.uk	Professional Society
+rightdecisions.scot.nhs.uk	Local Health Agency
+cancerresearchuk.org	Nonprofit
+oacapps.med.jhmi.edu	Academic Institution
+unicef.org	Intergovernmental Body
+lls.org	Nonprofit
+account.adventhealth.com	Healthcare Organization
+uspreventiveservicestaskforce.org	Independent Organization
+acr.org	Professional Society
+packer.hms.harvard.edu	Academic Institution
+osteoporosis.foundation	Nonprofit
+longstreetclinic.com	Healthcare Organization
+nutrition.va.gov	Government
+ohiogastro.com	Healthcare Organization
+marchofdimes.org	Nonprofit
+choc.org	Healthcare Organization
+research.va.gov	Government
+emoryhealthcare.org	Healthcare Organization
+jnnp.bmj.com	Academic Journal
+scvmc.scvh.org	Healthcare Organization
+hillman.upmc.com	Healthcare Organization
+americanhipinstitute.com	Healthcare Organization
+schulich.uwo.ca	Academic Institution
+gov.mn	Government
+pulseheartinstitute.org	Healthcare Organization
+carefirstchpmd.com	Health Plans
+wacountry.health.wa.gov.au	Public Health Authority
+uwmedicine.org	Healthcare Organization
+nslhd.health.nsw.gov.au	Local Health Agency
+bsuh.nhs.uk	Healthcare Organization
+ard.bmj.com	Academic Journal
+minnesotahelp.info	Local Health Agency
+aahks.org	Professional Society
+tworiversmedicalcentre.co.uk	Healthcare Organization
+baptisthealthsystem.com	Healthcare Organization
+europepmc.org	Evidence and Research
+kdigo.org	Independent Organization
+aan.com	Professional Society
+ochrehealth.com.au	Healthcare Organization
+torbayandsouthdevon.nhs.uk	Government
+in.gov	Government
+thewaltoncentre.nhs.uk	Healthcare Organization
+profile.tmb.state.tx.us	Government
+aspirus.org	Healthcare Organization
+medicalguidelines.msf.org	Nonprofit
+northwesthealth.com	Healthcare Organization
+newsnetwork.mayoclinic.org	News Organization
+coraphysicaltherapy.com	Healthcare Organization
+mushlam.clalit.co.il	Health Plans
+carsontahoe.com	Healthcare Organization
+clinicalimaging.org	Academic Journal
+foothealthfacts.org	Professional Society
+uoflhealth.org	Healthcare Organization
+news.llu.edu	News Organization

@@ -1,0 +1,850 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WebIQ Studio — Generate a WebIQ Embed</title>
+<style>
+  :root {
+    --bg: #ffffff;
+    --side: #f7f7f8;
+    --border: #e5e7eb;
+    --text: #1f2328;
+    --muted: #6b7280;
+    --accent: #0f172a;
+    --chip: #f3f4f6;
+    --chip-hover: #e5e7eb;
+    --code-bg: #0f172a;
+    --code-text: #e2e8f0;
+    --user-bubble: #eef2ff;
+    --bot-bubble: #ffffff;
+    --danger-bg: #fef2f2;
+    --danger-fg: #991b1b;
+    --danger-br: #fecaca;
+  }
+  * { box-sizing: border-box; }
+  html, body { height: 100%; margin: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+                 "Helvetica Neue", Arial, sans-serif;
+    background: var(--bg); color: var(--text);
+    display: flex; overflow: hidden;
+  }
+
+  /* ---------- sidebar ---------- */
+  .side {
+    width: 280px; flex-shrink: 0; background: var(--side);
+    border-right: 1px solid var(--border);
+    display: flex; flex-direction: column;
+  }
+  .side-head {
+    padding: 16px 18px 12px; display: flex; align-items: center; gap: 10px;
+    font-weight: 700; font-size: 16px;
+  }
+  .side-head .logo {
+    width: 26px; height: 26px; border-radius: 6px;
+    background: linear-gradient(135deg, #2563eb 0%, #0ea5e9 100%);
+    display: flex; align-items: center; justify-content: center; color: #fff;
+    font-size: 13px; font-weight: 700;
+  }
+  .new-chat {
+    margin: 4px 12px 12px; padding: 10px 12px; border-radius: 10px;
+    border: 1px solid var(--border); background: #fff; cursor: pointer;
+    display: flex; align-items: center; gap: 8px; font-size: 14px; font-weight: 600;
+  }
+  .new-chat:hover { background: #f3f4f6; }
+  .new-chat svg { width: 16px; height: 16px; }
+
+  .side-section {
+    padding: 0 18px; font-size: 11px; color: var(--muted);
+    text-transform: uppercase; letter-spacing: 0.05em; margin: 12px 0 6px;
+  }
+  .chats { flex: 1; overflow-y: auto; padding: 0 8px 12px; }
+  .chat-item {
+    padding: 8px 10px; border-radius: 8px; cursor: pointer; font-size: 14px;
+    color: var(--text); white-space: nowrap; overflow: hidden;
+    text-overflow: ellipsis; display: flex; align-items: center; gap: 6px;
+  }
+  .chat-item:hover { background: #eeeef0; }
+  .chat-item.active { background: #e6e7ea; font-weight: 600; }
+  .chat-item .del {
+    margin-left: auto; opacity: 0; color: var(--muted); font-size: 14px;
+    background: none; border: none; cursor: pointer; padding: 0 4px;
+  }
+  .chat-item:hover .del { opacity: 1; }
+
+  .side-foot {
+    border-top: 1px solid var(--border); padding: 12px 16px;
+    display: flex; align-items: center; gap: 10px; font-size: 13px;
+  }
+  .avatar {
+    width: 30px; height: 30px; border-radius: 50%; background: #cbd5e1;
+    display: flex; align-items: center; justify-content: center;
+    color: #fff; font-weight: 700; font-size: 12px;
+  }
+
+  /* ---------- main ---------- */
+  .main { flex: 1; display: flex; flex-direction: column; min-width: 0; }
+  .main-head {
+    height: 52px; border-bottom: 1px solid var(--border);
+    display: flex; align-items: center; padding: 0 20px; gap: 12px;
+  }
+  .pill {
+    background: #f0f0f2; color: #111; border-radius: 999px;
+    padding: 6px 12px; font-size: 13px; font-weight: 500;
+  }
+
+  .scroll {
+    flex: 1; overflow-y: auto; padding: 24px 20px 8px;
+    display: flex; flex-direction: column; align-items: center;
+  }
+  .scroll-inner { width: 100%; max-width: 780px; }
+
+  .greeting {
+    text-align: center; margin: 12vh auto 20px; font-size: 30px;
+    font-weight: 400; color: #111; line-height: 1.3;
+  }
+  .greeting small { display: block; font-size: 15px; color: var(--muted);
+    font-weight: 400; margin-top: 8px; }
+
+  /* Google-homepage-style empty state */
+  .main.empty .scroll {
+    justify-content: center; padding-bottom: 24px;
+  }
+  .main.empty .greeting {
+    margin: 0 auto 28px;
+  }
+  .hero-logo {
+    width: 72px; height: 72px; margin: 0 auto 20px; border-radius: 18px;
+    background: linear-gradient(135deg, #2563eb 0%, #0ea5e9 100%);
+    display: flex; align-items: center; justify-content: center;
+    color: #fff; font-size: 32px; font-weight: 700;
+    box-shadow: 0 10px 24px rgba(37,99,235,0.25);
+  }
+  .hero-title {
+    margin: 0; font-size: 44px; font-weight: 500; letter-spacing: -0.5px;
+    color: #111;
+  }
+  .hero-title .accent { color: #2563eb; }
+  .hero-sub {
+    margin-top: 12px; font-size: 15px; color: var(--muted);
+    max-width: 520px; margin-left: auto; margin-right: auto; line-height: 1.5;
+  }
+
+  .msg { margin: 14px 0; display: flex; gap: 10px; align-items: flex-start; }
+  .msg-role {
+    width: 28px; height: 28px; border-radius: 50%; flex-shrink: 0;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 12px; font-weight: 700; color: #fff;
+  }
+  .msg.user .msg-role { background: #6b7280; }
+  .msg.bot  .msg-role { background: linear-gradient(135deg,#2563eb,#0ea5e9); }
+
+  .msg-body {
+    flex: 1; padding: 10px 14px; border-radius: 10px;
+    background: var(--bot-bubble); border: 1px solid var(--border);
+    font-size: 14.5px; line-height: 1.55; min-width: 0;
+  }
+  .msg.user .msg-body { background: var(--user-bubble); border-color: #dbe0ff; }
+  .msg-body p { margin: 0 0 8px; }
+  .msg-body p:last-child { margin-bottom: 0; }
+
+  .code-card {
+    background: var(--code-bg); color: var(--code-text);
+    border-radius: 10px; margin: 12px 0 0; overflow: hidden;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.06);
+  }
+  .code-head {
+    display: flex; align-items: center; padding: 8px 12px;
+    background: #111827; font-size: 12px; color: #94a3b8;
+    border-bottom: 1px solid #1f2937;
+  }
+  .code-head .lang { font-family: ui-monospace, Menlo, Consolas, monospace; }
+  .copy-btn {
+    margin-left: auto; background: transparent; color: #cbd5e1;
+    border: 1px solid #334155; border-radius: 6px;
+    padding: 4px 10px; font-size: 12px; cursor: pointer;
+    display: flex; align-items: center; gap: 6px;
+  }
+  .copy-btn:hover { background: #1e293b; color: #fff; }
+  .copy-btn.ok { color: #34d399; border-color: #10b981; }
+  .code-body {
+    margin: 0; padding: 14px 16px; font-size: 13px; line-height: 1.55;
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    white-space: pre-wrap; word-break: break-word;
+  }
+  .tok-tag  { color: #f472b6; }
+  .tok-attr { color: #7dd3fc; }
+  .tok-val  { color: #fde68a; }
+  .tok-com  { color: #64748b; font-style: italic; }
+
+  /* WebIQ config preview card (key-value pairs) */
+  .config-card {
+    background: #f8fafc; border: 1px solid var(--border);
+    border-radius: 10px; margin: 12px 0 0; overflow: hidden;
+  }
+  .config-card .config-head {
+    display: flex; align-items: center; gap: 8px;
+    padding: 10px 14px; background: #eef2ff; color: #3730a3;
+    font-size: 12px; font-weight: 600; letter-spacing: .3px;
+    border-bottom: 1px solid #dbe0ff;
+  }
+  .config-card .config-head .dot {
+    width: 8px; height: 8px; border-radius: 50%;
+    background: var(--accent);
+  }
+  .config-card dl {
+    margin: 0; padding: 10px 14px 12px;
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    font-size: 13px; line-height: 1.7;
+  }
+  .config-card .kv { display: grid; grid-template-columns: 160px 1fr; gap: 8px; }
+  .config-card dt { color: #6366f1; font-weight: 600; }
+  .config-card dd { margin: 0; color: #1f2937; word-break: break-word; }
+  .config-card dd .placeholder { color: #6b7280; font-style: italic; }
+
+  .field-tip { font-size: 12px; color: var(--muted); margin-top: 8px; }
+
+  .error-note {
+    background: var(--danger-bg); color: var(--danger-fg);
+    border: 1px solid var(--danger-br); border-radius: 10px;
+    padding: 10px 12px; font-size: 13px; margin-top: 10px;
+  }
+
+  .inline-note {
+    font-size: 12px; color: var(--muted); margin-top: 6px;
+  }
+
+  /* ---------- input dock ---------- */
+  .dock { padding: 12px 20px 20px; display: flex; justify-content: center; }
+  .dock-inner { width: 100%; max-width: 780px; }
+  .input-row {
+    display: flex; align-items: flex-end; gap: 6px;
+    border: 1px solid var(--border); border-radius: 18px;
+    padding: 10px 12px; background: #fff;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.03);
+  }
+  .input-row:focus-within { border-color: #94a3b8; }
+  .input-plus {
+    width: 30px; height: 30px; border-radius: 50%; border: none;
+    background: transparent; color: #6b7280; font-size: 20px; cursor: pointer;
+  }
+  .input-plus:hover { background: #f3f4f6; }
+  #prompt {
+    flex: 1; border: none; outline: none; resize: none;
+    font-size: 15px; font-family: inherit; padding: 6px 4px;
+    max-height: 180px; min-height: 24px; color: var(--text);
+    background: transparent;
+  }
+  .send-btn {
+    background: var(--accent); color: #fff; border: none; border-radius: 12px;
+    padding: 8px 14px; font-weight: 600; font-size: 14px; cursor: pointer;
+  }
+  .send-btn:disabled { background: #9ca3af; cursor: not-allowed; }
+
+  .chips { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 12px;
+    justify-content: center; }
+  .chip {
+    background: var(--chip); border: 1px solid transparent;
+    padding: 6px 12px; border-radius: 999px; font-size: 13px; cursor: pointer;
+    color: #111827;
+  }
+  .chip:hover { background: var(--chip-hover); }
+
+  .dock-note { text-align: center; color: var(--muted); font-size: 11px;
+    margin-top: 10px; }
+
+  /* typing dots */
+  .typing {
+    display: inline-flex; gap: 6px; align-items: center;
+    padding: 6px 12px; border-radius: 999px;
+    background: rgba(139,125,255,0.08);
+    border: 1px solid rgba(139,125,255,0.18);
+  }
+  .typing span {
+    width: 8px; height: 8px; border-radius: 50%;
+    background: var(--accent);
+    animation: wiq-wave 1.15s infinite ease-in-out both;
+    box-shadow: 0 0 0 0 rgba(139,125,255,0.5);
+  }
+  .typing span:nth-child(1) { animation-delay: -0.32s; }
+  .typing span:nth-child(2) { animation-delay: -0.16s; }
+  .typing span:nth-child(3) { animation-delay: 0s; }
+  @keyframes wiq-wave {
+    0%, 80%, 100% { transform: translateY(0) scale(0.8); opacity: 0.45; }
+    40%           { transform: translateY(-4px) scale(1);   opacity: 1;    }
+  }
+</style>
+</head>
+<body>
+  <!-- ============ SIDEBAR ============ -->
+  <aside class="side">
+    <div class="side-head">
+      <div class="logo">W</div>
+      <div>WebIQ Studio</div>
+    </div>
+    <button class="new-chat" id="newChatBtn">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+           stroke-linecap="round" stroke-linejoin="round">
+        <line x1="12" y1="5" x2="12" y2="19"></line>
+        <line x1="5"  y1="12" x2="19" y2="12"></line>
+      </svg>
+      New chat
+    </button>
+    <div class="side-section">Chats</div>
+    <div class="chats" id="chatsList"></div>
+    <div class="side-foot">
+      <div class="avatar">P</div>
+      <div>
+        <div style="font-weight:600">You</div>
+        <div style="color:var(--muted); font-size:11px">WebIQ Embed Builder</div>
+      </div>
+    </div>
+  </aside>
+
+  <!-- ============ MAIN ============ -->
+  <section class="main">
+    <div class="main-head">
+      <div class="pill">Embed Builder</div>
+      <div class="pill" style="background:#eef2ff;color:#3730a3">Mistral · Foundry</div>
+    </div>
+
+    <div class="scroll" id="scroll">
+      <div class="scroll-inner" id="thread"></div>
+    </div>
+
+    <div class="dock">
+      <div class="dock-inner">
+        <div class="input-row">
+          <button class="input-plus" title="New chat" id="plusBtn">+</button>
+          <textarea id="prompt" rows="1"
+            placeholder="Describe the Agent you want to embed (e.g. &quot;A patient-facing health assistant that answers questions about symptoms and treatments&quot;)"></textarea>
+          <button class="send-btn" id="sendBtn">Generate</button>
+        </div>
+        <div class="chips" id="chips">
+          <button class="chip" data-preset="general-health">General Health Assistant</button>
+          <button class="chip" data-preset="clinicians">Assistant to Clinicians</button>
+          <button class="chip" data-preset="content-writer">Assisting Health Content Writers</button>
+          <button class="chip" data-preset="league-bot">League bot</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<script>
+(function () {
+  // -------------------------------------------------------------
+  // Config — Azure AI Foundry (Mistral) for natural-language parsing
+  // -------------------------------------------------------------
+  const CFG = {
+    azureApiKey:     "REPLACE_WITH_AZURE_AI_FOUNDRY_API_KEY",
+    azureEndpoint:   "https://YOUR-AZURE-AI-RESOURCE.services.ai.azure.com/models/chat/completions",
+    azureApiVersion: "2024-05-01-preview",
+    azureModel:      "mistral-medium-3-5",
+    loaderSrc:       "https://your-host.example.com/webiq-loader.js",
+    defaults: {
+      title:    "WebIQ Assistant",
+      subtitle: "Ask a health question"
+    },
+    limits: { title: 60, subtitle: 100 }
+  };
+
+  // Seeded chip presets — click to auto-run a canned flow.
+  const CHIP_PRESETS = {
+    "general-health": {
+      label: "General Health Assistant",
+      seed: "Configure a WebIQ Agent which responds based on credible web sources for a General Health assistant.",
+      title: "General Health Assistant",
+      subtitle: "Ask me your health questions for credible web-based answers",
+      config: {
+        IncludeDomains: "[Credible Domains]",
+        ExcludeDomains: "None"
+      }
+    },
+    "clinicians": {
+      label: "Assistant to Clinicians",
+      seed: "Configure a WebIQ Agent which responds based on clinician prefered web sources for a Clinician Guide.",
+      title: "Clinician Guide",
+      subtitle: "Health info from trusted clinical sources",
+      config: {
+        IncludeDomains: "[Credible Domains preferred by clinicians]",
+        ExcludeDomains: "None"
+      }
+    },
+    "content-writer": {
+      label: "Assisting Health Content Writers",
+      seed: "Configure a WebIQ Agent which responds based on credible web sources, client domain and avoids content from competitors.",
+      title: "Health Content Agent",
+      subtitle: "Ask me your health questions for credible web-based answers",
+      config: {
+        IncludeDomains: "[Client Domain, Credible Domains]",
+        ExcludeDomains: "health.harvard.edu"
+      }
+    },
+    "league-bot": {
+      label: "League bot",
+      seed: "Configure a WebIQ Agent which surfaces live scores, fixtures and match stats from web.",
+      title: "Live Sports Agent",
+      subtitle: "Ask for live scores, fixtures and match stats",
+      config: {
+        IncludeDomains: "None",
+        ExcludeDomains: "None"
+      }
+    }
+  };
+
+  const STORAGE_KEY = "webiq-studio-sessions-v1";
+
+  // -------------------------------------------------------------
+  // State + persistence
+  // -------------------------------------------------------------
+  /** @type {{id:string,title:string,createdAt:number,messages:{role:string,text:string,snippet?:{title:string,subtitle:string,includeDomains?:string,excludeDomains?:string}}[]}[]} */
+  let sessions = load();
+  let activeId = sessions[0]?.id || null;
+
+  function load() {
+    try {
+      const raw = localStorage.getItem(STORAGE_KEY);
+      return raw ? JSON.parse(raw) : [];
+    } catch { return []; }
+  }
+  function save() {
+    try { localStorage.setItem(STORAGE_KEY, JSON.stringify(sessions)); } catch {}
+  }
+  function activeSession() {
+    return sessions.find(s => s.id === activeId) || null;
+  }
+  function newSession() {
+    const s = { id: "s_" + Date.now().toString(36) + Math.random().toString(36).slice(2,6),
+                title: "New chat", createdAt: Date.now(), messages: [] };
+    sessions.unshift(s);
+    activeId = s.id;
+    save();
+    renderSidebar();
+    renderThread();
+    document.getElementById("prompt").focus();
+  }
+  function deleteSession(id) {
+    sessions = sessions.filter(s => s.id !== id);
+    if (activeId === id) activeId = sessions[0]?.id || null;
+    save(); renderSidebar(); renderThread();
+  }
+
+  // -------------------------------------------------------------
+  // DOM refs
+  // -------------------------------------------------------------
+  const chatsList = document.getElementById("chatsList");
+  const thread    = document.getElementById("thread");
+  const scroll    = document.getElementById("scroll");
+  const promptEl  = document.getElementById("prompt");
+  const sendBtn   = document.getElementById("sendBtn");
+  const newChatBtn= document.getElementById("newChatBtn");
+  const plusBtn   = document.getElementById("plusBtn");
+  const chips     = document.getElementById("chips");
+
+  // -------------------------------------------------------------
+  // Render
+  // -------------------------------------------------------------
+  function renderSidebar() {
+    chatsList.innerHTML = "";
+    sessions.forEach(s => {
+      const el = document.createElement("div");
+      el.className = "chat-item" + (s.id === activeId ? " active" : "");
+      el.title = s.title;
+      el.innerHTML =
+        `<span style="flex:1;overflow:hidden;text-overflow:ellipsis;">${esc(s.title)}</span>` +
+        `<button class="del" title="Delete">&times;</button>`;
+      el.addEventListener("click", (e) => {
+        if (e.target.classList.contains("del")) {
+          e.stopPropagation();
+          deleteSession(s.id);
+        } else {
+          activeId = s.id;
+          renderSidebar(); renderThread();
+        }
+      });
+      chatsList.appendChild(el);
+    });
+  }
+
+  function renderThread() {
+    const s = activeSession();
+    const mainEl = document.querySelector(".main");
+    const dockEl = document.querySelector(".dock");
+    const scrollInner = thread; // #thread == .scroll-inner
+    const isEmpty = !s || s.messages.length === 0;
+
+    // Detach the dock BEFORE clearing thread, otherwise if it was inside
+    // .scroll-inner (empty state) it would be destroyed by innerHTML = "".
+    if (dockEl && dockEl.parentElement) dockEl.parentElement.removeChild(dockEl);
+    thread.innerHTML = "";
+
+    mainEl.classList.toggle("empty", isEmpty);
+    if (isEmpty) {
+      const g = document.createElement("div");
+      g.className = "greeting";
+      g.innerHTML = `
+        <div class="hero-logo">W</div>
+        <h1 class="hero-title">WebIQ <span class="accent">Studio</span></h1>
+        <div class="hero-sub">Describe the Agent you want to embed. I'll return a pastable WebIQ script tag customized with your <b>title</b> and <b>subtitle</b>.</div>`;
+      scrollInner.appendChild(g);
+      scrollInner.appendChild(dockEl);
+      return;
+    }
+    mainEl.appendChild(dockEl);
+    s.messages.forEach((m, i) => {
+      if (m.role === "user")               thread.appendChild(userBubble(m.text));
+      else if (m.role === "bot")           thread.appendChild(botBubble(m.text, m.snippet, m.presetKey));
+      else if (m.role === "webiq-config")  thread.appendChild(configBubble(m.snippet, m.presetKey));
+      else if (m.role === "error")         thread.appendChild(errorBubble(m.text));
+    });
+    setTimeout(() => scroll.scrollTop = scroll.scrollHeight, 0);
+  }
+
+  function userBubble(text) {
+    const el = document.createElement("div"); el.className = "msg user";
+    el.innerHTML = `<div class="msg-role">You</div><div class="msg-body">${esc(text)}</div>`;
+    return el;
+  }
+
+  function botBubble(text, snippet, presetKey) {
+    const el = document.createElement("div"); el.className = "msg bot";
+    let html = `<div class="msg-role">W</div><div class="msg-body"><p>${esc(text)}</p>`;
+    if (snippet) html += renderCodeCard(buildEmbed(snippet));
+    html += `</div>`;
+    el.innerHTML = html;
+    wireCopyButtons(el);
+    return el;
+  }
+
+  function configBubble(snippet, presetKey) {
+    const preset = CHIP_PRESETS[presetKey] || null;
+    const cfg = {
+      Title:    snippet ? snippet.title    : CFG.defaults.title,
+      Subtitle: snippet ? snippet.subtitle : CFG.defaults.subtitle,
+      IncludeDomains: snippet && snippet.includeDomains ? snippet.includeDomains : "None",
+      ExcludeDomains: snippet && snippet.excludeDomains ? snippet.excludeDomains : "None"
+    };
+    const rows = Object.keys(cfg).map(k => {
+      const v = cfg[k];
+      const isPlaceholder = /^\[.*\]$/.test(String(v));
+      const val = isPlaceholder
+        ? `<span class="placeholder">${esc(v)}</span>`
+        : esc(v);
+      return `<div class="kv"><dt>"${esc(k)}"</dt><dd>: "${val}"</dd></div>`;
+    }).join("");
+    const el = document.createElement("div"); el.className = "msg bot";
+    el.innerHTML = `<div class="msg-role">W</div>
+      <div class="msg-body">
+        <p>Based on your preferences, here's your WebIQ config:</p>
+        <div class="config-card">
+          <div class="config-head"><span class="dot"></span>WebIQ config${preset ? " · " + esc(preset.label) : ""}</div>
+          <dl>${rows}</dl>
+        </div>
+      </div>`;
+    return el;
+  }
+
+  function errorBubble(text) {
+    const el = document.createElement("div"); el.className = "msg bot";
+    el.innerHTML = `<div class="msg-role">!</div>
+      <div class="msg-body"><div class="error-note">${esc(text)}</div></div>`;
+    return el;
+  }
+
+  function typingBubble() {
+    const el = document.createElement("div"); el.className = "msg bot wiq-typing-msg";
+    el.innerHTML = `<div class="msg-role">W</div>
+      <div class="msg-body"><div class="typing"><span></span><span></span><span></span></div></div>`;
+    return el;
+  }
+
+  function renderCodeCard(snippet) {
+    return `
+      <div class="code-card">
+        <div class="code-head">
+          <span class="lang">html · pastable embed</span>
+          <button class="copy-btn" data-copy>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+              <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+            </svg>
+            Copy
+          </button>
+        </div>
+        <pre class="code-body" data-raw="${escAttr(snippet)}">${highlightHtml(snippet)}</pre>
+      </div>`;
+  }
+
+  function wireCopyButtons(root) {
+    root.querySelectorAll(".copy-btn").forEach(btn => {
+      btn.addEventListener("click", async () => {
+        const pre = btn.closest(".code-card").querySelector(".code-body");
+        const raw = pre.getAttribute("data-raw") || pre.textContent;
+        try {
+          await navigator.clipboard.writeText(raw);
+          btn.classList.add("ok");
+          btn.innerHTML = `<svg width="14" height="14" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Copied`;
+          setTimeout(() => {
+            btn.classList.remove("ok");
+            btn.innerHTML = `<svg width="14" height="14" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg> Copy`;
+          }, 1600);
+        } catch (e) { console.error(e); }
+      });
+    });
+  }
+
+  // -------------------------------------------------------------
+  // Snippet builder + highlighter
+  // -------------------------------------------------------------
+  function buildEmbed(config) {
+    const safeTitle    = attrValue(config.title);
+    const safeSubtitle = attrValue(config.subtitle);
+    const inc = attrValue(config.includeDomains);
+    const exc = attrValue(config.excludeDomains);
+    let out = `<!-- WebIQ chat widget -->\n` +
+              `<script async\n` +
+              `        src="${CFG.loaderSrc}"\n` +
+              `        data-wiq-title="${safeTitle}"\n` +
+              `        data-wiq-subtitle="${safeSubtitle}"`;
+    if (inc && inc !== "None") out += `\n        data-wiq-include-domains="${inc}"`;
+    if (exc && exc !== "None") out += `\n        data-wiq-exclude-domains="${exc}"`;
+    out += `><\/script>`;
+    return out;
+  }
+
+  // Attribute-safe: strip newlines/control chars, escape ", &, <, >, cap length.
+  function attrValue(s) {
+    let v = String(s == null ? "" : s).replace(/[\r\n\t]+/g, " ").trim();
+    v = v.replace(/[\u0000-\u001F\u007F]/g, "");
+    return esc(v);
+  }
+
+  function highlightHtml(src) {
+    let s = esc(src);
+    s = s.replace(/(&lt;!--[\s\S]*?--&gt;)/g, '<span class="tok-com">$1</span>');
+    s = s.replace(/(&lt;\/?)([a-zA-Z][\w-]*)/g,
+                  '$1<span class="tok-tag">$2</span>');
+    s = s.replace(/([a-zA-Z-][\w-]*)=(&quot;)([^&]*)(&quot;)/g,
+                  '<span class="tok-attr">$1</span>=$2<span class="tok-val">$3</span>$4');
+    return s;
+  }
+
+  // -------------------------------------------------------------
+  // LLM call — extract widget configuration from natural language
+  // -------------------------------------------------------------
+  async function fetchFoundry(url, options) {
+    try {
+      return await fetch(url, options);
+    } catch {
+      await sleep(500);
+      try {
+        return await fetch(url, options);
+      } catch (err) {
+        const detail = err && err.message ? err.message : String(err);
+        throw new Error("Foundry network request failed after retry: " + detail);
+      }
+    }
+  }
+
+  async function extractCustomizations(userText) {
+    if (/^REPLACE_WITH_/i.test(CFG.azureApiKey) || /^https:\/\/YOUR-/i.test(CFG.azureEndpoint)) {
+      throw new Error("Azure Foundry is not configured. Replace the placeholder key and endpoint before using natural-language extraction.");
+    }
+    const systemPrompt =
+      "You configure a web search chat widget. The customizable fields are " +
+      "'title' (short brand/name), 'subtitle' (a one-line invitation to ask), " +
+      "'includeDomains' (sources to search), and 'excludeDomains' (sources to avoid). " +
+      "Read the user's request and reply with STRICT JSON " +
+      "only, no prose, no markdown fences, in this exact shape:\n" +
+      "{\"title\": \"...\", \"subtitle\": \"...\", \"includeDomains\": \"...\", \"excludeDomains\": \"...\"}\n" +
+      "Rules:\n" +
+      `- title max ${CFG.limits.title} characters, subtitle max ${CFG.limits.subtitle} characters.\n` +
+      "- If the user did not specify a value, invent a sensible one that matches the described use case.\n" +
+      "- Domain fields must be comma-separated hostnames without paths, or one of these exact supported tags: " +
+      "[Credible Domains], [Credible Domains preferred by clinicians], [Client Domain], " +
+      "[Client Domain, Credible Domains].\n" +
+      "- Infer domain filters from the requested use case. Use the most relevant supported tag when appropriate. " +
+      "Use the string 'None' when no include or exclude filter is requested or implied.\n" +
+      "- No emojis in title. Plain text, no quotes inside values.\n" +
+      "- Never include HTML, script tags, or code.";
+
+    const url = CFG.azureEndpoint +
+      (CFG.azureApiVersion ? "?api-version=" + encodeURIComponent(CFG.azureApiVersion) : "");
+    const res = await fetchFoundry(url, {
+      method: "POST",
+      headers: {
+        "content-type": "application/json",
+        "api-key": CFG.azureApiKey,
+        "Authorization": "Bearer " + CFG.azureApiKey
+      },
+      body: JSON.stringify({
+        model: CFG.azureModel,
+        max_tokens: 200,
+        temperature: 0.2,
+        messages: [
+          { role: "system", content: systemPrompt },
+          { role: "user",   content: userText }
+        ]
+      })
+    });
+    if (!res.ok) {
+      const t = await res.text().catch(() => "");
+      throw new Error("Foundry " + res.status + ": " + t.slice(0, 200));
+    }
+    const json = await res.json();
+    const choice = (json.choices && json.choices[0]) || {};
+    const msg = choice.message || {};
+    const text = typeof msg.content === "string" ? msg.content :
+                 Array.isArray(msg.content) ?
+                   msg.content.filter(c => c && c.type === "text").map(c => c.text).join("\n")
+                   : "";
+    return parseCustomizations(text);
+  }
+
+  function parseCustomizations(text) {
+    const t = (text || "").trim();
+    let obj = null;
+    try { obj = JSON.parse(t); } catch {}
+    if (!obj) {
+      const m = t.match(/\{[\s\S]*\}/);
+      if (m) { try { obj = JSON.parse(m[0]); } catch {} }
+    }
+    if (!obj || typeof obj !== "object") obj = {};
+    const title    = clean(obj.title,    CFG.limits.title,    CFG.defaults.title);
+    const subtitle = clean(obj.subtitle, CFG.limits.subtitle, CFG.defaults.subtitle);
+    const includeDomains = cleanDomains(obj.includeDomains);
+    const excludeDomains = cleanDomains(obj.excludeDomains);
+    return { title, subtitle, includeDomains, excludeDomains };
+  }
+
+  function clean(v, max, fallback) {
+    let s = String(v == null ? "" : v).trim();
+    s = s.replace(/^["'`]|["'`]$/g, "");
+    if (!s) s = fallback;
+    if (s.length > max) s = s.slice(0, max - 1).trimEnd() + "…";
+    return s;
+  }
+
+  function cleanDomains(value) {
+    const raw = Array.isArray(value) ? value.join(", ") : value;
+    let domains = String(raw == null ? "" : raw).trim();
+    domains = domains.replace(/[\r\n\t]+/g, " ").replace(/[<>"'`]/g, "");
+    return domains ? domains.slice(0, 500) : "None";
+  }
+
+  // -------------------------------------------------------------
+  // Send handler
+  // -------------------------------------------------------------
+  async function handleSend(presetKey) {
+    const text = (promptEl.value || "").trim();
+    if (!text) return;
+
+    let s = activeSession();
+    if (!s) { newSession(); s = activeSession(); }
+    if (s.messages.length === 0) s.title = truncate(text, 40);
+
+    s.messages.push({ role: "user", text });
+    save(); renderSidebar(); renderThread();
+
+    promptEl.value = "";
+    promptEl.style.height = "auto";
+    sendBtn.disabled = true;
+
+    let typing = typingBubble();
+    thread.appendChild(typing);
+    scroll.scrollTop = scroll.scrollHeight;
+
+    try {
+      const cfg = await extractCustomizations(text);
+      typing.remove();
+
+      if (presetKey && CHIP_PRESETS[presetKey]) {
+        const preset = CHIP_PRESETS[presetKey];
+        if (preset.title)    cfg.title    = preset.title;
+        if (preset.subtitle) cfg.subtitle = preset.subtitle;
+        cfg.includeDomains = preset.config.IncludeDomains;
+        cfg.excludeDomains = preset.config.ExcludeDomains;
+      }
+
+      // Step 1: config preview.
+      s.messages.push({ role: "webiq-config", snippet: cfg, presetKey });
+      save(); renderSidebar(); renderThread();
+
+      // Step 2: brief typing pause, then embed.
+      typing = typingBubble();
+      thread.appendChild(typing);
+      scroll.scrollTop = scroll.scrollHeight;
+
+      await sleep(1500);
+      typing.remove();
+
+      s.messages.push({
+        role: "bot",
+        text: "Configuring an agent for your use case — here's the embed. Paste this before </body> in your site:",
+        snippet: cfg,
+        presetKey
+      });
+      save(); renderSidebar(); renderThread();
+    } catch (err) {
+      typing.remove();
+      s.messages.push({ role: "error",
+        text: "Couldn't reach the model: " + (err && err.message ? err.message : String(err)) });
+      save(); renderSidebar(); renderThread();
+    } finally {
+      sendBtn.disabled = false;
+      promptEl.focus();
+    }
+  }
+
+  function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
+
+  // -------------------------------------------------------------
+  // Wiring
+  // -------------------------------------------------------------
+  newChatBtn.addEventListener("click", newSession);
+  plusBtn.addEventListener("click", newSession);
+  sendBtn.addEventListener("click", () => handleSend());
+  promptEl.addEventListener("keydown", (e) => {
+    if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); handleSend(); }
+  });
+  promptEl.addEventListener("input", () => {
+    promptEl.style.height = "auto";
+    promptEl.style.height = Math.min(promptEl.scrollHeight, 180) + "px";
+  });
+  chips.addEventListener("click", (e) => {
+    const btn = e.target.closest(".chip");
+    if (!btn) return;
+    const presetKey = btn.getAttribute("data-preset");
+    const preset = presetKey ? CHIP_PRESETS[presetKey] : null;
+    promptEl.value = (preset && preset.seed) || btn.getAttribute("data-fill") || btn.textContent;
+    promptEl.dispatchEvent(new Event("input"));
+    handleSend(presetKey);
+  });
+
+  // -------------------------------------------------------------
+  // Helpers
+  // -------------------------------------------------------------
+  function esc(s) {
+    return String(s == null ? "" : s)
+      .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;").replace(/'/g, "&#39;");
+  }
+  function escAttr(s) { return esc(s); }
+  function truncate(s, n) { s = String(s || ""); return s.length > n ? s.slice(0, n - 1) + "…" : s; }
+
+  // -------------------------------------------------------------
+  // Init
+  // -------------------------------------------------------------
+  if (sessions.length === 0) { newSession(); }
+  else { renderSidebar(); renderThread(); }
+})();
+</script>
+</body>
+</html>
